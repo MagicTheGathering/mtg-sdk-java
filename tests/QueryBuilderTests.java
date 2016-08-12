@@ -15,7 +15,7 @@ import mtg.sdk.java.QueryBuilder;
  * @author thechucklingatom
  */
 public class QueryBuilderTests extends TestCase{
-	protected QueryBuilder queryBuilder;
+	private QueryBuilder queryBuilder;
 
 	@Override
 	protected void setUp() throws Exception {

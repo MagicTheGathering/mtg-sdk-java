@@ -16,6 +16,7 @@ import java.util.List;
  * @author thechucklingatom
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"})
 public class Set extends Resource{
 	private String name;
 	private String code;
@@ -136,11 +137,7 @@ public class Set extends Resource{
 	public boolean equals(Object toCompare){
 		if(toCompare instanceof Set){
 			Set cardCompare = (Set)toCompare;
-			if(getGatherercode().equalsIgnoreCase(cardCompare.getGatherercode())){
-				return true;
-			}else{
-				return false;
-			}
+			return getGatherercode().equalsIgnoreCase(cardCompare.getGatherercode());
 		}else{
 			return false;
 		}

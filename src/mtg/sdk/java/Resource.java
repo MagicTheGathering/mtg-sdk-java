@@ -13,5 +13,6 @@ package mtg.sdk.java;
  *
  * @author thechucklingatom
  */
+@SuppressWarnings("WeakerAccess")
 public abstract class Resource {
 }

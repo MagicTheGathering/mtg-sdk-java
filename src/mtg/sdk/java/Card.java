@@ -16,6 +16,7 @@ import java.io.Serializable;
  * @author thechucklingatom
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"})
 public class Card extends Resource implements Serializable {
 	private String id;
 	private String layout;
@@ -307,11 +308,7 @@ public class Card extends Resource implements Serializable {
 	public boolean equals(Object toCompare){
 		if(toCompare instanceof Card){
 			Card cardCompare = (Card)toCompare;
-			if(getMultiverseid() == cardCompare.getMultiverseid()){
-				return true;
-			}else{
-				return false;
-			}
+			return getMultiverseid() == cardCompare.getMultiverseid();
 		}else{
 			return false;
 		}
