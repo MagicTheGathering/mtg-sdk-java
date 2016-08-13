@@ -129,7 +129,7 @@ public class Set extends Resource{
 
 	/**
 	 * dirty compare to in order to start testing. Just comparing the setGathererCode
-	 * which should be unique.
+	 * which should be unique. May change to just the code.
 	 * @param toCompare A {@link Set} object hopefully
 	 * @return true if the same set, false if different.
 	 */

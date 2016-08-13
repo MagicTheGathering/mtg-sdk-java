@@ -44,8 +44,8 @@ public class QueryBuilder {
 
 	/**
 	 * Find a card or set based off its multiverse id or
-	 * @param id
-	 * @return
+	 * @param id The Multiverse id of the {@link Card} or the code of the {@link Set}.
+	 * @return The {@link Card} or {@link Set} bundled under the {@link Resource} class.
 	 */
 	public Resource find(String id){
 		String url = String.format("%s/%s/%s", endpoint, type, id);
@@ -71,7 +71,7 @@ public class QueryBuilder {
 			//just the one JSON library. I also think I know the way just trying to get
 			//something testable.
 			if (type.equalsIgnoreCase("sets")){
-				toReturn = deserializer.fromJson(response.body().string(), Set.class);
+				toReturn = deserializer.fromJson(jsonObject.get("set"), Set.class);
 			} else if (type.equalsIgnoreCase("cards")){
 				toReturn = deserializer.fromJson(jsonObject.get("card"), Card.class);
 			}

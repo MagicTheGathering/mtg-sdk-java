@@ -2,6 +2,7 @@ import junit.framework.TestCase;
 
 import mtg.sdk.java.Card;
 import mtg.sdk.java.QueryBuilder;
+import mtg.sdk.java.Set;
 
 /**
  * This file is part of mtgsdk.
@@ -15,19 +16,38 @@ import mtg.sdk.java.QueryBuilder;
  * @author thechucklingatom
  */
 public class QueryBuilderTests extends TestCase{
-	private QueryBuilder queryBuilder;
+	private QueryBuilder cardQueryBuilder;
+	private QueryBuilder setQueryBuilder;
 
 	@Override
 	protected void setUp() throws Exception {
-		queryBuilder = new QueryBuilder("cards");
+		cardQueryBuilder = new QueryBuilder("cards");
+		setQueryBuilder = new QueryBuilder("sets");
 	}
 
 	public void testCardGet(){
-		Card testCard1 = new Card();
-		testCard1.setName("Ankh of Mishra");
-		testCard1.setMultiverseid(1);
+		Card testCard = new Card();
+		testCard.setMultiverseid(1);
 
-		assertTrue(testCard1.equals(queryBuilder.find("1")));
+		assertTrue(testCard.equals(cardQueryBuilder.find("1")));
 
+		assertFalse(testCard.equals(cardQueryBuilder.find("10")));
+	}
+
+	public void testBadCardId(){
+		assertNull(cardQueryBuilder.find("-1"));
+	}
+
+	public void testSetGet(){
+		Set testSet = new Set();
+		testSet.setGatherercode("1E");
+
+		assertTrue(testSet.equals(setQueryBuilder.find("LEA")));
+
+		assertFalse(testSet.equals(setQueryBuilder.find("LEB")));
+	}
+
+	public void testBadSetID(){
+		assertNull(setQueryBuilder.find("1"));
 	}
 }
