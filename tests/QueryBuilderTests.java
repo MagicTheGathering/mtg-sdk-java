@@ -1,7 +1,10 @@
 import junit.framework.TestCase;
 
+import java.util.List;
+
 import mtg.sdk.java.Card;
 import mtg.sdk.java.QueryBuilder;
+import mtg.sdk.java.Resource;
 import mtg.sdk.java.Set;
 
 /**
@@ -38,6 +41,15 @@ public class QueryBuilderTests extends TestCase{
 		assertNull(cardQueryBuilder.find("-1"));
 	}
 
+	public void testAllCard(){
+		List<Resource> testCardList = cardQueryBuilder.all();
+
+		Card testCard = new Card();
+		testCard.setMultiverseid(94);
+
+		assertTrue(testCardList.get(0).equals(testCard));
+	}
+
 	public void testSetGet(){
 		Set testSet = new Set();
 		testSet.setGatherercode("1E");
@@ -49,5 +61,14 @@ public class QueryBuilderTests extends TestCase{
 
 	public void testBadSetID(){
 		assertNull(setQueryBuilder.find("1"));
+	}
+
+	public void testAllSet(){
+		List<Resource> testSetList = setQueryBuilder.all();
+
+		Set testSet = new Set();
+		testSet.setGatherercode("1E");
+
+		assertTrue(testSetList.get(0).equals(testSet));
 	}
 }
