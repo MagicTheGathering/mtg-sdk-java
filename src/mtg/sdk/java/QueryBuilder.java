@@ -74,13 +74,20 @@ public class QueryBuilder {
 			//just the one JSON library. I also think I know the way just trying to get
 			//something testable.
 			if (type.equalsIgnoreCase("sets")){
-				for (JsonElement arrayJsonElement : jsonObject.get("sets").getAsJsonArray()){
-					toReturn.add(deserializer.fromJson(arrayJsonElement, Set.class));
-				}
+				jsonObject.get("sets")
+						.getAsJsonArray()
+						.forEach(
+								jsonElement ->
+										toReturn.add(deserializer
+												.fromJson(jsonElement, Set.class)));
+
 			} else if (type.equalsIgnoreCase("cards")) {
-				for (JsonElement arrayJsonElement : jsonObject.get("cards").getAsJsonArray()) {
-					toReturn.add(deserializer.fromJson(arrayJsonElement, Card.class));
-				}
+				jsonObject.get("cards")
+						.getAsJsonArray()
+						.forEach(
+								jsonElement ->
+										toReturn.add(deserializer
+												.fromJson(jsonElement, Card.class)));
 			}
 			return toReturn;
 		}catch(IOException ex){
@@ -118,14 +125,21 @@ public class QueryBuilder {
 			//looking at way to make generic, I know there is a way but I want to stick with
 			//just the one JSON library. I also think I know the way just trying to get
 			//something testable.
-			if (resourceType.equalsIgnoreCase("sets")){
-				for (JsonElement arrayJsonElement : jsonObject.get("sets").getAsJsonArray()){
-					toReturn.add(deserializer.fromJson(arrayJsonElement, Set.class));
-				}
-			} else if (resourceType.equalsIgnoreCase("cards")) {
-				for (JsonElement arrayJsonElement : jsonObject.get("cards").getAsJsonArray()) {
-					toReturn.add(deserializer.fromJson(arrayJsonElement, Card.class));
-				}
+			if (type.equalsIgnoreCase("sets")){
+				jsonObject.get("sets")
+						.getAsJsonArray()
+						.forEach(
+								jsonElement ->
+										toReturn.add(deserializer
+												.fromJson(jsonElement, Set.class)));
+
+			} else if (type.equalsIgnoreCase("cards")) {
+				jsonObject.get("cards")
+						.getAsJsonArray()
+						.forEach(
+								jsonElement ->
+										toReturn.add(deserializer
+												.fromJson(jsonElement, Card.class)));
 			}
 			return toReturn;
 		}catch(IOException ex){
