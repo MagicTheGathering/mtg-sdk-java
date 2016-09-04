@@ -16,7 +16,8 @@ import java.io.Serializable;
  * @author thechucklingatom
  */
 
-public class Card implements Serializable {
+@SuppressWarnings({"WeakerAccess", "unused"})
+public class Card extends Resource implements Serializable {
 	private String id;
 	private String layout;
 	private String name;
@@ -37,7 +38,7 @@ public class Card implements Serializable {
 	private String power;
 	private String toughness;
 	private int loyalty;
-	private int multiverseid;
+	private int multiverseid = -1;
 	private int[] variations;
 	private String imageName;
 	private String watermark;
@@ -295,5 +296,31 @@ public class Card implements Serializable {
 
 	public void setStarter(boolean starter) {
 		this.starter = starter;
+	}
+
+	/**
+	 * dirty compare to in order to start testing. Just comparing the MultiverseId
+	 * which should be unique.
+	 * @param toCompare A {@link Card} object hopefully
+	 * @return true if the same set, false if different.
+	 */
+	@Override
+	public boolean equals(Object toCompare){
+		if(toCompare instanceof Card){
+			Card cardCompare = (Card)toCompare;
+			return getMultiverseid() == cardCompare.getMultiverseid();
+		}else{
+			return false;
+		}
+	}
+
+	/**
+	 * Prints the Card name and multiverseId which should give enough info for debug testing.
+	 * @return The cards name and Id
+	 */
+	@Override
+	public String toString(){
+		return "Card Name: " + getName() +
+				"\nMultiverseId: " + getMultiverseid();
 	}
 }

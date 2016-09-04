@@ -16,7 +16,8 @@ import java.util.List;
  * @author thechucklingatom
  */
 
-public class Set {
+@SuppressWarnings({"WeakerAccess", "unused"})
+public class Set extends Resource{
 	private String name;
 	private String code;
 	private String gathererCode;
@@ -124,5 +125,21 @@ public class Set {
 
 	public void setCards(List<Card> cards) {
 		this.cards = cards;
+	}
+
+	/**
+	 * dirty compare to in order to start testing. Just comparing the setGathererCode
+	 * which should be unique. May change to just the code.
+	 * @param toCompare A {@link Set} object hopefully
+	 * @return true if the same set, false if different.
+	 */
+	@Override
+	public boolean equals(Object toCompare){
+		if(toCompare instanceof Set){
+			Set cardCompare = (Set)toCompare;
+			return getGatherercode().equalsIgnoreCase(cardCompare.getGatherercode());
+		}else{
+			return false;
+		}
 	}
 }
