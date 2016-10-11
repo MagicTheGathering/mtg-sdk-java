@@ -1,4 +1,4 @@
-package io.magicthegathering.javasdk;
+package io.magicthegathering.javasdk.resource;
 
 import java.util.List;
 
@@ -15,9 +15,7 @@ import java.util.List;
  *
  * @author thechucklingatom
  */
-
-@SuppressWarnings({"WeakerAccess", "unused"})
-public class Set extends Resource{
+public class MtgSet {
 	private String name;
 	private String code;
 	private String gathererCode;
@@ -130,13 +128,13 @@ public class Set extends Resource{
 	/**
 	 * dirty compare to in order to start testing. Just comparing the setGathererCode
 	 * which should be unique. May change to just the code.
-	 * @param toCompare A {@link Set} object hopefully
+	 * @param toCompare A {@link MtgSet} object hopefully
 	 * @return true if the same set, false if different.
 	 */
 	@Override
 	public boolean equals(Object toCompare){
-		if(toCompare instanceof Set){
-			Set cardCompare = (Set)toCompare;
+		if(toCompare instanceof MtgSet){
+			MtgSet cardCompare = (MtgSet)toCompare;
 			return getGatherercode().equalsIgnoreCase(cardCompare.getGatherercode());
 		}else{
 			return false;
