@@ -31,6 +31,7 @@ public class QueryBuilderTests extends TestCase{
 	}
 
 	public void testCardGet(){
+		fail();
 		Card testCard = new Card();
 		testCard.setMultiverseid(1);
 
