@@ -4,6 +4,8 @@ import junit.framework.TestCase;
 
 import java.util.List;
 
+import org.junit.Test;
+
 import io.magicthegathering.javasdk.QueryBuilder;
 import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.Resource;
@@ -20,7 +22,7 @@ import io.magicthegathering.javasdk.resource.Set;
  *
  * @author thechucklingatom
  */
-public class QueryBuilderTest extends TestCase{
+public class QueryBuilderTest extends TestCase {
 	private QueryBuilder cardQueryBuilder;
 	private QueryBuilder setQueryBuilder;
 
@@ -30,7 +32,8 @@ public class QueryBuilderTest extends TestCase{
 		setQueryBuilder = new QueryBuilder("sets");
 	}
 
-	public void testCardGet(){
+	@Test
+	public void testCardGet() {
 		Card testCard = new Card();
 		testCard.setMultiverseid(1);
 		Card result = (Card) cardQueryBuilder.find("1");
@@ -39,11 +42,13 @@ public class QueryBuilderTest extends TestCase{
 		assertFalse(testCard.equals(cardQueryBuilder.find("10")));
 	}
 
-	public void testBadCardId(){
+	@Test
+	public void testBadCardId() {
 		assertNull(cardQueryBuilder.find("-1"));
 	}
 
-	public void testAllCard(){
+	@Test
+	public void testAllCard() {
 		List<Resource> testCardList = cardQueryBuilder.all();
 
 		Card testCard = new Card();
@@ -52,7 +57,8 @@ public class QueryBuilderTest extends TestCase{
 		assertTrue(testCardList.get(0).equals(testCard));
 	}
 
-	public void testSetGet(){
+	@Test
+	public void testSetGet() {
 		Set testSet = new Set();
 		testSet.setGatherercode("1E");
 
@@ -61,11 +67,13 @@ public class QueryBuilderTest extends TestCase{
 		assertFalse(testSet.equals(setQueryBuilder.find("LEB")));
 	}
 
-	public void testBadSetID(){
+	@Test
+	public void testBadSetID() {
 		assertNull(setQueryBuilder.find("1"));
 	}
 
-	public void testAllSet(){
+	@Test
+	public void testAllSet() {
 		List<Resource> testSetList = setQueryBuilder.all();
 
 		Set testSet = new Set();
