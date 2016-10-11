@@ -33,21 +33,6 @@ public class QueryBuilderTest extends TestCase {
 	}
 
 	@Test
-	public void testCardGet() {
-		Card testCard = new Card();
-		testCard.setMultiverseid(1);
-		Card result = (Card) cardQueryBuilder.find("1");
-		assertTrue(testCard.equals(result));
-
-		assertFalse(testCard.equals(cardQueryBuilder.find("10")));
-	}
-
-	@Test
-	public void testBadCardId() {
-		assertNull(cardQueryBuilder.find("-1"));
-	}
-
-	@Test
 	public void testAllCard() {
 		List<Resource> testCardList = cardQueryBuilder.all();
 
