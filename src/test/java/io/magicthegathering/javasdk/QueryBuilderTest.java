@@ -30,13 +30,5 @@ public class QueryBuilderTest extends TestCase {
 		setQueryBuilder = new QueryBuilder("sets");
 	}
 
-	@Test
-	public void testAllSet() {
-		List<Resource> testSetList = setQueryBuilder.all();
 
-		MtgSet testSet = new MtgSet();
-		testSet.setGatherercode("1E");
-
-		assertTrue(testSetList.get(0).equals(testSet));
-	}
 }
