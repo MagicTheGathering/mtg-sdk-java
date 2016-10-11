@@ -5,6 +5,10 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
+import io.magicthegathering.javasdk.resource.Card;
+import io.magicthegathering.javasdk.resource.Resource;
+import io.magicthegathering.javasdk.resource.Set;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

@@ -4,10 +4,10 @@ import junit.framework.TestCase;
 
 import java.util.List;
 
-import io.magicthegathering.javasdk.Card;
 import io.magicthegathering.javasdk.QueryBuilder;
-import io.magicthegathering.javasdk.Resource;
-import io.magicthegathering.javasdk.Set;
+import io.magicthegathering.javasdk.resource.Card;
+import io.magicthegathering.javasdk.resource.Resource;
+import io.magicthegathering.javasdk.resource.Set;
 
 /**
  * This file is part of mtgsdk.
