@@ -1,3 +1,5 @@
+package io.magicthegathering.javasdk;
+
 import junit.framework.TestCase;
 
 import java.util.List;
