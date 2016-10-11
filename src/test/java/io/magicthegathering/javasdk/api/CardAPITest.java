@@ -3,13 +3,11 @@ package io.magicthegathering.javasdk.api;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
+import io.magicthegathering.javasdk.resource.Card;
 
 import java.util.List;
 
 import org.junit.Test;
-
-import io.magicthegathering.javasdk.resource.Card;
-import io.magicthegathering.javasdk.resource.Resource;
 
 public class CardAPITest {
 	

@@ -15,9 +15,7 @@ import java.util.List;
  *
  * @author thechucklingatom
  */
-
-@SuppressWarnings({"WeakerAccess", "unused"})
-public class MtgSet extends Resource{
+public class MtgSet {
 	private String name;
 	private String code;
 	private String gathererCode;

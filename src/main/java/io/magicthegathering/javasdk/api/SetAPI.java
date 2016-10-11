@@ -1,6 +1,5 @@
 package io.magicthegathering.javasdk.api;
 
-import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.MtgSet;
 
 import java.util.List;

@@ -15,9 +15,8 @@ import java.io.Serializable;
  *
  * @author thechucklingatom
  */
-
-@SuppressWarnings({"WeakerAccess", "unused"})
-public class Card extends Resource implements Serializable {
+@SuppressWarnings("serial")
+public class Card implements Serializable {
 	private String id;
 	private String layout;
 	private String name;
