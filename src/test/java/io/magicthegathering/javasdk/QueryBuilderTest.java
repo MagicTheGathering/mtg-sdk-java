@@ -33,16 +33,6 @@ public class QueryBuilderTest extends TestCase {
 	}
 
 	@Test
-	public void testAllCard() {
-		List<Resource> testCardList = cardQueryBuilder.all();
-
-		Card testCard = new Card();
-		testCard.setMultiverseid(94);
-
-		assertTrue(testCardList.get(0).equals(testCard));
-	}
-
-	@Test
 	public void testSetGet() {
 		Set testSet = new Set();
 		testSet.setGatherercode("1E");

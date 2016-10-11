@@ -4,9 +4,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
 
+import java.util.List;
+
 import org.junit.Test;
 
 import io.magicthegathering.javasdk.resource.Card;
+import io.magicthegathering.javasdk.resource.Resource;
 
 public class CardAPITest {
 	
@@ -21,5 +24,13 @@ public class CardAPITest {
 	@Test
 	public void testBadCardId(){
 		assertNull(CardAPI.getCard(-1));
+	}
+	
+	@Test
+	public void testGetAll() {
+		List<Card> testCardList = CardAPI.getAllCards();
+		Card testCard = new Card();
+		testCard.setMultiverseid(94);
+		assertEquals(testCardList.get(0), testCard);
 	}
 }

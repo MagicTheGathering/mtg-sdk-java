@@ -1,17 +1,8 @@
 package io.magicthegathering.javasdk.api;
 
-import java.io.IOException;
-
-import okhttp3.Request;
-import okhttp3.Response;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonObject;
-
 import io.magicthegathering.javasdk.resource.Card;
-import io.magicthegathering.javasdk.resource.Resource;
-import io.magicthegathering.javasdk.resource.Set;
+
+import java.util.List;
 
 /**
  * {@link CardAPI} is used to fetch {@link Card}s from magicthegathering.io
@@ -26,9 +17,16 @@ public class CardAPI extends MTGAPI {
 	 */
 	public static Card getCard(int multiverseId) {
 		String path = String.format("%s/%s/", RESOURCE_PATH, multiverseId);
-		return get(path, Card.class);
+		return get(path, "card", Card.class);
+	}
+	
+	/**
+	 * Returns all the available {@link Card}s as a list.
+	 */
+	public static List<Card> getAllCards() {
+		return getList(RESOURCE_PATH, "cards", Card.class);
 	}
 
-
+	
 	
 }
