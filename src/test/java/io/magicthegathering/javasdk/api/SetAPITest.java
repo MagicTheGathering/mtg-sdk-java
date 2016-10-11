@@ -2,6 +2,7 @@ package io.magicthegathering.javasdk.api;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNull;
 import io.magicthegathering.javasdk.resource.MtgSet;
 
 import org.junit.Test;
@@ -13,5 +14,10 @@ public class SetAPITest {
 		testSet.setGatherercode("1E");
 		assertEquals(testSet, SetAPI.getSet("LEA"));
 		assertFalse(testSet.equals(SetAPI.getSet("LEB")));
+	}
+	
+	@Test
+	public void testBadSetId() {
+		assertNull(SetAPI.getSet("666"));
 	}
 }

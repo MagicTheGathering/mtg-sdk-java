@@ -1,15 +1,13 @@
 package io.magicthegathering.javasdk;
 
-import junit.framework.TestCase;
+import io.magicthegathering.javasdk.resource.MtgSet;
+import io.magicthegathering.javasdk.resource.Resource;
 
 import java.util.List;
 
-import org.junit.Test;
+import junit.framework.TestCase;
 
-import io.magicthegathering.javasdk.QueryBuilder;
-import io.magicthegathering.javasdk.resource.Card;
-import io.magicthegathering.javasdk.resource.Resource;
-import io.magicthegathering.javasdk.resource.MtgSet;
+import org.junit.Test;
 
 /**
  * This file is part of mtgsdk.
@@ -30,11 +28,6 @@ public class QueryBuilderTest extends TestCase {
 	protected void setUp() throws Exception {
 		cardQueryBuilder = new QueryBuilder("cards");
 		setQueryBuilder = new QueryBuilder("sets");
-	}
-
-	@Test
-	public void testBadSetID() {
-		assertNull(setQueryBuilder.find("1"));
 	}
 
 	@Test
