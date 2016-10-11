@@ -1,4 +1,4 @@
-package mtg.sdk.java;
+package io.magicthegathering.javasdk;
 
 /**
  * This file is part of mtgsdk.

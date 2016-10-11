@@ -1,11 +1,13 @@
+package io.magicthegathering.javasdk;
+
 import junit.framework.TestCase;
 
 import java.util.List;
 
-import mtg.sdk.java.Card;
-import mtg.sdk.java.QueryBuilder;
-import mtg.sdk.java.Resource;
-import mtg.sdk.java.Set;
+import io.magicthegathering.javasdk.Card;
+import io.magicthegathering.javasdk.QueryBuilder;
+import io.magicthegathering.javasdk.Resource;
+import io.magicthegathering.javasdk.Set;
 
 /**
  * This file is part of mtgsdk.
@@ -18,7 +20,7 @@ import mtg.sdk.java.Set;
  *
  * @author thechucklingatom
  */
-public class QueryBuilderTests extends TestCase{
+public class QueryBuilderTest extends TestCase{
 	private QueryBuilder cardQueryBuilder;
 	private QueryBuilder setQueryBuilder;
 
