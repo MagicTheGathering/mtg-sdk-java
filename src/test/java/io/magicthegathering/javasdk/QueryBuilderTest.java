@@ -20,7 +20,7 @@ import io.magicthegathering.javasdk.Set;
  *
  * @author thechucklingatom
  */
-public class QueryBuilderTests extends TestCase{
+public class QueryBuilderTest extends TestCase{
 	private QueryBuilder cardQueryBuilder;
 	private QueryBuilder setQueryBuilder;
 
