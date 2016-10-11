@@ -9,7 +9,7 @@ import org.junit.Test;
 import io.magicthegathering.javasdk.QueryBuilder;
 import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.Resource;
-import io.magicthegathering.javasdk.resource.Set;
+import io.magicthegathering.javasdk.resource.MtgSet;
 
 /**
  * This file is part of mtgsdk.
@@ -33,16 +33,6 @@ public class QueryBuilderTest extends TestCase {
 	}
 
 	@Test
-	public void testSetGet() {
-		Set testSet = new Set();
-		testSet.setGatherercode("1E");
-
-		assertTrue(testSet.equals(setQueryBuilder.find("LEA")));
-
-		assertFalse(testSet.equals(setQueryBuilder.find("LEB")));
-	}
-
-	@Test
 	public void testBadSetID() {
 		assertNull(setQueryBuilder.find("1"));
 	}
@@ -51,7 +41,7 @@ public class QueryBuilderTest extends TestCase {
 	public void testAllSet() {
 		List<Resource> testSetList = setQueryBuilder.all();
 
-		Set testSet = new Set();
+		MtgSet testSet = new MtgSet();
 		testSet.setGatherercode("1E");
 
 		assertTrue(testSetList.get(0).equals(testSet));

@@ -7,7 +7,7 @@ import com.google.gson.JsonObject;
 
 import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.Resource;
-import io.magicthegathering.javasdk.resource.Set;
+import io.magicthegathering.javasdk.resource.MtgSet;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -50,9 +50,9 @@ public class QueryBuilder {
 	}
 
 	/**
-	 * Get all the {@link Card}s or {@link Set}s.
+	 * Get all the {@link Card}s or {@link MtgSet}s.
 	 *
-	 * @return List of all the {@link Card}s or {@link Set}s
+	 * @return List of all the {@link Card}s or {@link MtgSet}s
 	 */
 	public List<Resource> all(){
 		String url = String.format("%s/%s", endpoint, type);
@@ -83,7 +83,7 @@ public class QueryBuilder {
 						.forEach(
 								jsonElement ->
 										toReturn.add(deserializer
-												.fromJson(jsonElement, Set.class)));
+												.fromJson(jsonElement, MtgSet.class)));
 
 			} else if (type.equalsIgnoreCase("cards")) {
 				jsonObject.get("cards")
@@ -104,7 +104,7 @@ public class QueryBuilder {
 	 *
 	 * @param resourceType "sets" or "cards"
 	 *
-	 * @return List of all the {@link Card}s or {@link Set}s
+	 * @return List of all the {@link Card}s or {@link MtgSet}s
 	 */
 	public List<Resource> all(String resourceType){
 		String url = String.format("%s/%s", endpoint, resourceType);
@@ -135,7 +135,7 @@ public class QueryBuilder {
 						.forEach(
 								jsonElement ->
 										toReturn.add(deserializer
-												.fromJson(jsonElement, Set.class)));
+												.fromJson(jsonElement, MtgSet.class)));
 
 			} else if (type.equalsIgnoreCase("cards")) {
 				jsonObject.get("cards")
@@ -153,8 +153,8 @@ public class QueryBuilder {
 
 	/**
 	 * Find a card or set based off its multiverse id or
-	 * @param id The Multiverse id of the {@link Card} or the code of the {@link Set}.
-	 * @return The {@link Card} or {@link Set} bundled under the {@link Resource} class.
+	 * @param id The Multiverse id of the {@link Card} or the code of the {@link MtgSet}.
+	 * @return The {@link Card} or {@link MtgSet} bundled under the {@link Resource} class.
 	 */
 	public Resource find(String id){
 		String url = String.format("%s/%s/%s", endpoint, type, id);
@@ -181,7 +181,7 @@ public class QueryBuilder {
 			//just the one JSON library. I also think I know the way just trying to get
 			//something testable.
 			if (type.equalsIgnoreCase("sets")){
-				toReturn = deserializer.fromJson(jsonObject.get("set"), Set.class);
+				toReturn = deserializer.fromJson(jsonObject.get("set"), MtgSet.class);
 			} else if (type.equalsIgnoreCase("cards")){
 				toReturn = deserializer.fromJson(jsonObject.get("card"), Card.class);
 			}
@@ -194,10 +194,10 @@ public class QueryBuilder {
 
 	/**
 	 * Find a card or set based off its multiverse id or
-	 * @param id The Multiverse id of the {@link Card} or the code of the {@link Set}.
+	 * @param id The Multiverse id of the {@link Card} or the code of the {@link MtgSet}.
 	 * @param resourceType "sets" or "cards", allows filtering without needing to declare a type
 	 *                     in the constructor.
-	 * @return The {@link Card} or {@link Set} bundled under the {@link Resource} class.
+	 * @return The {@link Card} or {@link MtgSet} bundled under the {@link Resource} class.
 	 */
 	public Resource find(String id, String resourceType){
 		String url = String.format("%s/%s/%s", endpoint, resourceType, id);
@@ -224,7 +224,7 @@ public class QueryBuilder {
 			//just the one JSON library. I also think I know the way just trying to get
 			//something testable.
 			if (resourceType.equalsIgnoreCase("sets")){
-				toReturn = deserializer.fromJson(jsonObject.get("set"), Set.class);
+				toReturn = deserializer.fromJson(jsonObject.get("set"), MtgSet.class);
 			} else if (resourceType.equalsIgnoreCase("cards")){
 				toReturn = deserializer.fromJson(jsonObject.get("card"), Card.class);
 			}

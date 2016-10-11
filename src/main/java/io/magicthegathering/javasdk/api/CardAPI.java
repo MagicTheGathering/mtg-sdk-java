@@ -27,6 +27,4 @@ public class CardAPI extends MTGAPI {
 		return getList(RESOURCE_PATH, "cards", Card.class);
 	}
 
-	
-	
 }
