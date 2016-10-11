@@ -1,4 +1,4 @@
-package mtg.sdk.java;
+package io.magicthegathering.javasdk;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
