@@ -12,10 +12,22 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 
+/**
+ * Base class for using the magicthegathering.io APIs.
+ * 
+ * @author thechucklingatom
+ * @author nniklas
+ *
+ */
 public abstract class MTGAPI {
 	protected final static String ENDPOINT = "https://api.magicthegathering.io/v1";
 	protected static OkHttpClient CLIENT = new OkHttpClient();
 
+	/**
+	 * Make an HTTP GET request to the given path and map the object under the
+	 * given key in the JSON of the response to the Java {@link Class} of type
+	 * {@link TYPE}.
+	 */
 	protected static <TYPE> TYPE get(String path, String key,
 			Class<TYPE> expectedClass) {
 		Gson deserializer = new GsonBuilder().create();
@@ -25,6 +37,11 @@ public abstract class MTGAPI {
 		return returnObject;
 	}
 
+	/**
+	 * Make an HTTP GET request to the given path and map the array under the
+	 * given key in the JSON of the response to a {@link List} of type
+	 * {@link TYPE}.
+	 */
 	protected static <TYPE> List<TYPE> getList(String path, String key,
 			Class<TYPE> expectedClass) {
 		Gson deserializer = new GsonBuilder().create();
