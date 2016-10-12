@@ -1,5 +1,8 @@
 mtg-sdk-java
 ===========
+
+[![Build Status](https://travis-ci.org/MagicTheGathering/mtg-sdk-java.svg?branch=master)](https://travis-ci.org/MagicTheGathering/mtg-sdk-java)
+
 Java SDK for using the magicthegathering.io APIs
 
 ## Usage examples
