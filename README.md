@@ -15,7 +15,7 @@ Card card = CardAPI.getCard(multiverseId);
 
 ### Get all Cards
 ```java
-List<Card> cards = CardAPI.getAllCard();
+List<Card> cards = CardAPI.getAllCards();
 ```
 
 ### Get a Set
@@ -26,5 +26,5 @@ MtgSet set = SetAPI.getSet(setCode);
 
 ### Get all Sets
 ```java
-List<MtgSet> sets = SetAPI.getAllSet();
+List<MtgSet> sets = SetAPI.getAllSets();
 ```
