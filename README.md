@@ -10,14 +10,13 @@ Integration
 -------
 
 #### Maven
-[source,xml, subs="specialcharacters,attributes"]
-----
+```xml
 <dependency>
     <groupId>io.magicthegathering</groupId>
     <artifactId>javasdk</artifactId>
     <version>0.0.1</version>
 </dependency>
-----
+```
 
 Usage examples
 -------
