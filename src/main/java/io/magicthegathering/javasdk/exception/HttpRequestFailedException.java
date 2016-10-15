@@ -1,5 +1,7 @@
 package io.magicthegathering.javasdk.exception;
 
+import io.magicthegathering.javasdk.api.MTGAPI;
+
 import java.io.IOException;
 
 /**
