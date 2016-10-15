@@ -11,6 +11,10 @@ Note that API use is free and does not require authentication or registration, b
 
 Add the dependency to your project and you're good to go! 
 
+Prerequisites
+-------
+- Java JDK 8 or higher
+
 Integration
 -------
 
