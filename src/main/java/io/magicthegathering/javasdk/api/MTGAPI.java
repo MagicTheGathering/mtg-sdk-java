@@ -1,5 +1,7 @@
 package io.magicthegathering.javasdk.api;
 
+import io.magicthegathering.javasdk.exception.HttpRequestFailedException;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -65,10 +67,9 @@ public abstract class MTGAPI {
 			response = CLIENT.newCall(request).execute();
 			JsonObject jsonObject = deserializer.fromJson(response.body()
 					.string(), JsonObject.class);
-
 			return jsonObject;
 		} catch (IOException e) {
-			throw new RuntimeException(e);
+			throw new HttpRequestFailedException(e);
 		}
 
 	}
