@@ -1,4 +1,4 @@
-mtg-sdk-java
+Magic: The Gathering Java SDK 
 ===========
 
 [![Build Status](https://travis-ci.org/MagicTheGathering/mtg-sdk-java.svg?branch=master)](https://travis-ci.org/MagicTheGathering/mtg-sdk-java)
