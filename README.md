@@ -4,7 +4,10 @@ mtg-sdk-java
 [![Build Status](https://travis-ci.org/MagicTheGathering/mtg-sdk-java.svg?branch=master)](https://travis-ci.org/MagicTheGathering/mtg-sdk-java)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk)
 
-Java SDK for using the magicthegathering.io APIs
+Java SDK for using the [magicthegathering.io](http://magicthegathering.io) APIs.
+Note that API use is free and does not require authentication or registration, but some rate limits apply. Read official API website for more information.
+
+Add the dependency to your project and you're good to go! 
 
 Integration
 -------
