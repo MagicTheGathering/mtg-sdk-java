@@ -5,6 +5,7 @@ Magic: The Gathering Java SDK
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9bb4a9c574ad44138d41168ff7095633)](https://www.codacy.com/app/nyholmniklas/mtg-sdk-java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MagicTheGathering/mtg-sdk-java&amp;utm_campaign=Badge_Grade)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+[![mtg-developers on discord](https://img.shields.io/badge/discord-mtg%20developers-738bd7.svg)](https://discord.gg/qwGJNnP)
 
 Java SDK for using the [magicthegathering.io](http://magicthegathering.io) APIs.
 
