@@ -1,5 +1,6 @@
 package io.magicthegathering.javasdk.api;
 
+import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.MtgSet;
 
 import java.util.List;
@@ -20,8 +21,13 @@ public class SetAPI extends MTGAPI {
 		return get(path, "set", MtgSet.class);
 	}
 
-
 	public static List<MtgSet> getAllSets() {
 		return getList(RESOURCE_PATH, "sets", MtgSet.class);
+	}
+
+	public static List<Card> getBooster(String setCode) {
+		String path = String.format("%s/%s/%s/", RESOURCE_PATH, setCode,
+				"booster");
+		return getList(path, "cards", Card.class);
 	}
 }
