@@ -6,6 +6,7 @@ Magic: The Gathering Java SDK
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9bb4a9c574ad44138d41168ff7095633)](https://www.codacy.com/app/nyholmniklas/mtg-sdk-java?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MagicTheGathering/mtg-sdk-java&amp;utm_campaign=Badge_Grade)
 
 Java SDK for using the [magicthegathering.io](http://magicthegathering.io) APIs.
+
 Note that API use is free and does not require authentication or registration, but some rate limits apply. Read the official API website for more information.
 
 Add the dependency to your project and you're good to go! 
@@ -54,6 +55,12 @@ MtgSet set = SetAPI.getSet(setCode);
 #### Get all Sets
 ```java
 List<MtgSet> sets = SetAPI.getAllSets();
+```
+
+#### Generate a Booster
+```java
+String setCode = "KLD";
+List<Card> booster = SetAPI.getBooster(setCode);
 ```
 
 License
