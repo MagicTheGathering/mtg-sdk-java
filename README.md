@@ -2,7 +2,7 @@ mtg-sdk-java
 ===========
 
 [![Build Status](https://travis-ci.org/MagicTheGathering/mtg-sdk-java.svg?branch=master)](https://travis-ci.org/MagicTheGathering/mtg-sdk-java)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk/badge.svg?style=plastic)](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.magicthegathering/javasdk)
 
 Java SDK for using the magicthegathering.io APIs
 
