@@ -19,7 +19,7 @@ public class CardAPI extends MTGAPI {
 		String path = String.format("%s/%s/", RESOURCE_PATH, multiverseId);
 		return get(path, "card", Card.class);
 	}
-	
+
 	/**
 	 * Returns all the available {@link Card}s as a list.
 	 */
@@ -27,4 +27,15 @@ public class CardAPI extends MTGAPI {
 		return getList(RESOURCE_PATH, "cards", Card.class);
 	}
 
+	/**
+	 * Returns a {@link List} of all card types as {@link String}s.
+	 * 
+	 * @see <a href="https://docs.magicthegathering.io/#card-types">
+	 * 		https://docs.magicthegathering.io/#card-types</a>
+	 */
+	public static List<String> getAllCardTypes() {
+		String path = "types";
+		List<String> cardTypes = getList(path, "types", String.class);
+		return cardTypes;
+	}
 }

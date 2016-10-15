@@ -3,6 +3,7 @@ package io.magicthegathering.javasdk.api;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 import io.magicthegathering.javasdk.resource.Card;
 
 import java.util.List;
@@ -30,5 +31,13 @@ public class CardAPITest {
 		Card testCard = new Card();
 		testCard.setMultiverseid(94);
 		assertEquals(testCardList.get(0), testCard);
+	}
+	
+	@Test
+	public void testGetAllCardTypes(){
+		List<String> types = CardAPI.getAllCardTypes();
+		assertTrue(types.contains("Artifact"));
+		assertTrue(types.contains("Creature"));
+		assertTrue(types.contains("Planeswalker"));
 	}
 }
