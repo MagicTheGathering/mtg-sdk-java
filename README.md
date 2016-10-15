@@ -17,6 +17,15 @@ Integration
     <version>0.0.1</version>
 </dependency>
 ```
+#### Gradle
+```gradle
+compile 'io.magicthegathering:javasdk:0.0.1'
+```
+
+#### Ivy
+```xml
+<dependency org="io.magicthegathering" name="javasdk" rev="0.0.1"/>
+```
 
 Usage examples
 -------
