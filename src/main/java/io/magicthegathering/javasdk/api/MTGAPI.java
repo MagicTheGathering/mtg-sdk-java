@@ -12,6 +12,7 @@ import okhttp3.Response;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 /**
@@ -49,12 +50,12 @@ public abstract class MTGAPI {
 		Gson deserializer = new GsonBuilder().create();
 		List<TYPE> toReturn = new ArrayList<>();
 		JsonObject jsonObject = getJsonObject(path, deserializer);
-		jsonObject
-				.get(key)
-				.getAsJsonArray()
-				.forEach(
-						jsonElement -> toReturn.add(deserializer.fromJson(
-								jsonElement, expectedClass)));
+
+		for (JsonElement jsonElement :
+				jsonObject.get(key).getAsJsonArray()) {
+			toReturn.add(deserializer.fromJson(
+					jsonElement, expectedClass));
+		}
 
 		return toReturn;
 	}
