@@ -15,7 +15,7 @@ Add the dependency to your project and you're good to go!
 
 Prerequisites
 -------
-- Java JDK 8 or higher
+- Java JDK 7 or higher
 
 Integration
 -------
@@ -25,17 +25,17 @@ Integration
 <dependency>
     <groupId>io.magicthegathering</groupId>
     <artifactId>javasdk</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
 </dependency>
 ```
 #### Gradle
 ```gradle
-compile 'io.magicthegathering:javasdk:0.0.2'
+compile 'io.magicthegathering:javasdk:0.0.3'
 ```
 
 #### Ivy
 ```xml
-<dependency org="io.magicthegathering" name="javasdk" rev="0.0.2"/>
+<dependency org="io.magicthegathering" name="javasdk" rev="0.0.3"/>
 ```
 
 Usage examples
