@@ -6,12 +6,9 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import io.magicthegathering.javasdk.resource.Card;
 
-import java.nio.file.Path;
 import java.util.List;
 
 import org.junit.Test;
-
-import by.stub.client.StubbyClient;
 
 public class CardAPITest extends MTGAPITest {
 
