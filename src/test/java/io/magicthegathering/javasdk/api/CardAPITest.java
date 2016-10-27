@@ -6,12 +6,15 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import io.magicthegathering.javasdk.resource.Card;
 
+import java.nio.file.Path;
 import java.util.List;
 
 import org.junit.Test;
 
-public class CardAPITest {
-	
+import by.stub.client.StubbyClient;
+
+public class CardAPITest extends MTGAPITest {
+
 	@Test
 	public void testGetCard() {
 		Card testCard = new Card();
@@ -19,22 +22,28 @@ public class CardAPITest {
 		assertEquals(testCard, CardAPI.getCard(1));
 		assertFalse(testCard.equals(CardAPI.getCard(10)));
 	}
-	
+
 	@Test
-	public void testBadCardId(){
+	public void testBadCardId() throws Exception {
+		//TODO Remove when supported with stubby
+		teardownStubby();
 		assertNull(CardAPI.getCard(-1));
 	}
-	
+
 	@Test
-	public void testGetAll() {
+	public void testGetAll() throws Exception {
+		//TODO Remove when supported with stubby
+		teardownStubby();
 		List<Card> testCardList = CardAPI.getAllCards();
 		Card testCard = new Card();
 		testCard.setMultiverseid(94);
 		assertEquals(testCardList.get(0), testCard);
 	}
-	
+
 	@Test
-	public void testGetAllCardTypes(){
+	public void testGetAllCardTypes() throws Exception {
+		//TODO Remove when supported with stubby
+		teardownStubby();
 		List<String> types = CardAPI.getAllCardTypes();
 		assertTrue(types.contains("Artifact"));
 		assertTrue(types.contains("Creature"));

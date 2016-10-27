@@ -1,0 +1,17 @@
+- request:
+    url: ^/cards/1/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: cards/1.json
+
+- request:
+    url: ^/cards/10/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: cards/10.json

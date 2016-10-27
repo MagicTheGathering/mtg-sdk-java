@@ -23,7 +23,7 @@ import com.google.gson.JsonObject;
  *
  */
 public abstract class MTGAPI {
-	protected final static String ENDPOINT = "https://api.magicthegathering.io/v1";
+	protected static String ENDPOINT = "https://api.magicthegathering.io/v1";
 	protected static OkHttpClient CLIENT = new OkHttpClient();
 
 	/**

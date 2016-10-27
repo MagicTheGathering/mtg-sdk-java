@@ -1,0 +1,9 @@
+- request:
+    url: /cards/-1
+    method: GET
+  response:
+    headers:
+      Content-Type: application/json
+      latency: 1000
+      status: 200
+      body: 

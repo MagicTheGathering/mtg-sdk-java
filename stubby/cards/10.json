@@ -1,0 +1,53 @@
+{
+    "card": {
+        "name": "Crystal Rod",
+        "manaCost": "{1}",
+        "cmc": 1,
+        "type": "Artifact",
+        "types": [
+            "Artifact"
+        ],
+        "rarity": "Uncommon",
+        "set": "LEA",
+        "setName": "Limited Edition Alpha",
+        "text": "Whenever a player casts a blue spell, you may pay {1}. If you do, you gain 1 life.",
+        "artist": "Amy Weber",
+        "layout": "normal",
+        "multiverseid": 10,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=10&type=card",
+        "printings": [
+            "LEA",
+            "LEB",
+            "2ED",
+            "CED",
+            "CEI",
+            "3ED",
+            "4ED",
+            "5ED",
+            "6ED",
+            "7ED",
+            "8ED"
+        ],
+        "originalText": "{1}: Any blue spell cast by any player gives you 1 life.",
+        "originalType": "Poly Artifact",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "id": "5c02996ce42975e3835d47c06b044e974835b511"
+    }
+}
