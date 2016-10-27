@@ -34,3 +34,13 @@
       Content-Type: application/json
     body: >
       {"status":"404","error":"Not Found"}
+
+- request:
+    url: ^/types/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/types.json
+      

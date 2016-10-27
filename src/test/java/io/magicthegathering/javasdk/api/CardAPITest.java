@@ -38,8 +38,6 @@ public class CardAPITest extends MTGAPITest {
 
 	@Test
 	public void testGetAllCardTypes() throws Exception {
-		//TODO Remove when supported with stubby
-		teardownStubby();
 		List<String> types = CardAPI.getAllCardTypes();
 		assertTrue(types.contains("Artifact"));
 		assertTrue(types.contains("Creature"));
