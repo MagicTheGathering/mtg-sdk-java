@@ -1,0 +1,30 @@
+{
+  "set": {
+    "code": "LEA",
+    "name": "Limited Edition Alpha",
+    "type": "core",
+    "border": "black",
+    "mkm_id": 1,
+    "booster": [
+      "rare",
+      "uncommon",
+      "uncommon",
+      "uncommon",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common"
+    ],
+    "mkm_name": "Alpha",
+    "releaseDate": "1993-08-05",
+    "gathererCode": "1E",
+    "magicCardsInfoCode": "al"
+  }
+}

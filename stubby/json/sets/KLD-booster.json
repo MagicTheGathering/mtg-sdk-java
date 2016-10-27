@@ -1,0 +1,1874 @@
+{
+    "cards": [
+        {
+            "name": "Smuggler's Copter",
+            "manaCost": "{2}",
+            "cmc": 2,
+            "type": "Artifact — Vehicle",
+            "types": [
+                "Artifact"
+            ],
+            "subtypes": [
+                "Vehicle"
+            ],
+            "rarity": "Rare",
+            "set": "KLD",
+            "text": "Flying\nWhenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card.\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
+            "artist": "Florian de Gesincourt",
+            "number": "235",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": 417808,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417808&type=card",
+            "rulings": [
+                {
+                    "date": "2016-09-20",
+                    "text": "Each Vehicle is printed with a power and toughness, but it’s not a creature. If it becomes a creature (most likely through its crew ability, but the Kaladesh set includes other such effects), it will have that power and toughness."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle’s printed power and toughness."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Vehicle is an artifact type, not a creature type. A Vehicle that’s crewed won’t have any creature type."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability’s been paid for. Notably, players can’t try to stop the ability by changing a creature’s power or by removing or tapping a creature."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "You may tap more creatures than necessary to activate a crew ability."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Creatures that crew a Vehicle aren’t attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don’t affect the creatures that crewed it and vice versa."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Once a Vehicle becomes a creature, it behaves exactly like any other artifact creature. It can’t attack unless you’ve controlled it continuously since your turn began, it can block if it’s untapped, it can be tapped to pay a Vehicle’s crew cost, and so on."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "You may activate a crew ability of a Vehicle even if it’s already an artifact creature. Doing so has no effect on the Vehicle. It doesn’t change its power and toughness."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "To attack with a Vehicle, it must be a creature by the time the declare attackers step begins, so the latest you can activate its crew ability to do so is during the beginning of combat step. To block with a Vehicle, it must be a creature by the time the declare blockers step begins, so the latest you can activate its crew ability to do so is during the declare attackers step. In both cases, players may take actions after the crew ability resolves but before that Vehicle has been declared an attacking or blocking creature."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "When a Vehicle becomes a creature, that doesn’t count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won’t trigger."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "If a permanent becomes a copy of a Vehicle, the copy won’t be a creature, even if the Vehicle it’s copying has become an artifact creature."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "走私直升机",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418072&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 418072
+                },
+                {
+                    "name": "走私直升機",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418336&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418336
+                },
+                {
+                    "name": "Coptère de contrebandier",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418864&type=card",
+                    "language": "French",
+                    "multiverseid": 418864
+                },
+                {
+                    "name": "Schmuggler-Kopter",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418600&type=card",
+                    "language": "German",
+                    "multiverseid": 418600
+                },
+                {
+                    "name": "Aerocottero del Contrabbandiere",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419128&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419128
+                },
+                {
+                    "name": "密輸人の回転翼機",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419392&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419392
+                },
+                {
+                    "name": "밀수꾼의 비행선",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419656&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419656
+                },
+                {
+                    "name": "Cóptero do Contrabandista",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419920&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419920
+                },
+                {
+                    "name": "Коптер Контрабандиста",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420184&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420184
+                },
+                {
+                    "name": "Cóptero de contrabandista",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420448&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420448
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Flying\nWhenever Smuggler's Copter attacks or blocks, you may draw a card. If you do, discard a card.\nCrew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)",
+            "originalType": "Artifact — Vehicle",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "3cf7b727c8151ebfadd15b9d3182c9aba378963b"
+        },
+        {
+            "name": "Hazardous Conditions",
+            "manaCost": "{2}{B}{G}",
+            "cmc": 4,
+            "colors": [
+                "Black",
+                "Green"
+            ],
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "rarity": "Uncommon",
+            "set": "KLD",
+            "text": "Creatures with no counters on them get -2/-2 until end of turn.",
+            "flavor": "\"There are many reasons we invent, of which survival is not the least.\"",
+            "artist": "Anastasia Ovchinnikova",
+            "number": "182",
+            "layout": "normal",
+            "multiverseid": 417755,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417755&type=card",
+            "rulings": [
+                {
+                    "date": "2016-09-20",
+                    "text": "Hazardous Conditions doesn’t care what kind of counter a creature has on it. Whether +1/+1, -1/-1, charge, or fate, any kind of counter causes a creature to be unaffected."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "The set of creatures affected by Hazardous Conditions is determined as the spell resolves. Creatures that get a counter later in the turn will continue to get -2/-2. Creatures that enter the battlefield or lose their counters later in the turn and noncreature permanents that become creatures later in the turn won’t get -2/-2."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "有害情况",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418019&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 418019
+                },
+                {
+                    "name": "有害情況",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418283&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418283
+                },
+                {
+                    "name": "Conditions dangereuses",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418811&type=card",
+                    "language": "French",
+                    "multiverseid": 418811
+                },
+                {
+                    "name": "Gesundheitsgefährdende Umstände",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418547&type=card",
+                    "language": "German",
+                    "multiverseid": 418547
+                },
+                {
+                    "name": "Condizioni Pericolose",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419075&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419075
+                },
+                {
+                    "name": "危険な状況",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419339&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419339
+                },
+                {
+                    "name": "위험한 조건",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419603&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419603
+                },
+                {
+                    "name": "Condições Arriscadas",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419867&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419867
+                },
+                {
+                    "name": "Опасные Условия",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420131&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420131
+                },
+                {
+                    "name": "Condiciones arriesgadas",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420395&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420395
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Creatures with no counters on them get -2/-2 until end of turn.",
+            "originalType": "Sorcery",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "2877140a8c873f70ee93c79c8b69775eb64124e5"
+        },
+        {
+            "name": "Ballista Charger",
+            "manaCost": "{5}",
+            "cmc": 5,
+            "type": "Artifact — Vehicle",
+            "types": [
+                "Artifact"
+            ],
+            "subtypes": [
+                "Vehicle"
+            ],
+            "rarity": "Uncommon",
+            "set": "KLD",
+            "text": "Whenever Ballista Charger attacks, it deals 1 damage to target creature or player.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+            "artist": "Sung Choi",
+            "number": "196",
+            "power": "6",
+            "toughness": "6",
+            "layout": "normal",
+            "multiverseid": 417769,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417769&type=card",
+            "rulings": [
+                {
+                    "date": "2016-09-20",
+                    "text": "Ballista Charger’s triggered ability resolves before blockers are chosen. A creature dealt lethal damage this way won’t be around to block."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Each Vehicle is printed with a power and toughness, but it’s not a creature. If it becomes a creature (most likely through its crew ability, but the Kaladesh set includes other such effects), it will have that power and toughness."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "If an effect causes a Vehicle to become an artifact creature with a specified power and toughness, that effect overwrites the Vehicle’s printed power and toughness."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Vehicle is an artifact type, not a creature type. A Vehicle that’s crewed won’t have any creature type."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Once a player announces that he or she is activating a crew ability, no player may take other actions until the ability’s been paid for. Notably, players can’t try to stop the ability by changing a creature’s power or by removing or tapping a creature."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Any untapped creature you control can be tapped to pay a crew cost, even one that just came under your control."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "You may tap more creatures than necessary to activate a crew ability."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Creatures that crew a Vehicle aren’t attached to it or related in any other way. Effects that affect the Vehicle, such as by destroying it or giving it a +1/+1 counter, don’t affect the creatures that crewed it and vice versa."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Once a Vehicle becomes a creature, it behaves exactly like any other artifact creature. It can’t attack unless you’ve controlled it continuously since your turn began, it can block if it’s untapped, it can be tapped to pay a Vehicle’s crew cost, and so on."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "You may activate a crew ability of a Vehicle even if it’s already an artifact creature. Doing so has no effect on the Vehicle. It doesn’t change its power and toughness."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "To attack with a Vehicle, it must be a creature by the time the declare attackers step begins, so the latest you can activate its crew ability to do so is during the beginning of combat step. To block with a Vehicle, it must be a creature by the time the declare blockers step begins, so the latest you can activate its crew ability to do so is during the declare attackers step. In both cases, players may take actions after the crew ability resolves but before that Vehicle has been declared an attacking or blocking creature."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "When a Vehicle becomes a creature, that doesn’t count as having a creature enter the battlefield. The permanent was already on the battlefield; it only changed its types. Abilities that trigger whenever a creature enters the battlefield won’t trigger."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "If a permanent becomes a copy of a Vehicle, the copy won’t be a creature, even if the Vehicle it’s copying has become an artifact creature."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "巨弩冲锋车",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418033&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 418033
+                },
+                {
+                    "name": "巨弩衝鋒車",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418297&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418297
+                },
+                {
+                    "name": "Chargeur à baliste",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418825&type=card",
+                    "language": "French",
+                    "multiverseid": 418825
+                },
+                {
+                    "name": "Anstürmende Balliste",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418561&type=card",
+                    "language": "German",
+                    "multiverseid": 418561
+                },
+                {
+                    "name": "Balista d'Assalto",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419089&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419089
+                },
+                {
+                    "name": "バリスタ突撃車",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419353&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419353
+                },
+                {
+                    "name": "노포 돌격차",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419617&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419617
+                },
+                {
+                    "name": "Balista de Ataque",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419881&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419881
+                },
+                {
+                    "name": "Штурмовая Баллиста",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420145&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420145
+                },
+                {
+                    "name": "Balista de guerra",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420409&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420409
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Whenever Ballista Charger attacks, it deals 1 damage to target creature or player.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+            "originalType": "Artifact — Vehicle",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "9dc117af209eb79d460b32b565eabb9ceadd2119"
+        },
+        {
+            "name": "Diabolic Tutor",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "Black"
+            ],
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "rarity": "Uncommon",
+            "set": "KLD",
+            "text": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+            "flavor": "\"Show them. Show them how hot your fire can burn.\"\n—Liliana Vess, to Chandra Nalaar",
+            "artist": "Mark Winters",
+            "number": "75",
+            "layout": "normal",
+            "multiverseid": 417648,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417648&type=card",
+            "foreignNames": [
+                {
+                    "name": "恶魔导师",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417912&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 417912
+                },
+                {
+                    "name": "惡魔導師",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418176&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418176
+                },
+                {
+                    "name": "Précepteur démoniaque",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418704&type=card",
+                    "language": "French",
+                    "multiverseid": 418704
+                },
+                {
+                    "name": "Teuflischer Lehrmeister",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418440&type=card",
+                    "language": "German",
+                    "multiverseid": 418440
+                },
+                {
+                    "name": "Tutore Diabolico",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418968&type=card",
+                    "language": "Italian",
+                    "multiverseid": 418968
+                },
+                {
+                    "name": "魔性の教示者",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419232&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419232
+                },
+                {
+                    "name": "극악한 자의 가르침",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419496&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419496
+                },
+                {
+                    "name": "Tutor Diabólico",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419760&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419760
+                },
+                {
+                    "name": "Дьявольский Наставник",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420024&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420024
+                },
+                {
+                    "name": "Tutor diabólico",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420288&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420288
+                }
+            ],
+            "printings": [
+                "ODY",
+                "8ED",
+                "9ED",
+                "10E",
+                "M10",
+                "M11",
+                "CMD",
+                "M12",
+                "M14",
+                "CN2",
+                "KLD"
+            ],
+            "originalText": "Search your library for a card and put that card into your hand. Then shuffle your library.",
+            "originalType": "Sorcery",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Odyssey Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "ada87b1dc442a488ad2969f7659f2c6b539325b8"
+        },
+        {
+            "name": "Revoke Privileges",
+            "manaCost": "{2}{W}",
+            "cmc": 3,
+            "colors": [
+                "White"
+            ],
+            "type": "Enchantment — Aura",
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "Enchant creature\nEnchanted creature can't attack, block, or crew Vehicles.",
+            "flavor": "\"By order of Consulate Mandate 482, I am required to detain you, citizen.\"",
+            "artist": "James Ryman",
+            "number": "26",
+            "layout": "normal",
+            "multiverseid": 417599,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417599&type=card",
+            "foreignNames": [
+                {
+                    "name": "撤销特权",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417863&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 417863
+                },
+                {
+                    "name": "撤銷特權",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418127&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418127
+                },
+                {
+                    "name": "Révocation des privilèges",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418655&type=card",
+                    "language": "French",
+                    "multiverseid": 418655
+                },
+                {
+                    "name": "Privilegien aberkennen",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418391&type=card",
+                    "language": "German",
+                    "multiverseid": 418391
+                },
+                {
+                    "name": "Revocare i Privilegi",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418919&type=card",
+                    "language": "Italian",
+                    "multiverseid": 418919
+                },
+                {
+                    "name": "特権剥奪",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419183&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419183
+                },
+                {
+                    "name": "특권 박탈",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419447&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419447
+                },
+                {
+                    "name": "Revogar Privilégios",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419711&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419711
+                },
+                {
+                    "name": "Отзыв Привилегий",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419975&type=card",
+                    "language": "Russian",
+                    "multiverseid": 419975
+                },
+                {
+                    "name": "Privilegios revocados",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420239&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420239
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Enchant creature\nEnchanted creature can't attack, block, or crew Vehicles.",
+            "originalType": "Enchantment — Aura",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "65681cff2e3cc6d598e035be74cd4170d06cb316"
+        },
+        {
+            "name": "Tidy Conclusion",
+            "manaCost": "{3}{B}{B}",
+            "cmc": 5,
+            "colors": [
+                "Black"
+            ],
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "Destroy target creature. You gain 1 life for each artifact you control.",
+            "flavor": "Aetherborn patrons use any means necessary to secure victory for their protégés.",
+            "artist": "Bastien L. Deharme",
+            "number": "103",
+            "layout": "normal",
+            "multiverseid": 417676,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417676&type=card",
+            "rulings": [
+                {
+                    "date": "2016-09-20",
+                    "text": "If the target creature becomes an illegal target before Tidy Conclusion resolves, the spell is countered. You don’t gain any life."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "The number of artifacts you control is counted only as Tidy Conclusion resolves, after the creature is destroyed. For example, if you destroy a Fairgrounds Warden that exiled your artifact creature, the artifact creature will return and then be counted when determining how many artifacts you control."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "收拾残局",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417940&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 417940
+                },
+                {
+                    "name": "收拾殘局",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418204&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418204
+                },
+                {
+                    "name": "Conclusion sans bavure",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418732&type=card",
+                    "language": "French",
+                    "multiverseid": 418732
+                },
+                {
+                    "name": "Sauberes Ende",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418468&type=card",
+                    "language": "German",
+                    "multiverseid": 418468
+                },
+                {
+                    "name": "Netta Conclusione",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418996&type=card",
+                    "language": "Italian",
+                    "multiverseid": 418996
+                },
+                {
+                    "name": "当然の結論",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419260&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419260
+                },
+                {
+                    "name": "깔끔한 종결",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419524&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419524
+                },
+                {
+                    "name": "Conclusão Impecável",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419788&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419788
+                },
+                {
+                    "name": "Чистое Устранение",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420052&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420052
+                },
+                {
+                    "name": "Final organizado",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420316&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420316
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Destroy target creature. You gain 1 life for each artifact you control.",
+            "originalType": "Instant",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "6cb388ce7c1c9c56b273f164c1550a9c3d239b54"
+        },
+        {
+            "name": "Stone Quarry",
+            "type": "Land",
+            "types": [
+                "Land"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "Stone Quarry enters the battlefield tapped.\n{T}: Add {R} or {W} to your mana pool.",
+            "flavor": "The Inventors' Renaissance came on the heels of the Great Aether Boom, hiking demand for raw materials of every kind.",
+            "artist": "Efflam Mercier",
+            "number": "269",
+            "layout": "normal",
+            "multiverseid": 420482,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420482&type=card",
+            "foreignNames": [
+                {
+                    "name": "采石场",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420492&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 420492
+                },
+                {
+                    "name": "採石場",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420502&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 420502
+                },
+                {
+                    "name": "Carrière de pierre",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420522&type=card",
+                    "language": "French",
+                    "multiverseid": 420522
+                },
+                {
+                    "name": "Steinbruch",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420512&type=card",
+                    "language": "German",
+                    "multiverseid": 420512
+                },
+                {
+                    "name": "Cava di Pietra",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420532&type=card",
+                    "language": "Italian",
+                    "multiverseid": 420532
+                },
+                {
+                    "name": "採石場",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420542&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 420542
+                },
+                {
+                    "name": "채석장",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420552&type=card",
+                    "language": "Korean",
+                    "multiverseid": 420552
+                },
+                {
+                    "name": "Pedreira",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420562&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 420562
+                },
+                {
+                    "name": "Каменоломня",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420572&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420572
+                },
+                {
+                    "name": "Pedrera",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420582&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420582
+                }
+            ],
+            "printings": [
+                "SOI",
+                "KLD"
+            ],
+            "originalText": "Stone Quarry enters the battlefield tapped.\n{T}: Add {R} or {W} to your mana pool.",
+            "originalType": "Land",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Shadows over Innistrad Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "01fc38bf65dc8acb7540ebbe7ab02ddf01b454ce"
+        },
+        {
+            "name": "Demolish",
+            "manaCost": "{3}{R}",
+            "cmc": 4,
+            "colors": [
+                "Red"
+            ],
+            "type": "Sorcery",
+            "types": [
+                "Sorcery"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "Destroy target artifact or land.",
+            "flavor": "Most came to Ghirapur for the Fair. Gremlins came for the feast.",
+            "artist": "Steven Belledin",
+            "number": "113",
+            "layout": "normal",
+            "multiverseid": 417686,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417686&type=card",
+            "foreignNames": [
+                {
+                    "name": "毁坏",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417950&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 417950
+                },
+                {
+                    "name": "毀壞",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418214&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418214
+                },
+                {
+                    "name": "Démolition",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418742&type=card",
+                    "language": "French",
+                    "multiverseid": 418742
+                },
+                {
+                    "name": "Demolieren",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418478&type=card",
+                    "language": "German",
+                    "multiverseid": 418478
+                },
+                {
+                    "name": "Frantumare",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419006&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419006
+                },
+                {
+                    "name": "破砕",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419270&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419270
+                },
+                {
+                    "name": "철거",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419534&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419534
+                },
+                {
+                    "name": "Demolir",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419798&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419798
+                },
+                {
+                    "name": "Разрушение",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420062&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420062
+                },
+                {
+                    "name": "Demoler",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420326&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420326
+                }
+            ],
+            "printings": [
+                "ODY",
+                "8ED",
+                "9ED",
+                "10E",
+                "ZEN",
+                "M11",
+                "AVR",
+                "M14",
+                "THS",
+                "ORI",
+                "KLD"
+            ],
+            "originalText": "Destroy target artifact or land.",
+            "originalType": "Sorcery",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Innistrad Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Odyssey Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Theros Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Zendikar Block",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "cf7a94f6dff9ab4d5b20f5d3ff9180a7dce0b895"
+        },
+        {
+            "name": "Sage of Shaila's Claim",
+            "manaCost": "{1}{G}",
+            "cmc": 2,
+            "colors": [
+                "Green"
+            ],
+            "type": "Creature — Elf Druid",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Elf",
+                "Druid"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "When Sage of Shaila's Claim enters the battlefield, you get {E}{E}{E} (three energy counters).",
+            "flavor": "Even now, Shaila's descendants proudly occupy the greenway that she refused to relinquish to the Consulate.",
+            "artist": "Howard Lyon",
+            "number": "168",
+            "power": "2",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": 417741,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417741&type=card",
+            "rulings": [
+                {
+                    "date": "2016-09-20",
+                    "text": "is the energy symbol. It represents one energy counter."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Energy counters are a kind of counter that a player may have. They’re not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)"
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Keep careful track of how many energy counters each player has. You may do so by keeping a running count on paper, by using a die, or by any other clear and mutually agreeable method."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "If an effect says you get one or more , you get that many energy counters. To pay one or more , you lose that many energy counters. Any effects that interact with counters a player gets, has, or loses can interact with energy counters."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” to your mana pool can’t give you energy counters."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "You can’t pay more energy counters than you have."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "莎伊勒域智者",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418005&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 418005
+                },
+                {
+                    "name": "莎伊勒域智者",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418269&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418269
+                },
+                {
+                    "name": "Sage du Maquis de Shaila",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418797&type=card",
+                    "language": "French",
+                    "multiverseid": 418797
+                },
+                {
+                    "name": "Weiser aus Shailas Areal",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418533&type=card",
+                    "language": "German",
+                    "multiverseid": 418533
+                },
+                {
+                    "name": "Saggio del Diritto di Shaila",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419061&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419061
+                },
+                {
+                    "name": "シャイラ専有地の賢者",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419325&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419325
+                },
+                {
+                    "name": "샤일라 영역의 현자",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419589&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419589
+                },
+                {
+                    "name": "Sábio da Reivindicação de Shaila",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419853&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419853
+                },
+                {
+                    "name": "Мудрец из Владений Шейлы",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420117&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420117
+                },
+                {
+                    "name": "Sabio de la Franja de Shaila",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420381&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420381
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "When Sage of Shaila's Claim enters the battlefield, you get {E}{E}{E} (three energy counters).",
+            "originalType": "Creature — Elf Druid",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "0e7fff12b5d2c94e21591e655568058900842aea"
+        },
+        {
+            "name": "Peema Outrider",
+            "manaCost": "{2}{G}{G}",
+            "cmc": 4,
+            "colors": [
+                "Green"
+            ],
+            "type": "Creature — Elf Artificer",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Elf",
+                "Artificer"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "Trample\nFabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)",
+            "flavor": "Connected as artificer and invention, bonded as rider and steed.",
+            "artist": "Craig J Spearing",
+            "number": "166",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": 417739,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417739&type=card",
+            "rulings": [
+                {
+                    "date": "2016-09-20",
+                    "text": "You choose whether to put +1/+1 counters on the creature or create Servo tokens as the fabricate ability is resolving. No player may take actions between the time you choose and the time that counters are added or tokens are created."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Fabricate doesn’t cause the creature with the ability to enter the battlefield with +1/+1 counters already on it. For example, Weaponcraft Enthusiast will enter the battlefield as a 0/1 creature, then its fabricate ability goes on the stack. Players may take actions (such as casting instants) while the ability is waiting to resolve."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "If you can’t put +1/+1 counters on the creature for any reason as fabricate resolves (for instance, if it’s no longer on the battlefield), you just create Servo tokens."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "皮默前导兵",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418003&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 418003
+                },
+                {
+                    "name": "皮默前導兵",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418267&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418267
+                },
+                {
+                    "name": "Cavalier de Peema",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418795&type=card",
+                    "language": "French",
+                    "multiverseid": 418795
+                },
+                {
+                    "name": "Peema-Vorreiter",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418531&type=card",
+                    "language": "German",
+                    "multiverseid": 418531
+                },
+                {
+                    "name": "Battipista di Peema",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419059&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419059
+                },
+                {
+                    "name": "ピーマの先導",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419323&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419323
+                },
+                {
+                    "name": "피마 척후병",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419587&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419587
+                },
+                {
+                    "name": "Vanguardeiro de Peema",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419851&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419851
+                },
+                {
+                    "name": "Пимский Наездник",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420115&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420115
+                },
+                {
+                    "name": "Batidor de Peema",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420379&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420379
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Trample\nFabricate 1 (When this creature enters the battlefield, put a +1/+1 counter on it or create a 1/1 colorless Servo artifact creature token.)",
+            "originalType": "Creature — Elf Artificer",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "8735ba5a76c760b28bf280bba73dfe33585ebde0"
+        },
+        {
+            "name": "Spontaneous Artist",
+            "manaCost": "{3}{R}",
+            "cmc": 4,
+            "colors": [
+                "Red"
+            ],
+            "type": "Creature — Human Rogue",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Rogue"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "When Spontaneous Artist enters the battlefield, you get {E} (an energy counter).\nPay {E}: Target creature gains haste until end of turn.",
+            "flavor": "Graffiti of the \"leaking spire\" symbol is found wherever the renegades have been.",
+            "artist": "Viktor Titov",
+            "number": "134",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": 417707,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417707&type=card",
+            "rulings": [
+                {
+                    "date": "2016-09-20",
+                    "text": "is the energy symbol. It represents one energy counter."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Energy counters are a kind of counter that a player may have. They’re not associated with specific permanents. (Other kinds of counters that players may have include poison and experience.)"
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Keep careful track of how many energy counters each player has. You may do so by keeping a running count on paper, by using a die, or by any other clear and mutually agreeable method."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "If an effect says you get one or more , you get that many energy counters. To pay one or more , you lose that many energy counters. Any effects that interact with counters a player gets, has, or loses can interact with energy counters."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "Energy counters aren’t mana. They don’t go away as steps, phases, and turns end, and effects that add mana “of any type” to your mana pool can’t give you energy counters."
+                },
+                {
+                    "date": "2016-09-20",
+                    "text": "You can’t pay more energy counters than you have."
+                }
+            ],
+            "foreignNames": [
+                {
+                    "name": "天生能手",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417971&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 417971
+                },
+                {
+                    "name": "天生能手",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418235&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418235
+                },
+                {
+                    "name": "Artiste spontanée",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418763&type=card",
+                    "language": "French",
+                    "multiverseid": 418763
+                },
+                {
+                    "name": "Spontane Straßenkünstlerin",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418499&type=card",
+                    "language": "German",
+                    "multiverseid": 418499
+                },
+                {
+                    "name": "Artista Spontanea",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419027&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419027
+                },
+                {
+                    "name": "気ままな芸術家",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419291&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419291
+                },
+                {
+                    "name": "즉흥적인 예술가",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419555&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419555
+                },
+                {
+                    "name": "Artista Espontânea",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419819&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419819
+                },
+                {
+                    "name": "Импульсивная Художница",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420083&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420083
+                },
+                {
+                    "name": "Artista espontánea",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420347&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420347
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "When Spontaneous Artist enters the battlefield, you get {E} (an energy counter).\nPay {E}: Target creature gains haste until end of turn.",
+            "originalType": "Creature — Human Rogue",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "7e3258f26b10fdb1afa56606dd96f0a4387de3eb"
+        },
+        {
+            "name": "Revolutionary Rebuff",
+            "manaCost": "{1}{U}",
+            "cmc": 2,
+            "colors": [
+                "Blue"
+            ],
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "Counter target nonartifact spell unless its controller pays {2}.",
+            "flavor": "By the time a Consulate sanction becomes official, the renegade quicksmiths have already found a way to circumvent it.",
+            "artist": "Zack Stella",
+            "number": "61",
+            "layout": "normal",
+            "multiverseid": 417634,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417634&type=card",
+            "foreignNames": [
+                {
+                    "name": "革新拒斥",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417898&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 417898
+                },
+                {
+                    "name": "革新拒斥",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418162&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418162
+                },
+                {
+                    "name": "Rebuffade révolutionnaire",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418690&type=card",
+                    "language": "French",
+                    "multiverseid": 418690
+                },
+                {
+                    "name": "Revolutionäre Zurückweisung",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418426&type=card",
+                    "language": "German",
+                    "multiverseid": 418426
+                },
+                {
+                    "name": "Rigetto Rivoluzionario",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418954&type=card",
+                    "language": "Italian",
+                    "multiverseid": 418954
+                },
+                {
+                    "name": "革命的拒絶",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419218&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419218
+                },
+                {
+                    "name": "혁명적 거절",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419482&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419482
+                },
+                {
+                    "name": "Repúdio Revolucionário",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419746&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419746
+                },
+                {
+                    "name": "Революционный Отказ",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420010&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420010
+                },
+                {
+                    "name": "Impugnación revolucionaria",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420274&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420274
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Counter target nonartifact spell unless its controller pays {2}.",
+            "originalType": "Instant",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "b9c6f1a6c6652556c1d43e1fa02bf6bebfacfeca"
+        },
+        {
+            "name": "Wild Wanderer",
+            "manaCost": "{3}{G}",
+            "cmc": 4,
+            "colors": [
+                "Green"
+            ],
+            "type": "Creature — Elf Druid",
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Elf",
+                "Druid"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "When Wild Wanderer enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+            "flavor": "\"We all began in nature, and nature is where we belong.\"",
+            "artist": "Sidharth Chaturvedi",
+            "number": "173",
+            "power": "3",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": 417746,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417746&type=card",
+            "foreignNames": [
+                {
+                    "name": "荒野漫游人",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418010&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 418010
+                },
+                {
+                    "name": "荒野漫遊人",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418274&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418274
+                },
+                {
+                    "name": "Vagabonde sauvage",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418802&type=card",
+                    "language": "French",
+                    "multiverseid": 418802
+                },
+                {
+                    "name": "Wanderin der Wildnis",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418538&type=card",
+                    "language": "German",
+                    "multiverseid": 418538
+                },
+                {
+                    "name": "Girovaga delle Terre Selvagge",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419066&type=card",
+                    "language": "Italian",
+                    "multiverseid": 419066
+                },
+                {
+                    "name": "野生の放浪者",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419330&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419330
+                },
+                {
+                    "name": "야생 방랑자",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419594&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419594
+                },
+                {
+                    "name": "Errante Selvagem",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419858&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419858
+                },
+                {
+                    "name": "Дикая Странница",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420122&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420122
+                },
+                {
+                    "name": "Errante de lo agreste",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420386&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420386
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "When Wild Wanderer enters the battlefield, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.",
+            "originalType": "Creature — Elf Druid",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "dcf6971d16c3fc54e20d9ef3f69ad4d88c21904b"
+        },
+        {
+            "name": "Rush of Vitality",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "Black"
+            ],
+            "type": "Instant",
+            "types": [
+                "Instant"
+            ],
+            "rarity": "Common",
+            "set": "KLD",
+            "text": "Target creature gets +1/+0 and gains lifelink and indestructible until end of turn. (Damage dealt by that creature also causes its controller to gain that much life, and it can't be destroyed by damage or effects that say \"destroy.\")",
+            "flavor": "Short lives lead to forbidden choices.",
+            "artist": "Lindsey Look",
+            "number": "99",
+            "layout": "normal",
+            "multiverseid": 417672,
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417672&type=card",
+            "foreignNames": [
+                {
+                    "name": "活力突袭",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=417936&type=card",
+                    "language": "Chinese Simplified",
+                    "multiverseid": 417936
+                },
+                {
+                    "name": "活力突襲",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418200&type=card",
+                    "language": "Chinese Traditional",
+                    "multiverseid": 418200
+                },
+                {
+                    "name": "Afflux de vitalité",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418728&type=card",
+                    "language": "French",
+                    "multiverseid": 418728
+                },
+                {
+                    "name": "Vitalitätsschub",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418464&type=card",
+                    "language": "German",
+                    "multiverseid": 418464
+                },
+                {
+                    "name": "Scarica di Vitalità",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=418992&type=card",
+                    "language": "Italian",
+                    "multiverseid": 418992
+                },
+                {
+                    "name": "活力の奔出",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419256&type=card",
+                    "language": "Japanese",
+                    "multiverseid": 419256
+                },
+                {
+                    "name": "활력 분출",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419520&type=card",
+                    "language": "Korean",
+                    "multiverseid": 419520
+                },
+                {
+                    "name": "Ímpeto de Vitalidade",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=419784&type=card",
+                    "language": "Portuguese (Brazil)",
+                    "multiverseid": 419784
+                },
+                {
+                    "name": "Приток Жизни",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420048&type=card",
+                    "language": "Russian",
+                    "multiverseid": 420048
+                },
+                {
+                    "name": "Ráfaga de vitalidad",
+                    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=420312&type=card",
+                    "language": "Spanish",
+                    "multiverseid": 420312
+                }
+            ],
+            "printings": [
+                "KLD"
+            ],
+            "originalText": "Target creature gets +1/+0 and gains lifelink and indestructible until end of turn. (Damage dealt by that creature also causes its controller to gain that much life, and it can't be destroyed by damage or effects that say \"destroy.\")",
+            "originalType": "Instant",
+            "legalities": [
+                {
+                    "format": "Commander",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Kaladesh Block",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Legacy",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Modern",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Standard",
+                    "legality": "Legal"
+                },
+                {
+                    "format": "Vintage",
+                    "legality": "Legal"
+                }
+            ],
+            "id": "182d24a1c6ac91f3f25bb48c72355c837e101f64"
+        }
+    ]
+}

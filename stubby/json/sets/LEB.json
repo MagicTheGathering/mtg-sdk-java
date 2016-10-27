@@ -1,0 +1,30 @@
+{
+    "set": {
+        "code": "LEB",
+        "name": "Limited Edition Beta",
+        "type": "core",
+        "border": "black",
+        "mkm_id": 2,
+        "booster": [
+            "rare",
+            "uncommon",
+            "uncommon",
+            "uncommon",
+            "common",
+            "common",
+            "common",
+            "common",
+            "common",
+            "common",
+            "common",
+            "common",
+            "common",
+            "common",
+            "common"
+        ],
+        "mkm_name": "Beta",
+        "releaseDate": "1993-10-01",
+        "gathererCode": "2E",
+        "magicCardsInfoCode": "be"
+    }
+}

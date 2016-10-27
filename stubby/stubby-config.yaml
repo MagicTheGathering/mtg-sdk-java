@@ -43,4 +43,50 @@
     headers:
       Content-Type: application/json
     file: json/types.json
+
+- request:
+    url: ^/sets/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/sets/all.json
+
+- request:
+    url: ^/sets/LEA/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/sets/LEA.json
+    
+- request:
+    url: ^/sets/LEB/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/sets/LEB.json
+    
+- request:
+    url: ^/sets/666/?$
+    method: GET
+  response:
+    status: 404
+    headers:
+      Content-Type: application/json
+    body: >
+      {"status":"404","error":"Not Found"}
+      
+- request:
+    url: ^/sets/KLD/booster/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/sets/KLD-booster.json
       

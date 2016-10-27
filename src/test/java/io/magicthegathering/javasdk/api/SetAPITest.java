@@ -10,7 +10,7 @@ import java.util.List;
 
 import org.junit.Test;
 
-public class SetAPITest {
+public class SetAPITest extends MTGAPITest {
 	@Test
 	public void testGetSet() {
 		MtgSet testSet = new MtgSet();
@@ -18,12 +18,12 @@ public class SetAPITest {
 		assertEquals(testSet, SetAPI.getSet("LEA"));
 		assertFalse(testSet.equals(SetAPI.getSet("LEB")));
 	}
-	
+
 	@Test
 	public void testBadSetId() {
 		assertNull(SetAPI.getSet("666"));
 	}
-	
+
 	@Test
 	public void testGetAllSets() {
 		List<MtgSet> testSetList = SetAPI.getAllSets();
@@ -31,9 +31,9 @@ public class SetAPITest {
 		testSet.setGatherercode("1E");
 		assertEquals(testSetList.get(0), testSet);
 	}
-	
+
 	@Test
-	public void testGetBoosterFromSet(){
+	public void testGetBoosterFromSet() {
 		String setCode = "KLD";
 		List<Card> booster = SetAPI.getBooster(setCode);
 		assertEquals(14, booster.size());
