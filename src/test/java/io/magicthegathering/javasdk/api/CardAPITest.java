@@ -25,8 +25,6 @@ public class CardAPITest extends MTGAPITest {
 
 	@Test
 	public void testBadCardId() throws Exception {
-		//TODO Remove when supported with stubby
-		teardownStubby();
 		assertNull(CardAPI.getCard(-1));
 	}
 

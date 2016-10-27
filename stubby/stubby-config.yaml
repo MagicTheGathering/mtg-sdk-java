@@ -15,3 +15,13 @@
     headers:
       Content-Type: application/json
     file: cards/10.json
+    
+- request:
+    url: ^/cards/-1/?$
+    method: GET
+  response:
+    status: 404
+    headers:
+      Content-Type: application/json
+    body: >
+      {"status":"404","error":"Not Found"}
