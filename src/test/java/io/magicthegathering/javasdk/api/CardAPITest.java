@@ -30,8 +30,6 @@ public class CardAPITest extends MTGAPITest {
 
 	@Test
 	public void testGetAll() throws Exception {
-		//TODO Remove when supported with stubby
-		teardownStubby();
 		List<Card> testCardList = CardAPI.getAllCards();
 		Card testCard = new Card();
 		testCard.setMultiverseid(94);
