@@ -5,7 +5,7 @@
     status: 200
     headers:
       Content-Type: application/json
-    file: cards/all.json
+    file: json/cards/all.json
 
 - request:
     url: ^/cards/1/?$
@@ -14,7 +14,7 @@
     status: 200
     headers:
       Content-Type: application/json
-    file: cards/1.json
+    file: json/cards/1.json
 
 - request:
     url: ^/cards/10/?$
@@ -23,7 +23,7 @@
     status: 200
     headers:
       Content-Type: application/json
-    file: cards/10.json
+    file: json/cards/10.json
     
 - request:
     url: ^/cards/-1/?$
