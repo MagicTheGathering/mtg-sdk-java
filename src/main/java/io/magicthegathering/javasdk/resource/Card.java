@@ -298,28 +298,40 @@ public class Card implements Serializable {
 	}
 
 	/**
-	 * dirty compare to in order to start testing. Just comparing the MultiverseId
-	 * which should be unique.
-	 * @param toCompare A {@link Card} object hopefully
+	 * dirty compare to in order to start testing. Just comparing the
+	 * MultiverseId which should be unique.
+	 * 
+	 * @param toCompare
+	 *            A {@link Card} object hopefully
 	 * @return true if the same set, false if different.
 	 */
 	@Override
-	public boolean equals(Object toCompare){
-		if(toCompare instanceof Card){
-			Card cardCompare = (Card)toCompare;
-			return getMultiverseid() == cardCompare.getMultiverseid();
-		}else{
+	public boolean equals(Object toCompare) {
+		if (toCompare instanceof Card) {
+			Card cardCompare = (Card) toCompare;
+			if (getMultiverseid() != cardCompare.getMultiverseid())
+				return false;
+			if (!getName().equals(cardCompare.getName()))
+				return false;
+			if (!getManaCost().equals(cardCompare.getManaCost()))
+				return false;
+			
+			return true;
+		} else {
 			return false;
 		}
 	}
 
 	/**
-	 * Prints the Card name and multiverseId which should give enough info for debug testing.
+	 * Prints the Card name and multiverseId which should give enough info for
+	 * debug testing.
+	 * 
 	 * @return The cards name and Id
 	 */
 	@Override
-	public String toString(){
-		return "Card Name: " + getName() +
-				"\nMultiverseId: " + getMultiverseid();
+	public String toString() {
+		return "\nCard Name: " + getName() + 
+				"\nMultiverse Id: "+ getMultiverseid() +
+				"\nMana Cost: "+ getManaCost();
 	}
 }

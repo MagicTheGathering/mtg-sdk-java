@@ -16,6 +16,8 @@ public class CardAPITest extends MTGAPITest {
 	public void testGetCard() {
 		Card testCard = new Card();
 		testCard.setMultiverseid(1);
+		testCard.setName("Ankh of Mishra");
+		testCard.setManaCost("{2}");
 		assertEquals(testCard, CardAPI.getCard(1));
 		assertFalse(testCard.equals(CardAPI.getCard(10)));
 	}
@@ -30,6 +32,8 @@ public class CardAPITest extends MTGAPITest {
 		List<Card> testCardList = CardAPI.getAllCards();
 		Card testCard = new Card();
 		testCard.setMultiverseid(94);
+		testCard.setName("Air Elemental");
+		testCard.setManaCost("{3}{U}{U}");
 		assertEquals(testCardList.get(0), testCard);
 	}
 
