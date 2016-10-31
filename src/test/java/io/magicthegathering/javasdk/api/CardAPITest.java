@@ -49,9 +49,12 @@ public class CardAPITest extends MTGAPITest {
 	@Test
 	public void testCardFilter(){
 		ArrayList<String> filter = new ArrayList<>();
-		filter.add("name=Koth");
+		filter.add("name=Air");
 
-		Card kothophed = CardAPI.getCard(212238);
-		assertTrue(CardAPI.getAllCards(filter).contains(kothophed));
+		Card testCard = new Card();
+		testCard.setMultiverseid(94);
+		testCard.setName("Air Elemental");
+		testCard.setManaCost("{3}{U}{U}");
+		assertTrue(CardAPI.getAllCards(filter).contains(testCard));
 	}
 }
