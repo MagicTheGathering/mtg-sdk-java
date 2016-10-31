@@ -13,7 +13,7 @@ public class CardAPI extends MTGAPI {
 	private static final String RESOURCE_PATH = "cards";
 
 	/**
-	 * Returns a {@link Card} based on the given multiverseid
+	 * @Return A {@link Card} based on the given multiverseid
 	 */
 	public static Card getCard(int multiverseId) {
 		String path = String.format("%s/%s/", RESOURCE_PATH, multiverseId);
@@ -21,14 +21,14 @@ public class CardAPI extends MTGAPI {
 	}
 
 	/**
-	 * Returns all the available {@link Card}s as a list.
+	 * @Return All the available {@link Card}s as a list.
 	 */
 	public static List<Card> getAllCards() {
 		return getList(RESOURCE_PATH, "cards", Card.class);
 	}
 
 	/**
-	 * Returns a {@link List} of all card types as {@link String}s.
+	 * @Return A {@link List} of all card types as {@link String}s.
 	 * 
 	 * @see <a href="https://docs.magicthegathering.io/#card-types">
 	 * 		https://docs.magicthegathering.io/#card-types</a>
@@ -37,5 +37,17 @@ public class CardAPI extends MTGAPI {
 		String path = "types";
 		List<String> cardTypes = getList(path, "types", String.class);
 		return cardTypes;
+	}
+
+	/**
+	 * Get all the {@link Card} that match a certain filter.
+	 * @param filters List of filters supported by the web API
+	 * @return List of all matching {@link Card}s.
+	 *
+	 * @see <a href="https://docs.magicthegathering.io/#cards">
+	 *		https://docs.magicthegathering.io/#cards</a>
+	 */
+	public static List<Card> getAllCards(List<String> filters){
+		return getList(RESOURCE_PATH, "cards", Card.class, filters);
 	}
 }

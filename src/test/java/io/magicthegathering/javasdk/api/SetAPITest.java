@@ -3,10 +3,14 @@ package io.magicthegathering.javasdk.api;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
+
 import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.MtgSet;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import org.junit.Test;
 
@@ -37,5 +41,15 @@ public class SetAPITest extends MTGAPITest {
 		String setCode = "KLD";
 		List<Card> booster = SetAPI.getBooster(setCode);
 		assertEquals(14, booster.size());
+	}
+
+	@Test
+	public void testSetFilter(){
+		ArrayList<String> filter = new ArrayList<>();
+		filter.add("name=Alpha");
+
+		MtgSet alpha = SetAPI.getSet("LEA");
+
+		assertTrue(SetAPI.getAllSets(filter).contains(alpha));
 	}
 }
