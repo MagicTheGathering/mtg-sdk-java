@@ -47,6 +47,22 @@ public class CardAPITest extends MTGAPITest {
 	}
 
 	@Test
+	public void testGetAllCardSupertypes() throws Exception {
+		List<String> superTypes = CardAPI.getAllCardSupertypes();
+		assertTrue(superTypes.contains("Legendary"));
+		assertTrue(superTypes.contains("Basic"));
+		assertTrue(superTypes.contains("Snow"));
+	}
+
+	@Test
+	public void testGetAllCardSubtypes() throws Exception {
+		List<String> superTypes = CardAPI.getAllCardSubtypes();
+		assertTrue(superTypes.contains("Ape"));
+		assertTrue(superTypes.contains("Elf"));
+		assertTrue(superTypes.contains("Squid"));
+	}
+
+	@Test
 	public void testCardFilter(){
 		ArrayList<String> filter = new ArrayList<>();
 		filter.add("name=Air");

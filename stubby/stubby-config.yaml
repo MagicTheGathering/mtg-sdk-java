@@ -52,7 +52,25 @@
     status: 200
     headers:
       Content-Type: application/json
-    file: json/types.json
+    file: json/types/types.json
+
+- request:
+    url: ^/supertypes/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/types/supertypes.json
+
+- request:
+    url: ^/subtypes/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/types/subtypes.json
 
 - request:
     url: ^/sets/?$

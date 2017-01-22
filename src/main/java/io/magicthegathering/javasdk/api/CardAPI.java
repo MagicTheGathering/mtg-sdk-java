@@ -39,6 +39,28 @@ public class CardAPI extends MTGAPI {
 	}
 
 	/**
+	 * @return A {@link List} of all card types as {@link String}s.
+	 *
+	 * @see <a href="https://docs.magicthegathering.io/#card-types">
+	 * 		https://docs.magicthegathering.io/#get-all-supertypes</a>
+	 */
+	public static List<String> getAllCardSupertypes() {
+		String path = "supertypes";
+		return getList(path, "supertypes", String.class);
+	}
+
+	/**
+	 * @return A {@link List} of all card types as {@link String}s.
+	 *
+	 * @see <a href="https://docs.magicthegathering.io/#card-types">
+	 * 		https://docs.magicthegathering.io/#card-types</a>
+	 */
+	public static List<String> getAllCardSubtypes() {
+		String path = "subtypes";
+		return getList(path, "subtypes", String.class);
+	}
+
+	/**
 	 * Get all the {@link Card} that match a certain filter.
 	 * @param filters List of filters supported by the web API
 	 * @return List of all matching {@link Card}s.
