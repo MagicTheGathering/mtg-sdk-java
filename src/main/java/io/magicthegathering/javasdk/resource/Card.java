@@ -5,12 +5,12 @@ import java.io.Serializable;
 /**
  * This file is part of mtgsdk.
  * https://github.com/MagicTheGathering/mtg-sdk-java
- *
+ * <p>
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT-license
- *
+ * <p>
  * Created by thechucklingatom on 2/16/2016.
- *
+ * <p>
  * Card class that is created from the JSON set representation.
  *
  * @author thechucklingatom
@@ -300,23 +300,17 @@ public class Card implements Serializable {
 	/**
 	 * dirty compare to in order to start testing. Just comparing the
 	 * MultiverseId which should be unique.
-	 * 
-	 * @param toCompare
-	 *            A {@link Card} object hopefully
+	 *
+	 * @param toCompare A {@link Card} object hopefully
 	 * @return true if the same set, false if different.
 	 */
 	@Override
 	public boolean equals(Object toCompare) {
 		if (toCompare instanceof Card) {
 			Card cardCompare = (Card) toCompare;
-			if (getMultiverseid() != cardCompare.getMultiverseid())
-				return false;
-			if (!getName().equals(cardCompare.getName()))
-				return false;
-			if (!getManaCost().equals(cardCompare.getManaCost()))
-				return false;
-			
-			return true;
+			return getMultiverseid() == cardCompare.getMultiverseid()
+					&& getName().equals(cardCompare.getName())
+					&& getManaCost().equals(cardCompare.getManaCost());
 		} else {
 			return false;
 		}
@@ -325,13 +319,13 @@ public class Card implements Serializable {
 	/**
 	 * Prints the Card name and multiverseId which should give enough info for
 	 * debug testing.
-	 * 
+	 *
 	 * @return The cards name and Id
 	 */
 	@Override
 	public String toString() {
-		return "\nCard Name: " + getName() + 
-				"\nMultiverse Id: "+ getMultiverseid() +
-				"\nMana Cost: "+ getManaCost();
+		return "\nCard Name: " + getName() +
+				"\nMultiverse Id: " + getMultiverseid() +
+				"\nMana Cost: " + getManaCost();
 	}
 }
