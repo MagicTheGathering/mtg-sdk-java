@@ -40,7 +40,7 @@ public class SetAPITest extends MTGAPITest {
 	public void testGetBoosterFromSet() {
 		String setCode = "KLD";
 		List<Card> booster = SetAPI.getBooster(setCode);
-		assertEquals(14, booster.size());
+		assertEquals(15, booster.size());
 	}
 
 	@Test

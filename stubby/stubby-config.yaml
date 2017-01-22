@@ -5,7 +5,17 @@
     status: 200
     headers:
       Content-Type: application/json
+      Link: <https://api.magicthegathering.io/v1/cards/?page=2>; rel="last", <https://api.magicthegathering.io/v1/cards/?page=2>; rel="next"
     file: json/cards/all.json
+
+- request:
+    url: ^/cards/?&page=2
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/allPage2.json
 
 - request:
     url: ^/cards/1/?$

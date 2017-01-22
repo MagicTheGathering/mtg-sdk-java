@@ -13,7 +13,7 @@ public class CardAPI extends MTGAPI {
 	private static final String RESOURCE_PATH = "cards";
 
 	/**
-	 * @Return A {@link Card} based on the given multiverseid
+	 * @return A {@link Card} based on the given multiverseid
 	 */
 	public static Card getCard(int multiverseId) {
 		String path = String.format("%s/%s/", RESOURCE_PATH, multiverseId);
@@ -21,22 +21,21 @@ public class CardAPI extends MTGAPI {
 	}
 
 	/**
-	 * @Return All the available {@link Card}s as a list.
+	 * @return All the available {@link Card}s as a list.
 	 */
 	public static List<Card> getAllCards() {
 		return getList(RESOURCE_PATH, "cards", Card.class);
 	}
 
 	/**
-	 * @Return A {@link List} of all card types as {@link String}s.
+	 * @return A {@link List} of all card types as {@link String}s.
 	 * 
 	 * @see <a href="https://docs.magicthegathering.io/#card-types">
 	 * 		https://docs.magicthegathering.io/#card-types</a>
 	 */
 	public static List<String> getAllCardTypes() {
 		String path = "types";
-		List<String> cardTypes = getList(path, "types", String.class);
-		return cardTypes;
+		return getList(path, "types", String.class);
 	}
 
 	/**
