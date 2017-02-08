@@ -51,7 +51,7 @@ public class Card implements Serializable {
 	private boolean starter;
 	private String set;
 	private String setName;
-	private String printings;
+	private String[] printings;
 
 	public String getId() {
 		return id;
@@ -349,11 +349,11 @@ public class Card implements Serializable {
 		this.setName = setName;
 	}
 
-	public String getPrintings() {
+	public String[] getPrintings() {
 		return printings;
 	}
 
-	public void setPrintings(String printings) {
+	public void setPrintings(String[] printings) {
 		this.printings = printings;
 	}
 
