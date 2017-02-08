@@ -31,6 +31,7 @@ public class Card implements Serializable {
 	private String[] subtypes;
 	private String rarity;
 	private String text;
+	private String originalText;
 	private String flavor;
 	private String artist;
 	private String number;
@@ -48,6 +49,9 @@ public class Card implements Serializable {
 	private boolean reserved;
 	private String releaseDate;
 	private boolean starter;
+	private String set;
+	private String setName;
+	private String printings;
 
 	public String getId() {
 		return id;
@@ -327,5 +331,37 @@ public class Card implements Serializable {
 		return "\nCard Name: " + getName() +
 				"\nMultiverse Id: " + getMultiverseid() +
 				"\nMana Cost: " + getManaCost();
+	}
+
+	public String getSet() {
+		return set;
+	}
+
+	public void setSet(String set) {
+		this.set = set;
+	}
+
+	public String getSetName() {
+		return setName;
+	}
+
+	public void setSetName(String setName) {
+		this.setName = setName;
+	}
+
+	public String getPrintings() {
+		return printings;
+	}
+
+	public void setPrintings(String printings) {
+		this.printings = printings;
+	}
+
+	public String getOriginalText() {
+		return originalText;
+	}
+
+	public void setOriginalText(String originalText) {
+		this.originalText = originalText;
 	}
 }
