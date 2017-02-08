@@ -39,6 +39,12 @@ public class CardAPITest extends MTGAPITest {
 	}
 
 	@Test
+	public void testDeserializePictureUrl() throws Exception {
+		List<Card> testCardList = CardAPI.getAllCards();
+		assertEquals("http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=94&type=card", testCardList.get(0).getImageUrl());
+	}
+
+	@Test
 	public void testGetAllCardTypes() throws Exception {
 		List<String> types = CardAPI.getAllCardTypes();
 		assertTrue(types.contains("Artifact"));

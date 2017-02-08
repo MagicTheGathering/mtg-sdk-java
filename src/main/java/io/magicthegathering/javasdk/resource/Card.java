@@ -52,6 +52,7 @@ public class Card implements Serializable {
 	private String set;
 	private String setName;
 	private String[] printings;
+	private String imageUrl;
 
 	public String getId() {
 		return id;
@@ -363,5 +364,13 @@ public class Card implements Serializable {
 
 	public void setOriginalText(String originalText) {
 		this.originalText = originalText;
+	}
+
+	public String getImageUrl() {
+		return imageUrl;
+	}
+
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
 	}
 }
