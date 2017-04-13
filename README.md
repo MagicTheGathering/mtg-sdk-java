@@ -25,7 +25,7 @@ Integration
 <dependency>
     <groupId>io.magicthegathering</groupId>
     <artifactId>javasdk</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.6</version>
 </dependency>
 ```
 #### Gradle
