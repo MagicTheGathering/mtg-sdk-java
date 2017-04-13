@@ -30,12 +30,12 @@ Integration
 ```
 #### Gradle
 ```gradle
-compile 'io.magicthegathering:javasdk:0.0.3'
+compile 'io.magicthegathering:javasdk:0.0.6'
 ```
 
 #### Ivy
 ```xml
-<dependency org="io.magicthegathering" name="javasdk" rev="0.0.3"/>
+<dependency org="io.magicthegathering" name="javasdk" rev="0.0.6"/>
 ```
 
 Usage examples
