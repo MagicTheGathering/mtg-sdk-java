@@ -14,7 +14,7 @@ import org.junit.Test;
 public class CardAPITest extends MTGAPITest {
 
 	@Test
-	public void testGetCard() {
+	public void testGetCardByMultiverseId() {
 		Card testCard = new Card();
 		testCard.setMultiverseid(1);
 		testCard.setName("Ankh of Mishra");
@@ -22,6 +22,16 @@ public class CardAPITest extends MTGAPITest {
 		assertEquals(testCard, CardAPI.getCard(1));
 		assertFalse(testCard.equals(CardAPI.getCard(10)));
 	}
+
+  @Test
+  public void testGetCardById() {
+    Card testCard = new Card();
+    testCard.setMultiverseid(1);
+    testCard.setName("Ankh of Mishra");
+    testCard.setManaCost("{2}");
+    assertEquals(testCard, CardAPI.getCard("8a5d85644f546525433c4472b76c3b0ebb495b33"));
+    assertFalse(testCard.equals(CardAPI.getCard("926234c2fe8863f49220a878346c4c5ca79b6046")));
+  }
 
 	@Test
 	public void testBadCardId() throws Exception {
