@@ -13,6 +13,14 @@ public class CardAPI extends MTGAPI {
 	private static final String RESOURCE_PATH = "cards";
 
 	/**
+	 * @return A {@link Card} based on the given cardid
+	 */
+	public static Card getCard(String cardId) {
+		String path = String.format("%s/%s/", RESOURCE_PATH, cardId);
+		return get(path, "card", Card.class);
+	}
+
+	/**
 	 * @return A {@link Card} based on the given multiverseid
 	 */
 	public static Card getCard(int multiverseId) {
