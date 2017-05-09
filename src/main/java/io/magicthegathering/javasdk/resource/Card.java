@@ -1,6 +1,7 @@
 package io.magicthegathering.javasdk.resource;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 /**
  * This file is part of mtgsdk.
@@ -53,6 +54,13 @@ public class Card implements Serializable {
 	private String setName;
 	private String[] printings;
 	private String imageUrl;
+	private Legality[] legalities;
+	private BigDecimal priceHigh;
+	private BigDecimal priceMid;
+	private BigDecimal priceLow;
+	private BigDecimal onlinePriceHigh;
+	private BigDecimal onlinePriceMid;
+	private BigDecimal onlinePriceLow;
 
 	public String getId() {
 		return id;
@@ -372,5 +380,61 @@ public class Card implements Serializable {
 
 	public void setImageUrl(String imageUrl) {
 		this.imageUrl = imageUrl;
+	}
+
+	public Legality[] getLegalities() {
+		return legalities;
+	}
+
+	public void setLegalities(Legality[] legalities) {
+		this.legalities = legalities;
+	}
+
+	public BigDecimal getPriceHigh() {
+		return priceHigh;
+	}
+
+	public void setPriceHigh(BigDecimal priceHigh) {
+		this.priceHigh = priceHigh;
+	}
+
+	public BigDecimal getPriceMid() {
+		return priceMid;
+	}
+
+	public void setPriceMid(BigDecimal priceMid) {
+		this.priceMid = priceMid;
+	}
+
+	public BigDecimal getPriceLow() {
+		return priceLow;
+	}
+
+	public void setPriceLow(BigDecimal priceLow) {
+		this.priceLow = priceLow;
+	}
+
+	public BigDecimal getOnlinePriceHigh() {
+		return onlinePriceHigh;
+	}
+
+	public void setOnlinePriceHigh(BigDecimal onlinePriceHigh) {
+		this.onlinePriceHigh = onlinePriceHigh;
+	}
+
+	public BigDecimal getOnlinePriceMid() {
+		return onlinePriceMid;
+	}
+
+	public void setOnlinePriceMid(BigDecimal onlinePriceMid) {
+		this.onlinePriceMid = onlinePriceMid;
+	}
+
+	public BigDecimal getOnlinePriceLow() {
+		return onlinePriceLow;
+	}
+
+	public void setOnlinePriceLow(BigDecimal onlinePriceLow) {
+		this.onlinePriceLow = onlinePriceLow;
 	}
 }

@@ -5,6 +5,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import io.magicthegathering.javasdk.resource.Card;
+import io.magicthegathering.javasdk.resource.Legality;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -88,5 +89,13 @@ public class CardAPITest extends MTGAPITest {
 		testCard.setName("Air Elemental");
 		testCard.setManaCost("{3}{U}{U}");
 		assertTrue(CardAPI.getAllCards(filter).contains(testCard));
+	}
+
+	@Test
+	public void testLegality() {
+		Legality testLegality = new Legality();
+		testLegality.setFormat("Commander");
+		testLegality.setLegality("Legal");
+		assertEquals(testLegality, CardAPI.getCard(1).getLegalities()[0]);
 	}
 }
