@@ -38,7 +38,7 @@ public class Card implements Serializable {
 	private String number;
 	private String power;
 	private String toughness;
-	private int loyalty;
+	private String loyalty;
 	private int multiverseid = -1;
 	private int[] variations;
 	private String imageName;
@@ -214,11 +214,11 @@ public class Card implements Serializable {
 		this.toughness = toughness;
 	}
 
-	public int getLoyalty() {
+	public String getLoyalty() {
 		return loyalty;
 	}
 
-	public void setLoyalty(int loyalty) {
+	public void setLoyalty(String loyalty) {
 		this.loyalty = loyalty;
 	}
 
