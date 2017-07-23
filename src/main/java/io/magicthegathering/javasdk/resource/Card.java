@@ -61,6 +61,7 @@ public class Card implements Serializable {
 	private BigDecimal onlinePriceHigh;
 	private BigDecimal onlinePriceMid;
 	private BigDecimal onlinePriceLow;
+	private Ruling[] rulings;
 
 	public String getId() {
 		return id;
@@ -437,4 +438,12 @@ public class Card implements Serializable {
 	public void setOnlinePriceLow(BigDecimal onlinePriceLow) {
 		this.onlinePriceLow = onlinePriceLow;
 	}
+
+  public Ruling[] getRulings() {
+    return rulings;
+  }
+
+  public void setRulings(Ruling[] rulings) {
+    this.rulings = rulings;
+  }
 }
