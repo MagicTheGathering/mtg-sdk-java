@@ -5,6 +5,8 @@ import io.magicthegathering.javasdk.exception.HttpRequestFailedException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -105,8 +107,8 @@ public abstract class MTGAPI {
 				}
 				for (String[] params : paramList) {
 					if (params[1].contains("last")) {
-						numberOfPages = Integer.parseInt(
-								params[0].split("page=")[1].replace(">", ""));
+						Matcher matcher = Pattern.compile("page=[0-9]+").matcher(params[0]);
+						numberOfPages = (matcher.find()) ? Integer.parseInt(matcher.group().substring(5)) : 0;
 					}
 				}
 
