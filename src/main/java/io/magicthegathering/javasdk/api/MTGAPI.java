@@ -105,8 +105,7 @@ public abstract class MTGAPI {
 				}
 				for (String[] params : paramList) {
 					if (params[1].contains("last")) {
-						numberOfPages = Integer.parseInt(
-								params[0].split("page=")[1].replace(">", ""));
+						numberOfPages = Integer.parseInt(params[0].substring(params[0].indexOf(PAGE_LINK_REQUEST) + PAGE_LINK_REQUEST.length(),params[0].indexOf(DELIM_LINK_FILTER, params[0].indexOf(PAGE_LINK_REQUEST)) >= 0 ?  params[0].indexOf(DELIM_LINK_FILTER, params[0].indexOf(PAGE_LINK_REQUEST)) :params[0].indexOf(DELIM_LINK_RESPONSE)));
 					}
 				}
 
