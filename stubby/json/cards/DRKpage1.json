@@ -1,0 +1,5276 @@
+{
+  "cards": [
+    {
+      "name": "Barl's Cage",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{3}: Target creature doesn't untap during its controller's next untap step.",
+      "flavor": "For a dozen years the Cage had held Lord Ith, but as the Pretender Mairsil's power weakened, so did the bars.",
+      "artist": "Tom Wänerstrand",
+      "layout": "normal",
+      "multiverseid": 1708,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1708&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Does not prevent a creature from untapping at other times. It just stops the \"normal\" untap during the untap step."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "You may target any creature with this ability. It doesn't have to be tapped."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If the targeted creature is untapped at the time its controller's next untap step begins, this ability has no effect. It won't apply at some later time when the targeted creature is tapped."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Barl's Cage doesn't track the creature's controller. If the affected creature changes controllers before its old controller's next untap step, this ability will prevent it from being untapped during its new controller's next untap step."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "5ED",
+        "ME3"
+      ],
+      "originalText": "{3}: Target creature does not untap as normal during its controller's next untap phase.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "c753843bdf95b8fd8814277377e79e35f898d4a7"
+    },
+    {
+      "name": "Bone Flute",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{2}, {T}: All creatures get -1/-0 until end of turn.",
+      "flavor": "After the Battle of Pitdown, Lady Ursnell fashioned the first such instrument out of Lord Ursnell's left leg.",
+      "artist": "Christopher Rush",
+      "layout": "normal",
+      "multiverseid": 1709,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1709&type=card",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "The ability affects only creatures on the battlefield at the time it resolves. A creature that enters the battlefield later in the turn won't get -1/-0."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "{2}, {T}: All creatures get -1/-0 until end of turn.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "2599ea655fe8bb19d529afdb50e8799fa4e19c48"
+    },
+    {
+      "name": "Book of Rass",
+      "manaCost": "{6}",
+      "cmc": 6,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{2}, Pay 2 life: Draw a card.",
+      "artist": "Sandra Everingham",
+      "layout": "normal",
+      "multiverseid": 1710,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1710&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You can't spend yourself to below zero life. You can't spend life you don't have."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "ME4"
+      ],
+      "originalText": "{2}: Pay 2 life to draw one card. Effects that prevent or redirect damage may not be used to counter this loss of life.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a99320ea59c678b2341db1e5092e5abc3c13bbc4"
+    },
+    {
+      "name": "Coal Golem",
+      "manaCost": "{5}",
+      "cmc": 5,
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Artifact Creature — Golem",
+      "types": [
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Golem"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{3}, Sacrifice Coal Golem: Add {R}{R}{R} to your mana pool.",
+      "flavor": "\"Three such creatures stood burning at the crest of the hill. Only seconds later, the Fireball struck our front line.\" —Lydia, Countess Brellis",
+      "artist": "Christopher Rush",
+      "power": "3",
+      "toughness": "3",
+      "layout": "normal",
+      "multiverseid": 1711,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1711&type=card",
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "{3}: Sacrifice Coal Golem to add {R}{R}{R} to your mana pool. This ability is played as an interrupt.",
+      "originalType": "Artifact Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "972065ea05f767596df696548312453d82c927b0"
+    },
+    {
+      "name": "Dark Sphere",
+      "manaCost": "{0}",
+      "cmc": 0,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}, Sacrifice Dark Sphere: The next time a source of your choice would deal damage to you this turn, prevent half that damage, rounded down.",
+      "flavor": "\"I was struck senseless for a moment, but revived when the strange curiosity I carried fell to the ground, screaming like a dying animal.\" —Barl, Lord Ith",
+      "artist": "Mark Tedin",
+      "layout": "normal",
+      "multiverseid": 1712,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1712&type=card",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "If two or more of these effects would apply, you apply them sequentially. So if the source would deal 5 damage after two of these abilities have resolved, the first one prevents 2 damage, reducing it to 3 damage, then the second one prevents a further 1 damage, reducing the total damage dealt to 2."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{T}: Sacrifice Dark Sphere to prevent half of the damage done to you by a single source, rounded down.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "fb442fb65bf99b276a9fa20bc5d751a12e7fcb17"
+    },
+    {
+      "name": "Diabolic Machine",
+      "manaCost": "{7}",
+      "cmc": 7,
+      "type": "Artifact Creature — Construct",
+      "types": [
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Construct"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{3}: Regenerate Diabolic Machine.",
+      "flavor": "\"The bolts of our ballistae smashed into the monstrous thing, but our hopes died in our chests as its gears continued turning.\" —Sevti Mukul, The Fall of Alsoor",
+      "artist": "Anson Maddocks",
+      "power": "4",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 1713,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1713&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "ME4"
+      ],
+      "originalText": "{3}: Regenerates",
+      "originalType": "Artifact Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "8c2769a91e84bbe0a86b2430ff28d542b2cfbbcf"
+    },
+    {
+      "name": "Fellwar Stone",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Add to your mana pool one mana of any color that a land an opponent controls could produce.",
+      "flavor": "\"What do you have that I cannot obtain?\"\n—Mairsil, called the Pretender",
+      "artist": "Quinton Hoover",
+      "layout": "normal",
+      "multiverseid": 1714,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1714&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "It only produces one mana even if the land can produce more than one."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This works even if the opponent's lands are tapped. It only checks what kinds of mana can be produced, not if the abilities that produce them are usable right now."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The ability can be activated if the opponent has no lands that produce mana, but the effect will not be able to generate any mana."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "The colors of mana are white, blue, black, red, and green. Fellwar Stone can't be tapped for colorless mana, even if a land an opponent controls could produce colorless mana."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Fellwar Stone checks the effects of all mana-producing abilities of lands your opponents control, but it doesn't check their costs. For example, Vivid Crag has the ability \"{T}, Remove a charge counter from Vivid Crag: Add one mana of any color to your mana pool.\" If an opponent controls Vivid Crag and you control Fellwar Stone, you can tap Fellwar Stone for any color of mana. It doesn't matter whether Vivid Crag has a charge counter on it, and it doesn't matter whether it's untapped."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "When determining what colors of mana your opponents' lands could produce, take into account any applicable replacement effects that would apply to those lands' mana abilities (such as Contamination's effect, for example). If there is more than one, consider them in any possible order."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Fellwar Stone doesn't care about any restrictions or riders your opponents' lands (such as Ancient Ziggurat or Hall of the Bandit Lord) put on the mana they produce. It just cares about colors of mana."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "9ED",
+        "ME3",
+        "CMD",
+        "C15",
+        "C16",
+        "C17"
+      ],
+      "originalText": "{T}: Add 1 mana to your mana pool. This mana may be of any color that any of opponent's lands can produce. This ability is played as an interrupt.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "04ec7a957a78c45224299ab3a473bea9611e66ef"
+    },
+    {
+      "name": "Fountain of Youth",
+      "manaCost": "{0}",
+      "cmc": 0,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{2}, {T}: You gain 1 life.",
+      "flavor": "The Fountain had stood in the town square for centuries, but only the pigeons knew its secret.",
+      "artist": "Daniel Gelon",
+      "layout": "normal",
+      "multiverseid": 1715,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1715&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "5ED",
+        "6ED",
+        "10E"
+      ],
+      "originalText": "{2}, {T}: Gain 1 life.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "60c029d60292f8eef870e0bef8337b9fa69dc751"
+    },
+    {
+      "name": "Living Armor",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}, Sacrifice Living Armor: Put X +0/+1 counters on target creature, where X is that creature's converted mana cost.",
+      "flavor": "Though it affords excellent protection, few don this armor. The process is uncomfortable and not easily reversed.",
+      "artist": "Anson Maddocks",
+      "layout": "normal",
+      "multiverseid": 1716,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1716&type=card",
+      "printings": [
+        "DRK",
+        "CHR"
+      ],
+      "originalText": "{T}: Sacrifice Living Armor to put a +0/+X counter on target creature, where X is target creature's casting cost.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "b698191c4d4cbc6c5cecddd46b9e548525801f47"
+    },
+    {
+      "name": "Necropolis",
+      "manaCost": "{5}",
+      "cmc": 5,
+      "type": "Artifact Creature — Wall",
+      "types": [
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Wall"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Defender (This creature can't attack.)\nExile a creature card from your graveyard: Put X +0/+1 counters on Necropolis, where X is the exiled card's converted mana cost.",
+      "artist": "NéNé Thomas",
+      "power": "0",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1717,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1717&type=card",
+      "rulings": [
+        {
+          "date": "2008-04-01",
+          "text": "A \"creature card\" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Counts as a wall.\n{0}: Take a creature in your graveyard and remove it from the game. Put X +0/+1 counters on Necropolis, where X is the removed creature's casting cost.",
+      "originalType": "Artifact Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "7173d1d774896303e5b47259924e5f5d2546434a"
+    },
+    {
+      "name": "Reflecting Mirror",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{X}, {T}: Change the target of target spell with a single target if that target is you. The new target must be a player. X is twice the converted mana cost of that spell.",
+      "artist": "Mark Poole",
+      "layout": "normal",
+      "multiverseid": 1718,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1718&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Can't be used on abilities of permanents. Those are abilities and not spells."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This spell only changes the target of a spell, and not the player."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This can't be used on spells which affect \"you\" and which do not say they target you."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{X}, {T}: Target spell, which targets you, targets the player of your choice instead. X is twice the casting cost of target spell. This ability is played as an interrupt.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "2c947e3a88a3beaab5cc8129d34d4b3c26ee4b2a"
+    },
+    {
+      "name": "Runesword",
+      "manaCost": "{6}",
+      "cmc": 6,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{3}, {T}: Target attacking creature gets +2/+0 until end of turn. When that creature leaves the battlefield this turn, sacrifice Runesword. If the creature deals damage to a creature this turn, the creature dealt damage can't be regenerated this turn. If a creature dealt damage by the targeted creature would die this turn, exile that creature instead.",
+      "artist": "Christopher Rush",
+      "layout": "normal",
+      "multiverseid": 1719,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1719&type=card",
+      "printings": [
+        "DRK",
+        "CHR"
+      ],
+      "originalText": "{3}, {T}: Target attacking creature gains +2/+0 until end of turn. Any creature damaged by target creature may not be regenerated this turn; if such a creature is placed in the graveyard this turn, remove it from the game. If target creature leaves play before end of turn, Runesword is buried.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "45d6bef7beed3a264020244a8192a21ac07c8e0c"
+    },
+    {
+      "name": "Scarecrow",
+      "manaCost": "{5}",
+      "cmc": 5,
+      "type": "Artifact Creature — Scarecrow",
+      "types": [
+        "Artifact",
+        "Creature"
+      ],
+      "subtypes": [
+        "Scarecrow"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{6}, {T}: Prevent all damage that would be dealt to you this turn by creatures with flying.",
+      "flavor": "There was more malice in its button eyes than should have been possible in something that had never known life.",
+      "artist": "Anson Maddocks",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1720,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1720&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Even prevents non-combat damage from flying creatures."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME4"
+      ],
+      "originalText": "{6}, {T}: Until end of turn, all damage done to you by flying creatures is reduced to 0.",
+      "originalType": "Artifact Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "3408c87855f384c72ef39e3e792015ae2d99f006"
+    },
+    {
+      "name": "Skull of Orm",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{5}, {T}: Return target enchantment card from your graveyard to your hand.",
+      "flavor": "Though lifeless, the Skull still possessed a strange power over the flow of magic.",
+      "artist": "Tom Wänerstrand",
+      "layout": "normal",
+      "multiverseid": 1721,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1721&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Can bring back any enchantment."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "8ED"
+      ],
+      "originalText": "{5}, {T}: Bring one enchantment card from your graveyard to your hand.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "00a8cb32cf78779d76229def528ecd6fb50a1c95"
+    },
+    {
+      "name": "Standing Stones",
+      "manaCost": "{3}",
+      "cmc": 3,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{1}, {T}, Pay 1 life: Add one mana of any color to your mana pool.",
+      "artist": "Sandra Everingham",
+      "layout": "normal",
+      "multiverseid": 1722,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1722&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{1}, {T}: Pay 1 life and add 1 mana of any color to your mana pool. This ability is played as an interrupt. Effects that prevent or redirect damage may not be used to counter this loss of life.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "8d1398571996b5624c6b48070e6f42aabbd3fd9f"
+    },
+    {
+      "name": "Stone Calendar",
+      "manaCost": "{5}",
+      "cmc": 5,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Spells you cast cost up to {1} less to cast.",
+      "flavor": "The Pretender Mairsil ordered a great Calendar drawn up to show when the paths to the Dark Lands were strongest.",
+      "artist": "Amy Weber",
+      "layout": "normal",
+      "multiverseid": 1723,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1723&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Does not change the mana cost of the spell, it just reduces what you pay for it."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "You may choose not to apply Stone Calendar's cost reduction effect."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "Your spells cost up to 1 less to cast; casting cost of spells cannot go below 0.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "969520658258280605e01a6ea6794265d2d43d8c"
+    },
+    {
+      "name": "Tormod's Crypt",
+      "manaCost": "{0}",
+      "cmc": 0,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}, Sacrifice Tormod's Crypt: Exile all cards from target player's graveyard.",
+      "flavor": "The dark opening seemed to breathe the cold, damp air of the dead earth in a steady rhythm.",
+      "artist": "Christopher Rush",
+      "layout": "normal",
+      "multiverseid": 1724,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1724&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "pFNM",
+        "TSB",
+        "M13",
+        "M15",
+        "C14"
+      ],
+      "originalText": "{T}: Sacrifice Tormod's Crypt to remove all cards in target player's graveyard from the game.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "c8e31991a82f187a7e072034833e3e07a2b601c3"
+    },
+    {
+      "name": "Tower of Coireall",
+      "manaCost": "{2}",
+      "cmc": 2,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Target creature can't be blocked by Walls this turn.",
+      "artist": "Dan Frazier",
+      "layout": "normal",
+      "multiverseid": 1725,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1725&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{T}: Target creature cannot be blocked by walls until end of turn.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a3ab7c25e5ce52fb721f81392b230c2383fbdb9a"
+    },
+    {
+      "name": "Wand of Ith",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{3}, {T}: Target player reveals a card at random from his or her hand. If it's a land card, that player discards it unless he or she pays 1 life. If it isn't a land card, the player discards it unless he or she pays life equal to its converted mana cost. Activate this ability only during your turn.",
+      "artist": "Quinton Hoover",
+      "layout": "normal",
+      "multiverseid": 1726,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1726&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Any X in the mana cost of a card is zero for purposes of the Wand."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{3}, {T}: Look at one card at random from target player's hand. If the card is not a land, target player must choose either to discard it or pay an amount of life equal to its casting cost. If the card is a land, target player must choose either to discard it or pay 1 life. Effects that prevent or redirect damage may not be used to counter this loss of life. Can only be used during controller's turn.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "0e0f3c7e0cafec34ab69672bf5a10b43210b6cd9"
+    },
+    {
+      "name": "War Barge",
+      "manaCost": "{4}",
+      "cmc": 4,
+      "type": "Artifact",
+      "types": [
+        "Artifact"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{3}: Target creature gains islandwalk until end of turn. When War Barge leaves the battlefield this turn, destroy that creature. A creature destroyed this way can't be regenerated. (A creature with islandwalk can't be blocked as long as defending player controls an Island.)",
+      "artist": "Tom Wänerstrand",
+      "layout": "normal",
+      "multiverseid": 1727,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1727&type=card",
+      "printings": [
+        "DRK",
+        "TSB"
+      ],
+      "originalText": "{3}: Target creature gains islandwalk until end of turn. If War Barge leaves play this turn, target creature is buried.",
+      "originalType": "Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "4ce6d5db9654cc2de2eeb60168722546ed21c031"
+    },
+    {
+      "name": "Ashes to Ashes",
+      "manaCost": "{1}{B}{B}",
+      "cmc": 3,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Exile two target nonartifact creatures. Ashes to Ashes deals 5 damage to you.",
+      "flavor": "\"All rivers eventually run to the sea. My job is to sort out who goes first.\"\n—Maeveen O'Donagh, Memoirs of a Soldier",
+      "artist": "Drew Tucker",
+      "layout": "normal",
+      "multiverseid": 1728,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1728&type=card",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "If one of the targeted creatures is an illegal target by the time Ashes to Ashes resolves, it still exiles the other one and deals 5 damage to you."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If both of the targeted creatures are illegal targets by the time Ashes to Ashes resolves, it's countered. It doesn't deal 5 damage to you."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "ME3"
+      ],
+      "originalText": "Ashes to Ashes removes two target non-artifact creatures from the game and does 5 damage to you.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "02bfc5005f19ae6018668a077524f6381ba87bb4"
+    },
+    {
+      "name": "Banshee",
+      "manaCost": "{2}{B}{B}",
+      "cmc": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Spirit",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Spirit"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{X}, {T}: Banshee deals half X damage, rounded down, to target creature or player, and half X damage, rounded up, to you.",
+      "flavor": "Some say Banshees are the hounds of Death, baying to herd their prey into the arms of their master.",
+      "artist": "Jesper Myrfors",
+      "power": "0",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1729,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1729&type=card",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "If the targeted creature or player is an illegal target by the time Banshee's ability resolves, the ability is countered. You won't be dealt damage."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "ME3"
+      ],
+      "originalText": "{X}, {T}: Banshee does X damage—half (rounded up) to you and half (rounded down) to any one target.",
+      "originalType": "Summon — Banshee",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "1bcfc345d19f8ab8b2c351583c3f774596af8f86"
+    },
+    {
+      "name": "Bog Imp",
+      "manaCost": "{1}{B}",
+      "cmc": 2,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Imp",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Imp"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)",
+      "flavor": "On guard for larger dangers, we underestimated the power and speed of the Imp's muck-crusted claws.",
+      "artist": "Ron Spencer",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1730,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1730&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "RQS",
+        "ITP",
+        "5ED",
+        "POR",
+        "6ED",
+        "S99",
+        "S00",
+        "7ED",
+        "8ED",
+        "9ED"
+      ],
+      "originalText": "Flying",
+      "originalType": "Summon — Imp",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "92efc297683ca60ff68c5e24de0be4d239eb522c"
+    },
+    {
+      "name": "Bog Rats",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Rat",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Rat"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Bog Rats can't be blocked by Walls.",
+      "flavor": "Their stench was vile and strong enough, but not nearly as powerful as their hunger.",
+      "artist": "Ron Spencer",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1731,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1731&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "5ED",
+        "6ED"
+      ],
+      "originalText": "Cannot be blocked by walls.",
+      "originalType": "Summon — Rats",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "51dc1c9f8fcfb31eeb97c9fdf70297d7b12ae631"
+    },
+    {
+      "name": "Curse Artifact",
+      "manaCost": "{2}{B}{B}",
+      "cmc": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Enchant artifact\nAt the beginning of the upkeep of enchanted artifact's controller, Curse Artifact deals 2 damage to that player unless he or she sacrifices that artifact.",
+      "flavor": "Voska feared the artifact had come too easily.",
+      "artist": "Mark Tedin",
+      "layout": "normal",
+      "multiverseid": 1732,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1732&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "During his or her upkeep, controller of target artifact may choose to bury target artifact. If controller chooses not to bury target artifact, Curse Artifact does 2 damage to him or her.",
+      "originalType": "Enchant Artifact",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "897a100631eff1314c10483cff4087d0a6a53bbf"
+    },
+    {
+      "name": "Eater of the Dead",
+      "manaCost": "{4}{B}",
+      "cmc": 5,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Horror",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Horror"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{0}: If Eater of the Dead is tapped, exile target creature card from a graveyard and untap Eater of the Dead.",
+      "flavor": "Even the putrid muscles of the dead can provide strength to those loathsome enough to consume them.",
+      "artist": "Jesper Myrfors",
+      "power": "3",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 1733,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1733&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "It untaps during the resolution of its ability."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "You can activate the ability whether or not Eater of the Dead is tapped. However, if Eater of the Dead is untapped when the ability resolves, the ability won't do anything."
+        },
+        {
+          "date": "2008-04-01",
+          "text": "A \"creature card\" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "{0}: Take one creature from any graveyard and remove it from the game. Untap Eater of the Dead.",
+      "originalType": "Summon — Eater",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "7da3c3dd425f4dc62ee41f34f3fd3a179f43d3da"
+    },
+    {
+      "name": "Frankenstein's Monster",
+      "manaCost": "{X}{B}{B}",
+      "cmc": 2,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Zombie",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "As Frankenstein's Monster enters the battlefield, exile X creature cards from your graveyard. If you can't, put Frankenstein's Monster into its owner's graveyard instead of onto the battlefield. For each creature card exiled this way, Frankenstein's Monster enters the battlefield with a +2/+0, +1/+1, or +0/+2 counter on it.",
+      "artist": "Anson Maddocks",
+      "power": "0",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1734,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1734&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "X can be any number and it does not have to match the total contents of your graveyard."
+        },
+        {
+          "date": "2008-04-01",
+          "text": "A \"creature card\" is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "When Frankenstein's Monster is brought into play, if you do not take X creatures from your graveyard and remove them from the game, Frankenstein's Monster is countered. For each creature removed from your graveyard in this way, you may choose to give Frankenstein's Monster a permanent +2/+0, +1/+1, or +0/+2.",
+      "originalType": "Summon — Monster",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "84d6fadda5112f8876c2cc1b1aa26ed890a02b48"
+    },
+    {
+      "name": "Grave Robbers",
+      "manaCost": "{1}{B}{B}",
+      "cmc": 3,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Human Rogue",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Rogue"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{B}, {T}: Exile target artifact card from a graveyard. You gain 2 life.",
+      "flavor": "\"If you don't have your health, you don't have anything.\" —Proverb",
+      "artist": "Quinton Hoover",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1735,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1735&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If the target is not there on resolution, you do not gain the life."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This exiles the artifact on resolution, but you choose it as a target when activating the ability."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{B}, {T}: Take one artifact from any graveyard and remove it from the game. Gain 2 life.",
+      "originalType": "Summon — Robbers",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a3c6eaa368a54a63da46af3ed7159d95d0dd52c3"
+    },
+    {
+      "name": "Inquisition",
+      "manaCost": "{2}{B}",
+      "cmc": 3,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Target player reveals his or her hand. Inquisition deals damage to that player equal to the number of white cards in his or her hand.",
+      "flavor": "Many of those entrusted to Primata Delphine's care tended to express themselves with screams.",
+      "artist": "Anson Maddocks",
+      "layout": "normal",
+      "multiverseid": 1736,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1736&type=card",
+      "rulings": [
+        {
+          "date": "2014-02-01",
+          "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Look at target player's hand. Inquisition does 1 damage to target player for each white card in his or her hand.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "99ff1c75186610bca4475174b63f6ed07d0159c7"
+    },
+    {
+      "name": "Marsh Gas",
+      "manaCost": "{B}",
+      "cmc": 1,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "All creatures get -2/-0 until end of turn.",
+      "flavor": "\"Comes right outta th' ground. If ya can smell it, it's too late.\" —Keevy Bogsbury",
+      "artist": "Douglas Shuler",
+      "layout": "normal",
+      "multiverseid": 1737,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1737&type=card",
+      "printings": [
+        "DRK",
+        "4ED"
+      ],
+      "originalText": "All creatures get -2/-0 until end of turn.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "b1c552775e9c7508c30149764b4be1440e20beda"
+    },
+    {
+      "name": "Murk Dwellers",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Zombie",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Whenever Murk Dwellers attacks and isn't blocked, it gets +2/+0 until end of combat.",
+      "flavor": "When Raganorn unsealed the catacombs, he found more than the dead and their treasures.",
+      "artist": "Drew Tucker",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1738,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1738&type=card",
+      "rulings": [
+        {
+          "date": "2013-04-15",
+          "text": "An ability that triggers when something \"attacks and isn't blocked\" triggers in the declare blockers step after blockers are declared if (1) that creature is attacking and (2) no creatures are declared to block it. It will trigger even if that creature was put onto the battlefield attacking rather than having been declared as an attacker in the declare attackers step."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "RQS",
+        "ITP",
+        "5ED"
+      ],
+      "originalText": "When attacking, Murk Dwellers gain +2/+0 if not blocked.",
+      "originalType": "Summon — Murk Dwellers",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "47297df5b2104f90df6a615b108306c2d4ccef4a"
+    },
+    {
+      "name": "Nameless Race",
+      "manaCost": "{3}{B}",
+      "cmc": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature",
+      "types": [
+        "Creature"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Trample\nAs Nameless Race enters the battlefield, pay any amount of life. The amount you pay can't be more than the total number of white nontoken permanents your opponents control plus the total number of white cards in their graveyards.\nNameless Race's power and toughness are each equal to the life paid as it entered the battlefield.",
+      "artist": "Quinton Hoover",
+      "power": "*",
+      "toughness": "*",
+      "layout": "normal",
+      "multiverseid": 1739,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1739&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If put onto the battlefield by a spell or ability, you pay life during the resolution of that spell or ability."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The life payment is made just as the card is being put onto the battlefield."
+        },
+        {
+          "date": "2007-10-01",
+          "text": "This currently has no creature type. It's Nameless."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Trample\nPay * life when bringing Nameless Race into play. Effects that prevent or redirect damage may not be used to counter this loss of life. When Nameless Race is brought into play, * may not be greater than the total number of white cards all opponents have in play and in their graveyards.",
+      "originalType": "Summon — Nameless Race",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "15e28d2ecf59cfa5af17a787b2a3e7179e64484b"
+    },
+    {
+      "name": "Rag Man",
+      "manaCost": "{2}{B}{B}",
+      "cmc": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Human Minion",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Minion"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{B}{B}{B}, {T}: Target opponent reveals his or her hand and discards a creature card at random. Activate this ability only during your turn.",
+      "flavor": "\"Aw, he's just a silly, dirty little man. What's to be afraid of?\"",
+      "artist": "Daniel Gelon",
+      "power": "2",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1740,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1740&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "6ED",
+        "7ED"
+      ],
+      "originalText": "{B}{B}{B}, {T}: Look at opponent's hand.\nIf opponent has any creature cards in hand, he or she discards one of them at random. This ability can only be used during controller's turn.",
+      "originalType": "Summon — Rag Man",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a0007de77b13d0f916de822da08d27914ec64de6"
+    },
+    {
+      "name": "Season of the Witch",
+      "manaCost": "{B}{B}{B}",
+      "cmc": 3,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "At the beginning of your upkeep, sacrifice Season of the Witch unless you pay 2 life.\nAt the beginning of the end step, destroy all untapped creatures that didn't attack this turn, except for creatures that couldn't attack.",
+      "artist": "Jesper Myrfors",
+      "layout": "normal",
+      "multiverseid": 1741,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1741&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2013-09-20",
+          "text": "At the beginning of every end step, regardless of whose turn it is, the second ability triggers. When it resolves every creature that could have been declared as an attacker during that turn's Declare Attackers Step but wasn't will be destroyed."
+        },
+        {
+          "date": "2013-09-20",
+          "text": "A creature won't be destroyed if it was unable to attack that turn, even if you had a way to enable it to attack. For example, a creature that had summoning sickness wouldn't be destroyed even if you had a way to give it haste."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "At the end of each player's turn, all of his or her untapped creatures that could have attacked but did not are destroyed. If you do not pay 2 life during your upkeep, Season of the Witch is destroyed. Effects that prevent or redirect damage may not be used to counter this loss of life.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "50484f292e204b12245eea2ec354e2473d6da09b"
+    },
+    {
+      "name": "The Fallen",
+      "manaCost": "{1}{B}{B}{B}",
+      "cmc": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Zombie",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "At the beginning of your upkeep, The Fallen deals 1 damage to each opponent it has dealt damage to this game.",
+      "flavor": "Magic often masters those who cannot master it.",
+      "artist": "Jesper Myrfors",
+      "power": "2",
+      "toughness": "3",
+      "layout": "normal",
+      "multiverseid": 1742,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1742&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "It stops damaging players and forgets which players it damaged when it leaves the battlefield."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "If The Fallen phases out and back in, it remembers which players it has dealt damage to this game."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "The Fallen's ability causes it to deal damage only to opponents of its current controller. If The Fallen has dealt damage to you, and then you gain control of it, you won't be damaged during your upkeep."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "The effect isn't cumulative. When it resolves, The Fallen deals 1 damage to each opponent previously dealt damage by it, regardless of how many times The Fallen dealt damage to that opponent before."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "MED"
+      ],
+      "originalText": "During its controller's upkeep, The Fallen does 1 damage to each opponent it has previously damaged.",
+      "originalType": "Summon — Fallen",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "45763ee3980c54349ab7892f71cf1a9d5740c275"
+    },
+    {
+      "name": "Uncle Istvan",
+      "manaCost": "{1}{B}{B}{B}",
+      "cmc": 4,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Creature — Human",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Prevent all damage that would be dealt to Uncle Istvan by creatures.",
+      "flavor": "Solitude drove the old hermit insane. Now he only keeps company with those he can catch.",
+      "artist": "Daniel Gelon",
+      "power": "1",
+      "toughness": "3",
+      "layout": "normal",
+      "multiverseid": 1743,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1743&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Works even on damage from activated abilities of creatures such as Prodigal Sorcerer."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "TSB"
+      ],
+      "originalText": "All damage done to Uncle Istvan by creatures is reduced to 0.",
+      "originalType": "Summon — Uncle Istvan",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "28aa5f652f7046a1ee9c8272d0959d0a54503bb3"
+    },
+    {
+      "name": "Word of Binding",
+      "manaCost": "{X}{B}{B}",
+      "cmc": 2,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Tap X target creatures.",
+      "flavor": "\"That was the worst experience of my days, standing there helpless as they killed my whole troop.\" —Maeveen O'Donagh, Memoirs of a Soldier",
+      "artist": "Ron Spencer",
+      "layout": "normal",
+      "multiverseid": 1744,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1744&type=card",
+      "printings": [
+        "DRK",
+        "4ED"
+      ],
+      "originalText": "X target creatures become tapped.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "0592eae4e462105adfd3567bea975e093d69b7cb"
+    },
+    {
+      "name": "Worms of the Earth",
+      "manaCost": "{2}{B}{B}{B}",
+      "cmc": 5,
+      "colors": [
+        "Black"
+      ],
+      "colorIdentity": [
+        "B"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Players can't play lands.\nLands can't enter the battlefield.\nAt the beginning of each upkeep, any player may sacrifice two lands or have Worms of the Earth deal 5 damage to him or her. If a player does either, destroy Worms of the Earth.",
+      "flavor": "The ground collapsed, leaving nothing but the great Worms' mucous residues.",
+      "artist": "Anson Maddocks",
+      "layout": "normal",
+      "multiverseid": 1745,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1745&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Land can't enter the battlefield, so an effect that \"puts a land onto the battlefield\" won't do anything, and the land will stay where it is."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If you cast a spell or activate an ability that lets you put a land onto the battlefield, the effect fails. You'll still do everything else the spell or ability tells you to do, such as shuffle the library."
+        },
+        {
+          "date": "2006-05-01",
+          "text": "In Two-Headed Giant, triggers only once per upkeep, not once for each player."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "If a permanent spell tries to enter the battlefield as a land during its resolution (for instance, a Clone entering the battlefield as a copy of a Dryad Arbor or an animated Mutavault), it is put into its owner's graveyard instead of entering the battlefield. It never enters the battlefield, so abilities that would have triggered on it entering the battlefield won't trigger."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "No new land may be brought into play. During any player's upkeep, any player may destroy Worms of the Earth by sacrificing two lands or taking 5 damage from Worms of the Earth.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "4962194de7a474a03dfd687d7788bfafc935b8b5"
+    },
+    {
+      "name": "Amnesia",
+      "manaCost": "{3}{U}{U}{U}",
+      "cmc": 6,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Target player reveals his or her hand and discards all nonland cards.",
+      "flavor": "\"When one has witnessed the unspeakable, 'tis sometimes better to forget.\" —Vervamon the Elder",
+      "artist": "Mark Poole",
+      "layout": "normal",
+      "multiverseid": 1746,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1746&type=card",
+      "rulings": [
+        {
+          "date": "2014-02-01",
+          "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "Look at target player's hand. Target player discards all non-land cards in his or her hand.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "e660fe7d9c11e349b8da6e3ceb27ec94072d8e38"
+    },
+    {
+      "name": "Apprentice Wizard",
+      "manaCost": "{1}{U}{U}",
+      "cmc": 3,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Creature — Human Wizard",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Wizard"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{U}, {T}: Add {C}{C}{C} to your mana pool.",
+      "artist": "Dan Frazier",
+      "power": "0",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1747,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1747&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "MED"
+      ],
+      "originalText": "{U}, {T}: Add {3} to your mana pool. This ability is played as an interrupt.",
+      "originalType": "Summon — Wizard",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "89abdf027dae15553143376035f178051d4688f2"
+    },
+    {
+      "name": "Dance of Many",
+      "manaCost": "{U}{U}",
+      "cmc": 2,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "When Dance of Many enters the battlefield, create a token that's a copy of target nontoken creature.\nWhen Dance of Many leaves the battlefield, exile the token.\nWhen the token leaves the battlefield, sacrifice Dance of Many.\nAt the beginning of your upkeep, sacrifice Dance of Many unless you pay {U}{U}.",
+      "artist": "Sandra Everingham",
+      "layout": "normal",
+      "multiverseid": 1748,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1748&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Destroying the creature that was copied will not cause the token creature to be destroyed as well."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Each Dance of Many is associated only with its token creature. If one Dance leaves the battlefield, only the corresponding token is affected, not all tokens from all instances of Dance of Many."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The ability is targeted and checks the validity of the target when put on the stack and when resolving. If the creature is not still there when the copy ability resolves, the ability is countered and no token is put onto the battlefield. This card remains on the battlefield as an enchantment with no token."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The mana cost is copied."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Treat the token as entering the battlefield as a copy of the chosen creature. If that creature normally gets counters when entering the battlefield, the token creature gets counters."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If Dance of Many leaves the battlefield before its first ability has resolved, its second ability will trigger and do nothing. Then its first ability will resolve and put a token onto the battlefield. That token won't have any connection to a Dance of Many permanent, so it won't be exiled when a Dance of Many leaves the battlefield."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "5ED",
+        "ME3"
+      ],
+      "originalText": "When Dance of Many is brought into play, choose a target summon card in play. Then put a token creature in play and treat it as if you have just brought an exact copy of target summon card into play. If Dance of Many leaves play, remove token creature from game. If token creature leaves play, destroy Dance of Many. If you do not pay {U}{U} during your upkeep, Dance of Many is destroyed.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "aa884cb0840104f2fe906e93e776d7bba6ced6fe"
+    },
+    {
+      "name": "Deep Water",
+      "manaCost": "{U}{U}",
+      "cmc": 2,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{U}: Until end of turn, if you tap a land you control for mana, it produces {U} instead of any other type.",
+      "artist": "Jeff A. Menges",
+      "layout": "normal",
+      "multiverseid": 1749,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1749&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Deep Waters affects lands you control when it resolves and any lands you gain control of this turn."
+        },
+        {
+          "date": "2008-08-01",
+          "text": "The amount of mana produced is unchanged, but it will all be {U}."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{U}: All mana-producing lands you control provide {U} instead of their normal mana until end of turn.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "f945d15314cc43540786076c914097ec5b7b7d37"
+    },
+    {
+      "name": "Drowned",
+      "manaCost": "{1}{U}",
+      "cmc": 2,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U",
+        "B"
+      ],
+      "type": "Creature — Zombie",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Zombie"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{B}: Regenerate Drowned.",
+      "flavor": "We asked Captain Soll what became of the Serafina, but all he said was, \"Ships that go down shouldn't come back up.\"",
+      "artist": "Quinton Hoover",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1750,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1750&type=card",
+      "printings": [
+        "DRK",
+        "ME4"
+      ],
+      "originalText": "{B}: Regenerates",
+      "originalType": "Summon — Zombies",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "e94ea658911cc11a2fdacdde5f0b3d8244052f12"
+    },
+    {
+      "name": "Electric Eel",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U",
+        "R"
+      ],
+      "type": "Creature — Fish",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Fish"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "When Electric Eel enters the battlefield, it deals 1 damage to you.\n{R}{R}: Electric Eel gets +2/+0 until end of turn and deals 1 damage to you.",
+      "artist": "Anson Maddocks",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1751,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1751&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{R}{R}: +2/+0; Electric Eel does 1 damage to you. Electric Eel does 1 damage to you when it is brought into play.",
+      "originalType": "Summon — Eel",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "ebc3b554ac83776a8ddb7d3920b6108fa0dfecd4"
+    },
+    {
+      "name": "Erosion",
+      "manaCost": "{U}{U}{U}",
+      "cmc": 3,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Enchant land\nAt the beginning of the upkeep of enchanted land's controller, destroy that land unless that player pays {1} or 1 life.",
+      "artist": "Pete Venters",
+      "layout": "normal",
+      "multiverseid": 1752,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1752&type=card",
+      "printings": [
+        "DRK",
+        "4ED"
+      ],
+      "originalText": "Target land is destroyed unless its controller pays {1} or pays 1 life during his or her upkeep. Effects that prevent or redirect damage may not be used to counter this loss of life.",
+      "originalType": "Enchant Land",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "b72a46fea944a0f3afd6dc625df87f016c38a07a"
+    },
+    {
+      "name": "Flood",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{U}{U}: Tap target creature without flying.",
+      "flavor": "\"A dash of cool water does wonders to clear a cluttered battlefield.\"\n—Vibekke Ragnild, Witches and War",
+      "artist": "Dennis Detwiller",
+      "layout": "normal",
+      "multiverseid": 1753,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1753&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "BRB"
+      ],
+      "originalText": "{U}{U}: Target non-flying creature becomes tapped.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "ac6fd180e4b7c253023e8e6fab3039ee6948b2b6"
+    },
+    {
+      "name": "Ghost Ship",
+      "manaCost": "{2}{U}{U}",
+      "cmc": 4,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Creature — Spirit",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Spirit"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Flying\n{U}{U}{U}: Regenerate Ghost Ship.",
+      "flavor": "\"That phantom prow split the storm as lightning cast its long shadow on the battlefield below.\" —Mireille Gaetane, The Valeriad",
+      "artist": "Tom Wänerstrand",
+      "power": "2",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 1754,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1754&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "TSB"
+      ],
+      "originalText": "Flying, {U}{U}{U} Regenerates",
+      "originalType": "Summon — Ship",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a65eb72df185682f50bd873f29cec03bb5cc564c"
+    },
+    {
+      "name": "Giant Shark",
+      "manaCost": "{5}{U}",
+      "cmc": 6,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Creature — Fish",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Fish"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Giant Shark can't attack unless defending player controls an Island.\nWhenever Giant Shark blocks or becomes blocked by a creature that has been dealt damage this turn, Giant Shark gets +2/+0 and gains trample until end of turn.\nWhen you control no Islands, sacrifice Giant Shark.",
+      "artist": "Tom Wänerstrand",
+      "power": "4",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 1755,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1755&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Giant Shark only gains its bonus if the blocking creature was damaged before blocking was declared. Damaging the creature later will not give the Shark the bonus."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "The bonus happens when a previously damaged creature becomes a blocker and the bonus is not removed if that creature is removed from the blocking situation by any means."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If a creature enters a blocking situation with the Giant Shark due to being part of a banded group of attackers, the Shark will get the bonus if that creature is damaged at that time."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Giant Shark gets the bonus once for each creature it blocks or is blocked by that meets the criteria."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "If Giant Shark blocks or is blocked by a creature that has taken damage this turn, Giant Shark gains +2/+0 and trample until end of turn. Giant Shark cannot attack unless opponent controls at least one island. Giant Shark is buried immediately if at any time controller controls no islands.",
+      "originalType": "Summon — Shark",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a87c293a025dbac769e4bc49a267f8c52f51a332"
+    },
+    {
+      "name": "Leviathan",
+      "manaCost": "{5}{U}{U}{U}{U}",
+      "cmc": 9,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Creature — Leviathan",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Leviathan"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Trample\nLeviathan enters the battlefield tapped and doesn't untap during your untap step.\nAt the beginning of your upkeep, you may sacrifice two Islands. If you do, untap Leviathan.\nLeviathan can't attack unless you sacrifice two Islands. (This cost is paid as attackers are declared.)",
+      "artist": "Mark Tedin",
+      "power": "10",
+      "toughness": "10",
+      "layout": "normal",
+      "multiverseid": 1756,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1756&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "You don't have to pay the untap cost if it is untapped outside the upkeep phase or is untapped by an effect."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "BTD",
+        "TSB"
+      ],
+      "originalText": "Trample\nLeviathan comes into play tapped, and does not untap as normal during your untap phase.\nSacrifice two islands during your upkeep phase to untap Leviathan.\nLeviathan may not attack unless you sacrifice two islands during your attack.",
+      "originalType": "Summon — Leviathan",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "cb8f3e580c967bf4f9568aeeb532f3e86d01efab"
+    },
+    {
+      "name": "Mana Vortex",
+      "manaCost": "{1}{U}{U}",
+      "cmc": 3,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "When you cast Mana Vortex, counter it unless you sacrifice a land.\nAt the beginning of each player's upkeep, that player sacrifices a land.\nWhen there are no lands on the battlefield, sacrifice Mana Vortex.",
+      "artist": "Douglas Shuler",
+      "layout": "normal",
+      "multiverseid": 1757,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1757&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "When you cast Mana Vortex, its first ability triggers and goes on the stack on top of the Mana Vortex spell. The triggered ability resolves first. When it resolves, you either sacrifice a land or you counter Mana Vortex."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Mana Vortex's third ability is a \"state trigger.\" Once a state trigger triggers, it won't trigger again as long as the ability is on the stack. If the ability is countered and the trigger condition is still true, it will immediately trigger again."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "Each player who controls land sacrifices one land during his or her upkeep. If at any time there are no lands in play, Mana Vortex is destroyed. If you do not sacrifice a land when Mana Vortex is cast, Mana Vortex is countered.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "77ed98d2c84fbaab5f6ffd7b9381e9c9dafd6922"
+    },
+    {
+      "name": "Merfolk Assassin",
+      "manaCost": "{U}{U}",
+      "cmc": 2,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Creature — Merfolk Assassin",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Merfolk",
+        "Assassin"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Destroy target creature with islandwalk.",
+      "artist": "Dennis Detwiller",
+      "power": "1",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1758,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1758&type=card",
+      "rulings": [
+        {
+          "date": "2006-10-15",
+          "text": "Can target a creature with snow islandwalk."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "TSB"
+      ],
+      "originalText": "{T}: Destroy target creature that has islandwalk.",
+      "originalType": "Summon — Merfolk",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "e75d3077e545d784c060f87ee6694db272a3f180"
+    },
+    {
+      "name": "Mind Bomb",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Each player may discard up to three cards. Mind Bomb deals damage to each player equal to 3 minus the number of cards he or she discarded this way.",
+      "artist": "Mark Tedin",
+      "layout": "normal",
+      "multiverseid": 1759,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1759&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED"
+      ],
+      "originalText": "Mind Bomb does 3 damage to each player. All players may discard up to three cards of their choice from their hands. Each card a player discards in this manner prevents 1 damage to that player from Mind Bomb.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "ffb4a6b101675512321ec2b076491eaf0428d49d"
+    },
+    {
+      "name": "Psychic Allergy",
+      "manaCost": "{3}{U}{U}",
+      "cmc": 5,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "As Psychic Allergy enters the battlefield, choose a color.\nAt the beginning of each opponent's upkeep, Psychic Allergy deals X damage to that player, where X is the number of nontoken permanents of the chosen color he or she controls.\nAt the beginning of your upkeep, destroy Psychic Allergy unless you sacrifice two Islands.",
+      "artist": "Mark Tedin",
+      "layout": "normal",
+      "multiverseid": 1760,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1760&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Choose a color when casting Psychic Allergy. During opponent's upkeep, Psychic Allergy does 1 damage to opponent for each card of this color that he or she controls. Sacrifice two islands during your upkeep or Psychic Allergy is destroyed.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "e95541804eb9ce857d031160044cab324678abba"
+    },
+    {
+      "name": "Riptide",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Tap all blue creatures.",
+      "artist": "Randy Asplund-Faith",
+      "layout": "normal",
+      "multiverseid": 1761,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1761&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "All blue creatures become tapped.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d52b4fb2dfc2fe7b2f5e1ceda1e3cfebee39a5f9"
+    },
+    {
+      "name": "Sunken City",
+      "manaCost": "{U}{U}",
+      "cmc": 2,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "At the beginning of your upkeep, sacrifice Sunken City unless you pay {U}{U}.\nBlue creatures get +1/+1.",
+      "artist": "Jesper Myrfors",
+      "layout": "normal",
+      "multiverseid": 1762,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1762&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "MED"
+      ],
+      "originalText": "All blue creatures gain +1/+1.\nIf you do not pay {U}{U} during your upkeep, Sunken City is destroyed.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d44bb8627c6862fa638b8cd0d919bd6aac098fd5"
+    },
+    {
+      "name": "Tangle Kelp",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Enchant creature\nWhen Tangle Kelp enters the battlefield, tap enchanted creature.\nEnchanted creature doesn't untap during its controller's untap step if it attacked during its controller's last turn.",
+      "artist": "Rob Alexander",
+      "layout": "normal",
+      "multiverseid": 1763,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1763&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Target creature does not untap during its controller's untap phase if it attacked during its controller's last turn. Target creature becomes tapped when Tangle Kelp is cast.",
+      "originalType": "Enchant Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "b33b44f83ccb933e894f593ad5f770f3af688ab2"
+    },
+    {
+      "name": "Water Wurm",
+      "manaCost": "{U}",
+      "cmc": 1,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Creature — Wurm",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Wurm"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Water Wurm gets +0/+1 as long as an opponent controls an Island.",
+      "artist": "Ron Spencer",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1764,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1764&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Only gets the bonus once even if more than one opponent has an Island on the battlefield."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Water Wurm gains +0/+1 if opponent controls at least one island.",
+      "originalType": "Summon — Wurm",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "c7f20b96c057748d091ebd061fb745005ca9d6da"
+    },
+    {
+      "name": "Carnivorous Plant",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Plant Wall",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Plant",
+        "Wall"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Defender",
+      "flavor": "\"It had a mouth like that of a great beast, and gnashed its teeth as it strained to reach us. I am thankful it possessed no means of locomotion.\" —Vervamon the Elder",
+      "artist": "Quinton Hoover",
+      "power": "4",
+      "toughness": "5",
+      "layout": "normal",
+      "multiverseid": 1765,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1765&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "ATH",
+        "MED"
+      ],
+      "originalType": "Summon — Wall",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "43f1a40bcac2af56dc1a85012cff52e92ddb3a4e"
+    },
+    {
+      "name": "Elves of Deep Shadow",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G",
+        "B"
+      ],
+      "type": "Creature — Elf Druid",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Elf",
+        "Druid"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Add {B} to your mana pool. Elves of Deep Shadow deals 1 damage to you.",
+      "flavor": "\"They are aberrations who have turned on everything we hold sacred. Let them be cast out.\" —Ailheen, Speaker of the Council",
+      "artist": "Jesper Myrfors",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1766,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1766&type=card",
+      "printings": [
+        "DRK",
+        "pFNM",
+        "RAV",
+        "ME3",
+        "DDJ"
+      ],
+      "originalText": "{T}: Add {B} to your mana pool, and Elves of Deep Shadow do 1 damage to you. This ability is played as an interrupt.",
+      "originalType": "Summon — Elves",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Ravnica Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "43651306b46b9c778ea85a36fcec430f2746cad5"
+    },
+    {
+      "name": "Gaea's Touch",
+      "manaCost": "{G}{G}",
+      "cmc": 2,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{0}: You may put a basic Forest card from your hand onto the battlefield. Activate this ability only any time you could cast a sorcery and only once each turn.\nSacrifice Gaea's Touch: Add {G}{G} to your mana pool.",
+      "artist": "Mark Poole",
+      "layout": "normal",
+      "multiverseid": 1767,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1767&type=card",
+      "rulings": [
+        {
+          "date": "2014-02-01",
+          "text": "The land enters the battlefield directly from your hand, but it is not \"played\". This means it does not count towards the number of lands played this turn and doesn't trigger abilities that would trigger if the Forest had been played."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "You may put one additional land in play during each of your turns, but that land must be a basic forest. You may sacrifice Gaea's Touch to add {G}{G} to your mana pool. This ability is played as an interrupt.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "850f9fcdf0acfa0070bd9cf723478d7ab479b3c0"
+    },
+    {
+      "name": "Hidden Path",
+      "manaCost": "{2}{G}{G}{G}{G}",
+      "cmc": 6,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Green creatures have forestwalk. (They can't be blocked as long as defending player controls a Forest.)",
+      "flavor": "\"Where moments before we were lost beyond hope, the strange, floating lights showed us the way and restored our morale.\" —Vervamon the Elder",
+      "artist": "Rob Alexander",
+      "layout": "normal",
+      "multiverseid": 1768,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1768&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "All green creatures gain forestwalk.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d0fa241785ef27518c3eb42c7b4e95fe27f7cf38"
+    },
+    {
+      "name": "Land Leeches",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Leech",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Leech"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "First strike",
+      "flavor": "\"The standard cure for leeches requires the application of burning embers. Alternative methods must be devised should an ember of sufficient size prove more harmful than the leech.\" —Vervamon the Elder",
+      "artist": "Quinton Hoover",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1769,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1769&type=card",
+      "printings": [
+        "DRK",
+        "4ED"
+      ],
+      "originalText": "First strike",
+      "originalType": "Summon — Leeches",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "40d5516de087d87d39701febff5f9eb5125199d0"
+    },
+    {
+      "name": "Lurker",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Beast",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Beast"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Lurker can't be the target of spells unless it attacked or blocked this turn.",
+      "flavor": "\"Each night we felt it watching us from the darkness beyond our fire. We only had one pack horse left.\"\n—Maeveen O'Donagh, Memoirs of a Soldier",
+      "artist": "Anson Maddocks",
+      "power": "2",
+      "toughness": "3",
+      "layout": "normal",
+      "multiverseid": 1770,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1770&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Lurker may not be the target of any spell unless Lurker was declared as an attacker or blocker this turn.",
+      "originalType": "Summon — Lurker",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "e27b443dd55119ae4d7ff20d45608fbd0adbaf7f"
+    },
+    {
+      "name": "Marsh Viper",
+      "manaCost": "{3}{G}",
+      "cmc": 4,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Snake",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Snake"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Whenever Marsh Viper deals damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.)",
+      "flavor": "\"All we had left were their black and bloated bodies.\" —Maeveen O'Donagh, Memoirs of a Soldier",
+      "artist": "Ron Spencer",
+      "power": "1",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1771,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1771&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED"
+      ],
+      "originalText": "If Marsh Viper damages opponent, opponent gets two poison counters. If opponent ever has ten or more poison counters, opponent loses game.",
+      "originalType": "Summon — Viper",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "edfb50cd59f98cea93fffa21ab7a17b91f537695"
+    },
+    {
+      "name": "Niall Silvain",
+      "manaCost": "{G}{G}{G}",
+      "cmc": 3,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Ouphe",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Ouphe"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{G}{G}{G}{G}, {T}: Regenerate target creature.",
+      "flavor": "This is his domain, and while you remain here you must value all life as you value your own.",
+      "artist": "Christopher Rush",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1772,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1772&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{G}{G}{G}{G}, {T}: Target creature is regenerated.",
+      "originalType": "Summon — Niall Silvain",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "01e1257fc1b10b1902b75eb34a8a509cb6cb3710"
+    },
+    {
+      "name": "People of the Woods",
+      "manaCost": "{G}{G}",
+      "cmc": 2,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Human",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "People of the Woods's toughness is equal to the number of Forests you control.",
+      "flavor": "\"Their rain of arrows left only myself alive, cowering within a tree hollow. They did not even come out to loot the bodies.\" —Vervamon the Elder",
+      "artist": "Drew Tucker",
+      "power": "1",
+      "toughness": "*",
+      "layout": "normal",
+      "multiverseid": 1773,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1773&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "The * below represents the number of forests controlled by People of the Woods' controller.",
+      "originalType": "Summon — People of the Woods",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "eb10ac577775db5fe7c9b3979af5653aabae66fe"
+    },
+    {
+      "name": "Savaen Elves",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Elf",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Elf"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{G}{G}, {T}: Destroy target Aura attached to a land.",
+      "flavor": "\"Purity of magic can only come from purity of the land. How can a meal nourish if the ingredients are spoiled?\" —Sidaine of Savaen",
+      "artist": "Ron Spencer",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1774,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1774&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{G}{G}, {T}: Target enchant land is destroyed.",
+      "originalType": "Summon — Elves",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "789276626c5dfa01a02e1ca650c4837caf54ecc4"
+    },
+    {
+      "name": "Scarwood Bandits",
+      "manaCost": "{2}{G}{G}",
+      "cmc": 4,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Human Rogue",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Rogue"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Forestwalk (This creature can't be blocked as long as defending player controls a Forest.)\n{2}{G}, {T}: Unless an opponent pays {2}, gain control of target artifact for as long as Scarwood Bandits remains on the battlefield.",
+      "artist": "Mark Poole",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1775,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1775&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK",
+        "ME4"
+      ],
+      "originalText": "Forestwalk\n{2}{G}, {T}: Take control of target artifact. Opponent may counter this action by paying {2}. You lose control of target artifact if Scarwood Bandits leave play or at end of game.",
+      "originalType": "Summon — Bandits",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "6b5c8f3eb8b1b4784a77f31ddf7db2c203ce1a2e"
+    },
+    {
+      "name": "Scarwood Hag",
+      "manaCost": "{1}{G}",
+      "cmc": 2,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Hag",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Hag"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{G}{G}{G}{G}, {T}: Target creature gains forestwalk until end of turn. (It can't be blocked as long as defending player controls a Forest.)\n{T}: Target creature loses forestwalk until end of turn.",
+      "artist": "Anson Maddocks",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1776,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1776&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{G}{G}{G}{G}, {T}: Target creature gains forestwalk until end of turn.\n{T}: Target creature loses forestwalk until end of turn.",
+      "originalType": "Summon — Hag",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "95f8a3a5069cabd967bf9bea4f1fd72580cb41c8"
+    },
+    {
+      "name": "Scavenger Folk",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Human",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{G}, {T}, Sacrifice Scavenger Folk: Destroy target artifact.",
+      "flavor": "String, weapons, wax, or jewels—it makes no difference. Leave nothing unguarded in Scarwood.",
+      "artist": "Dennis Detwiller",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1777,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1777&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "5ED",
+        "ATH",
+        "7ED",
+        "ME4"
+      ],
+      "originalText": "{G}, {T}: Sacrifice Scavenger Folk to destroy target artifact.",
+      "originalType": "Summon — Scavenger Folk",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "2eca330350b4ed9ce28f134f81fd5fd508bf57cb"
+    },
+    {
+      "name": "Spitting Slug",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Slug",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Slug"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Whenever Spitting Slug blocks or becomes blocked, you may pay {1}{G}. If you do, Spitting Slug gains first strike until end of turn. Otherwise, each creature blocking or blocked by Spitting Slug gains first strike until end of turn.",
+      "artist": "Anson Maddocks",
+      "power": "2",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 1778,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1778&type=card",
+      "printings": [
+        "DRK",
+        "TSB"
+      ],
+      "originalText": "{1}{G}: Spitting Slug gains first strike until end of turn. If this ability is not activated, all creatures blocking or blocked by Spitting Slug gain first strike until end of turn.",
+      "originalType": "Summon — Slug",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "f428438edd1ac3a0de7333b80e292f87307a0f18"
+    },
+    {
+      "name": "Tracker",
+      "manaCost": "{2}{G}",
+      "cmc": 3,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Human",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{G}{G}, {T}: Tracker deals damage equal to its power to target creature. That creature deals damage equal to its power to Tracker.",
+      "artist": "Jeff A. Menges",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1779,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1779&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Giving either creature first strike does not affect the ability."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If this leaves the battlefield before its activated ability resolves, it will still deal damage to the targeted creature. On the other hand, if the targeted creature leaves the battlefield before the ability resolves, the ability will be countered and no damage will be dealt."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "You may have Tracker target itself with its own ability. If you do, Tracker will deal damage to itself equal to its power, then immediately do it again."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "{G}{G}, {T}: Tracker does an amount of damage equal to its power to target creature. Target creature does an amount of damage equal to its power to Tracker.",
+      "originalType": "Summon — Tracker",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "2c771332fdfb41146049fd6f80cfc4b28a89a0df"
+    },
+    {
+      "name": "Venom",
+      "manaCost": "{1}{G}{G}",
+      "cmc": 3,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Enchant creature\nWhenever enchanted creature blocks or becomes blocked by a non-Wall creature, destroy the other creature at end of combat.",
+      "flavor": "\"I told him it was just a flesh wound, a wee scratch, but the next time I looked at him, poor Tadhg was dead and gone.\" —Maeveen O'Donagh, Memoirs of a Soldier",
+      "artist": "Tom Wänerstrand",
+      "layout": "normal",
+      "multiverseid": 1780,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1780&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If this Aura is moved onto a creature after blockers are declared, creatures blocking the newly-enchanted creature are not affected. This is because the ability triggers at the time blocking occurs."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED"
+      ],
+      "originalText": "All non-wall creatures target creature blocks or is blocked by are destroyed at the end of combat.",
+      "originalType": "Enchant Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "76e8a11e187776f4f87ee83c3c0b4cfbbf5f4120"
+    },
+    {
+      "name": "Whippoorwill",
+      "manaCost": "{G}",
+      "cmc": 1,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G"
+      ],
+      "type": "Creature — Bird",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Bird"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{G}{G}, {T}: Target creature can't be regenerated this turn. Damage that would be dealt to that creature this turn can't be prevented or dealt instead to another creature or player. When the creature dies this turn, exile the creature.",
+      "flavor": "If the Whippoorwill remains silent, the soul has not reached its reward.",
+      "artist": "Douglas Shuler",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1781,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1781&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{G}{G}, {T}: Until end of turn, target creature may not regenerate and damage done to target creature may not be prevented or redirected. If target creature goes to the graveyard, remove it from game.",
+      "originalType": "Summon — Whippoorwill",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "871d2c55f9559629b3d231bff3a33d17d4ac1d1a"
+    },
+    {
+      "name": "Wormwood Treefolk",
+      "manaCost": "{3}{G}{G}",
+      "cmc": 5,
+      "colors": [
+        "Green"
+      ],
+      "colorIdentity": [
+        "G",
+        "B"
+      ],
+      "type": "Creature — Treefolk",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Treefolk"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{G}{G}: Wormwood Treefolk gains forestwalk until end of turn and deals 2 damage to you. (It can't be blocked as long as defending player controls a Forest.)\n{B}{B}: Wormwood Treefolk gains swampwalk until end of turn and deals 2 damage to you. (It can't be blocked as long as defending player controls a Swamp.)",
+      "artist": "Jesper Myrfors",
+      "power": "4",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 1782,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1782&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "Causing Wormwood Treefolk to gain forestwalk or swampwalk is useful only during the declare attackers step or earlier. Once it becomes blocked, giving it a landwalk ability won't change that."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "{G}{G}: Wormwood Treefolk gains forestwalk until end of turn and does 2 damage to you.\n{B}{B}: Wormwood Treefolk gains swampwalk until end of turn and does 2 damage to you.",
+      "originalType": "Summon — Treefolk",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "bf17868794c04f7a5b2d5de383a99222ccfa1975"
+    },
+    {
+      "name": "Ball Lightning",
+      "manaCost": "{R}{R}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Elemental",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Elemental"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Trample (This creature can deal excess combat damage to defending player or planeswalker while attacking.)\nHaste (This creature can attack and {T} as soon as it comes under your control.)\nAt the beginning of the end step, sacrifice Ball Lightning.",
+      "artist": "Quinton Hoover",
+      "power": "6",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1783,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1783&type=card",
+      "rulings": [
+        {
+          "date": "2007-02-01",
+          "text": "The creature is sacrificed at the end of every turn in which it is on the battlefield. There is no choice about what turn to sacrifice it."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "pJGP",
+        "BTD",
+        "MED",
+        "M10",
+        "PD2"
+      ],
+      "originalText": "Trample\nBall Lightning may attack on the turn during which it is summoned. Ball Lightning is buried at the end of the turn during which it is summoned.",
+      "originalType": "Summon — Ball Lightning",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d7e1cba15888f4a6e82081a4c14123136fb9eb85"
+    },
+    {
+      "name": "Blood Moon",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Nonbasic lands are Mountains.",
+      "flavor": "Heavy light flooded across the landscape, cloaking everything in deep crimson.",
+      "artist": "Tom Wänerstrand",
+      "layout": "normal",
+      "multiverseid": 1784,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1784&type=card",
+      "rulings": [
+        {
+          "date": "2017-03-14",
+          "text": "Nonbasic lands will lose any other land types and abilities they had. They will gain the land type Mountain and gain the ability \"{T}: Add {R} to your mana pool.\""
+        },
+        {
+          "date": "2017-03-14",
+          "text": "Blood Moon's effect doesn't affect names or supertypes. It won't turn any land into a basic land or remove the legendary supertype from a legendary land, and the lands won't be named \"Mountain.\""
+        },
+        {
+          "date": "2017-03-14",
+          "text": "If a nonbasic land has an ability that triggers \"when\" it enters the battlefield, it will lose that ability before it triggers."
+        },
+        {
+          "date": "2017-09-29",
+          "text": "If a nonbasic land has an ability that causes it to enter the battlefield tapped, it lose will that ability before it applies. The same is also true of any other abilities that modify how a land enters the battlefield or apply \"as\" a land enters the battlefield, such as the first ability of Cavern of Souls. This is a change from previous rulings."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "8ED",
+        "9ED",
+        "MMA",
+        "MM3",
+        "MPS_AKH"
+      ],
+      "originalText": "All non-basic lands are now basic mountains.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "444602a0dd7985d21feafd7518459ff4ac35b6b3"
+    },
+    {
+      "name": "Brothers of Fire",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Human Shaman",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Shaman"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{1}{R}{R}: Brothers of Fire deals 1 damage to target creature or player and 1 damage to you.",
+      "flavor": "Fire is never a gentle master.",
+      "artist": "Mark Tedin",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1785,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1785&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "MED"
+      ],
+      "originalText": "{1}{R}{R}: Brothers of Fire do 1 damage to any target and 1 damage to you.",
+      "originalType": "Summon — Brothers",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "963e6d06704ca1bc67a487991c6903ee42577530"
+    },
+    {
+      "name": "Cave People",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Human",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Whenever Cave People attacks, it gets +1/-2 until end of turn.\n{1}{R}{R}, {T}: Target creature gains mountainwalk until end of turn. (It can't be blocked as long as defending player controls a Mountain.)",
+      "artist": "Drew Tucker",
+      "power": "1",
+      "toughness": "4",
+      "layout": "normal",
+      "multiverseid": 1786,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1786&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED"
+      ],
+      "originalText": "If declared as an attacker, Cave People get +1/-2 until end of turn.\n{1}{R}{R}, {T}: Target creature gains mountainwalk until end of turn.",
+      "originalType": "Summon — Cave People",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "c3781cab411a521d81f88a9e87c21bc30811af13"
+    },
+    {
+      "name": "Eternal Flame",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Eternal Flame deals X damage to target opponent, where X is the number of Mountains you control. It deals half X damage, rounded up, to you.",
+      "artist": "Mark Poole",
+      "layout": "normal",
+      "multiverseid": 1787,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1787&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Eternal Flame does an amount of damage to your opponent equal to the number of mountains you control, but it also does half that amount of damage to you, rounding up.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "2d570c66573c639e66b46296b33b05a1a6e34ea9"
+    },
+    {
+      "name": "Fire Drake",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Drake",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Drake"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Flying\n{R}: Fire Drake gets +1/+0 until end of turn. Activate this ability only once each turn.",
+      "artist": "Christopher Rush",
+      "power": "1",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1788,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1788&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "5ED",
+        "ME3"
+      ],
+      "originalText": "Flying\n{R}: +1/+0 until end of turn. No more than {R} may be spent in this way each turn.",
+      "originalType": "Summon — Drake",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "6e2497dc36baeca12dc4f9e11dc531e94de3edb9"
+    },
+    {
+      "name": "Fissure",
+      "manaCost": "{3}{R}{R}",
+      "cmc": 5,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Destroy target creature or land. It can't be regenerated.",
+      "flavor": "\"Must not all things at the last be swallowed up in death?\" —Plato",
+      "artist": "Douglas Shuler",
+      "layout": "normal",
+      "multiverseid": 1789,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1789&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "MED"
+      ],
+      "originalText": "Target land or creature is buried.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "15f6df06b9a646796fbb99d6558bdd688c4a60c6"
+    },
+    {
+      "name": "Goblin Caves",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Enchant land\nAs long as enchanted land is a basic Mountain, Goblin creatures get +0/+2.",
+      "flavor": "The stench of countless generations of unspeakable activities was enough to loosen both our footing and our stomachs.",
+      "artist": "Drew Tucker",
+      "layout": "normal",
+      "multiverseid": 1790,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1790&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Works even if placed on one of your opponent's Mountains."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Works if enchanting a Snow-Covered Mountain."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME4"
+      ],
+      "originalText": "If target land is a basic mountain, all Goblins gain +0/+2.",
+      "originalType": "Enchant Land",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "aafd369139ba31d62e855303d5051bc0e890dae0"
+    },
+    {
+      "name": "Goblin Digging Team",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}, Sacrifice Goblin Digging Team: Destroy target Wall.",
+      "flavor": "\"From down here we can make the whole wall collapse!\" \"Uh, yeah, boss, but how do we get out?\"",
+      "artist": "Ron Spencer",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1791,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1791&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "5ED",
+        "ATH",
+        "6ED",
+        "7ED"
+      ],
+      "originalText": "{T}: Sacrifice Goblin Digging Team to destroy target wall.",
+      "originalType": "Summon — Goblins",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "63e56b1482486d4295874ec37928c8de0fb03655"
+    },
+    {
+      "name": "Goblin Hero",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "flavor": "They attacked in an orgy of rage and madness, but only one seemed as focused on killing us as on the sheer joy of battle.",
+      "artist": "Mark Tedin",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1792,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1792&type=card",
+      "printings": [
+        "DRK",
+        "5ED",
+        "ATH",
+        "6ED",
+        "S99",
+        "S00"
+      ],
+      "originalType": "Summon — Goblin",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "73c5d3900d11c5998d07ccff88a5a1ec664ccf53"
+    },
+    {
+      "name": "Goblin Rock Sled",
+      "manaCost": "{1}{R}",
+      "cmc": 2,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Trample\nGoblin Rock Sled doesn't untap during your untap step if it attacked during your last turn.\nGoblin Rock Sled can't attack unless defending player controls a Mountain.",
+      "artist": "Dennis Detwiller",
+      "power": "3",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1793,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1793&type=card",
+      "printings": [
+        "DRK",
+        "4ED"
+      ],
+      "originalText": "Trample\nRock Sled may not attack unless opponent controls at least one mountain. Rock Sled does not untap as normal during your untap phase if it attacked during your last turn.",
+      "originalType": "Summon — Rock Sled",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "7e68b48169ea8318e986cef3b391a7c8595ac66f"
+    },
+    {
+      "name": "Goblin Shrine",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Enchant land\nAs long as enchanted land is a basic Mountain, Goblin creatures get +1/+0.\nWhen Goblin Shrine leaves the battlefield, it deals 1 damage to each Goblin creature.",
+      "flavor": "\"I knew it weren't no ordinary pile of—you know.\" —Norin the Wary",
+      "artist": "Ron Spencer",
+      "layout": "normal",
+      "multiverseid": 1794,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1794&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Works even if placed on one of your opponent's Mountains."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "ME4"
+      ],
+      "originalText": "If target land is a basic mountain, all Goblins gain +1/0. Goblin Shrine does 1 damage to all Goblins if it leaves play.",
+      "originalType": "Enchant Land",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "5fd07a7e7b046ef1fc515a4bc4cdc269ee149367"
+    },
+    {
+      "name": "Goblin Wizard",
+      "manaCost": "{2}{R}{R}",
+      "cmc": 4,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Goblin Wizard",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin",
+        "Wizard"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: You may put a Goblin permanent card from your hand onto the battlefield.\n{R}: Target Goblin gains protection from white until end of turn.",
+      "artist": "Daniel Gelon",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1795,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1795&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2007-05-01",
+          "text": "Putting the card onto the battlefield is optional. When the ability resolves, you can choose not to."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "{T}: Take a Goblin from your hand and put it directly into play. Treat this goblin as if it were just summoned.\n{R}: Target Goblin gains protection from white until end of turn.",
+      "originalType": "Summon — Goblin",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "1c42794e342f6b57b5321280adf9f0552e39945f"
+    },
+    {
+      "name": "Goblins of the Flarg",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Goblin Warrior",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin",
+        "Warrior"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Mountainwalk (This creature can't be blocked as long as defending player controls a Mountain.)\nWhen you control a Dwarf, sacrifice Goblins of the Flarg.",
+      "artist": "Tom Wänerstrand",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1796,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1796&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "MED"
+      ],
+      "originalText": "Mountainwalk\nGoblins of the Flarg are buried if controller controls any Dwarves.",
+      "originalType": "Summon — Goblins",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "2a9f8deece489f36276be6bb2a6ad1f89c0faaf5"
+    },
+    {
+      "name": "Inferno",
+      "manaCost": "{5}{R}{R}",
+      "cmc": 7,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Inferno deals 6 damage to each creature and each player.",
+      "flavor": "\"Any scrap of compassion that still existed in my soul was permanently snuffed out when they cast me out into the flames.\" —Mairsil, called the Pretender",
+      "artist": "Randy Asplund-Faith",
+      "layout": "normal",
+      "multiverseid": 1797,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1797&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "6ED",
+        "7ED",
+        "8ED"
+      ],
+      "originalText": "Inferno does 6 damage to all players and all creatures.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "980338365e655f9a571a27719138c01344f80576"
+    },
+    {
+      "name": "Mana Clash",
+      "manaCost": "{R}",
+      "cmc": 1,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "You and target opponent each flip a coin. Mana Clash deals 1 damage to each player whose coin comes up tails. Repeat this process until both players' coins come up heads on the same flip.",
+      "artist": "Mark Tedin",
+      "layout": "normal",
+      "multiverseid": 1798,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1798&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Always affects the player and targets one of his or her opponents."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Each point of damage is dealt separately, so if you are damaged twice by this spell, each time is considered a separate time this source deals damage."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "This card's coin flip has no winner or loser."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "7ED",
+        "8ED",
+        "9ED"
+      ],
+      "originalText": "You and target player each flip a coin. Mana Clash does 1 damage to any player whose coin comes up tails. Repeat this process until both players' coins come up heads at the same time.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "33c08837518e10837c89cee244472ea1cee3eb71"
+    },
+    {
+      "name": "Orc General",
+      "manaCost": "{2}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Orc Warrior",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Orc",
+        "Warrior"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}, Sacrifice another Orc or Goblin: Other Orc creatures get +1/+1 until end of turn.",
+      "flavor": "\"Your army must fear you more than the enemy. Only then will you triumph.\" —Malga Phlegmtooth",
+      "artist": "Jesper Myrfors",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1799,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1799&type=card",
+      "printings": [
+        "DRK",
+        "ME2"
+      ],
+      "originalText": "{T}: Sacrifice one Orc or Goblin to give all Orcs +1/+1 until end of turn.",
+      "originalType": "Summon — General",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "3a35faf578416c506b202f32cdeb3d23dc0e4d83"
+    },
+    {
+      "name": "Sisters of the Flame",
+      "manaCost": "{1}{R}{R}",
+      "cmc": 3,
+      "colors": [
+        "Red"
+      ],
+      "colorIdentity": [
+        "R"
+      ],
+      "type": "Creature — Human Shaman",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Shaman"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Add {R} to your mana pool.",
+      "flavor": "We are many wicks sharing a common tallow; we feed the skies with the ashes of our prey.",
+      "artist": "Jesper Myrfors",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1800,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1800&type=card",
+      "printings": [
+        "DRK",
+        "4ED"
+      ],
+      "originalText": "{T}: Add {R} to your mana pool. This ability is played as an interrupt.",
+      "originalType": "Summon — Sisters",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "da71f1f885c74fecc42cf9aefb79511cc77b64f3"
+    },
+    {
+      "name": "Angry Mob",
+      "manaCost": "{2}{W}{W}",
+      "cmc": 4,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Trample\nAs long as it's your turn, Angry Mob's power and toughness are each equal to 2 plus the number of Swamps your opponents control. As long as it's not your turn, Angry Mob's power and toughness are each 2.",
+      "artist": "Drew Tucker",
+      "power": "2+*",
+      "toughness": "2+*",
+      "layout": "normal",
+      "multiverseid": 1801,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1801&type=card",
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED",
+        "MED"
+      ],
+      "originalText": "Trample\nDuring your turn, the *s below are both equal to the total number of swamps all opponents control. During any other player's turn, * equals 0.",
+      "originalType": "Summon — Mob",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "714c4346402c62c6a29769c8e822f12924cb0700"
+    },
+    {
+      "name": "Blood of the Martyr",
+      "manaCost": "{W}{W}{W}",
+      "cmc": 3,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Until end of turn, if damage would be dealt to any creature, you may have that damage dealt to you instead.",
+      "flavor": "The willow knows what the storm does not: that the power to endure harm outlives the power to inflict it.",
+      "artist": "Christopher Rush",
+      "layout": "normal",
+      "multiverseid": 1802,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1802&type=card",
+      "printings": [
+        "DRK",
+        "CHR"
+      ],
+      "originalText": "For the remainder of the turn, you may redirect damage done to any number of creatures to yourself instead.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "89466cbd87ec6c23e2c4fe6e0d653c72f870d27a"
+    },
+    {
+      "name": "Brainwash",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Enchantment — Aura",
+      "types": [
+        "Enchantment"
+      ],
+      "subtypes": [
+        "Aura"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Enchant creature\nEnchanted creature can't attack unless its controller pays {3}.",
+      "flavor": "\"They're not your friends; they despise you. I'm the only one you can count on. Trust me.\"",
+      "artist": "Pete Venters",
+      "layout": "normal",
+      "multiverseid": 1803,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1803&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "This ability is paid for during the declare attackers step of the combat phase."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If there are multiple combat phases during the turn, the attack cost must be paid each time if you want to attack with the creature."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Paying this cost is not an instant or any other kind of ability, it is an additional cost on the declaration of the attacker."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED"
+      ],
+      "originalText": "Target creature may not attack unless its controller pays {3} in addition to any other costs required for the creature to attack.",
+      "originalType": "Enchant Creature",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "72d59db47d0d1e59bbd2c64e7f68fffd68ba81ea"
+    },
+    {
+      "name": "Cleansing",
+      "manaCost": "{W}{W}{W}",
+      "cmc": 3,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "For each land, destroy that land unless any player pays 1 life.",
+      "artist": "Pete Venters",
+      "layout": "normal",
+      "multiverseid": 1804,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1804&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "All land is destroyed. Players may prevent Cleansing from destroying specific lands by paying 1 life for each land they wish to protect. Effects that prevent or redirect damage may not be used to counter this loss of life.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "4c989d310d7eb953d692ccb4fc0b1fe2ff3738e7"
+    },
+    {
+      "name": "Dust to Dust",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Exile two target artifacts.",
+      "flavor": "Tervish never noticed that the amulet had vanished. It had disappeared not only from his possession, but from his memory as well.",
+      "artist": "Drew Tucker",
+      "layout": "normal",
+      "multiverseid": 1805,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1805&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "If one target is removed or becomes invalid after declaration, the other target is still affected."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "5ED",
+        "MED",
+        "ME4"
+      ],
+      "originalText": "Removes two target artifacts from the game.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "e5939383483aaf6d0b41d2288fd627facf54f9af"
+    },
+    {
+      "name": "Exorcist",
+      "manaCost": "{W}{W}",
+      "cmc": 2,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{1}{W}, {T}: Destroy target black creature.",
+      "flavor": "Though they often bore little greater charm than the demons they battled, exorcists were always welcome in Scarwood.",
+      "artist": "Drew Tucker",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1806,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1806&type=card",
+      "reserved": true,
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "{1}{W}, {T}: Target black creature is destroyed.",
+      "originalType": "Summon — Exorcist",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "bd55a5602b7b3f7caad9fa9fc099e4ef0543b33d"
+    },
+    {
+      "name": "Fasting",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "At the beginning of your upkeep, put a hunger counter on Fasting. Then destroy Fasting if it has five or more hunger counters on it.\nIf you would begin your draw step, you may skip that step instead. If you do, you gain 2 life.\nWhen you draw a card, destroy Fasting.",
+      "artist": "Douglas Shuler",
+      "layout": "normal",
+      "multiverseid": 1807,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1807&type=card",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "When you resolve the beginning-of-upkeep triggered ability, you first put a hunger counter on Fasting, then you check how many hunger counters it has. If there are five or more, Fasting is destroyed."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "You choose whether or not to skip your draw step as that step begins. This ability is now separate from the beginning-of-upkeep triggered ability."
+        }
+      ],
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "You may choose to skip your draw phase; if you do so, you gain 2 life. If you draw a card for any reason, Fasting is destroyed. During your upkeep, put a hunger counter on Fasting. When Fasting has five hunger counters on it, it is destroyed.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "884d48fdbbebf1ae83fb4ccb42b7dd65e5057ab1"
+    }
+  ]
+}

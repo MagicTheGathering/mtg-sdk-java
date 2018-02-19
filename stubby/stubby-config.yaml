@@ -54,6 +54,33 @@
     file: json/cards/926234c2fe8863f49220a878346c4c5ca79b6046.json
 
 - request:
+    url: ^/cards?set=DRK$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/DRKpage1.json
+
+- request:
+    url: ^/cards?set=DRK&page=1$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/DRKpage1.json
+
+- request:
+    url: ^/cards?set=DRK&page=2$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/DRKpage2.json
+
+- request:
     url: ^/cards/-1/?$
     method: GET
   response:
@@ -116,7 +143,16 @@
     headers:
       Content-Type: application/json
     file: json/sets/LEB.json
-    
+
+- request:
+    url: ^/sets/DRK/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/sets/DRK.json
+
 - request:
     url: ^/sets/666/?$
     method: GET

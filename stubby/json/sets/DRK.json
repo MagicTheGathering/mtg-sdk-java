@@ -1,0 +1,23 @@
+{
+  "set": {
+    "code": "DRK",
+    "name": "The Dark",
+    "type": "expansion",
+    "border": "black",
+    "mkm_id": 8,
+    "booster": [
+      "uncommon",
+      "uncommon",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common",
+      "common"
+    ],
+    "mkm_name": "The Dark",
+    "releaseDate": "1994-08-08",
+    "gathererCode": "DK",
+    "magicCardsInfoCode": "dk"
+  }
+}

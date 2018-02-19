@@ -145,14 +145,14 @@ public abstract class MTGAPI {
 	 */
 	protected static <TYPE> List<TYPE> getList(String path, String key,
 			Class<TYPE> expectedClass, List<String> filters) {
-		String tempPath = path;
-		tempPath += "?";
+		StringBuilder tempPath = new StringBuilder(path);
+		tempPath.append("?");
 
 		for (String filter :
 				filters) {
-			tempPath += "&" + filter;
+			tempPath.append("&").append(filter);
 		}
 
-		return getList(tempPath, key, expectedClass);
+		return getList(tempPath.toString(), key, expectedClass);
 	}
 }

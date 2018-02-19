@@ -3,6 +3,8 @@ package io.magicthegathering.javasdk.api;
 import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.MtgSet;
 
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -19,7 +21,11 @@ public class SetAPI extends MTGAPI {
 	 */
 	public static MtgSet getSet(String setCode) {
 		String path = String.format("%s/%s/", RESOURCE_PATH, setCode);
-		return get(path, "set", MtgSet.class);
+		MtgSet returnSet = get(path, "set", MtgSet.class);
+		if(returnSet != null) {
+			returnSet.setCards(CardAPI.getAllCards(new LinkedList<>(Arrays.asList("set=" + setCode))));
+		}
+		return returnSet;
 	}
 
 	/**

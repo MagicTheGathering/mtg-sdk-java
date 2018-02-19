@@ -10,6 +10,7 @@ import io.magicthegathering.javasdk.resource.MtgSet;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
@@ -50,5 +51,20 @@ public class SetAPITest extends MTGAPITest {
 		MtgSet alpha = SetAPI.getSet("LEA");
 
 		assertTrue(SetAPI.getAllSets(filter).contains(alpha));
+	}
+
+	@Test
+	public void testSetGetCards() {
+		MtgSet testSet;
+		testSet = SetAPI.getSet("DRK");
+
+		assertNotNull(testSet.getCards());
+
+		Card testCard = new Card();
+		testCard.setMultiverseid(94);
+		testCard.setName("Air Elemental");
+		testCard.setManaCost("{3}{U}{U}");
+
+		assertTrue(testSet.getCards().contains(testCard));
 	}
 }

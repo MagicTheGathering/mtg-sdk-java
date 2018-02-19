@@ -1,0 +1,1054 @@
+{
+  "cards": [
+    {
+      "name": "Festival",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Cast Festival only during an opponent's upkeep.\nCreatures can't attack this turn.",
+      "flavor": "Only after the townsfolk had drawn us into their merry celebration did we discover that their holiday rituals held a deeper purpose.",
+      "artist": "Mark Poole",
+      "layout": "normal",
+      "multiverseid": 1808,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1808&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Opponent may not declare an attack this turn. Play during opponent's upkeep phase.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "388c616b787db1b1df20d6cc9f64fcad7033b354"
+    },
+    {
+      "name": "Fire and Brimstone",
+      "manaCost": "{3}{W}{W}",
+      "cmc": 5,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Fire and Brimstone deals 4 damage to target player who declared an attacking creature this turn and 4 damage to you.",
+      "artist": "Jeff A. Menges",
+      "layout": "normal",
+      "multiverseid": 1809,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1809&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Fire and Brimstone does 4 damage to target player and 4 damage to you. Can only be used during a turn in which target player has declared an attack.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "62dffa0a469fcbf6d70187bdd3a59101d2105e53"
+    },
+    {
+      "name": "Holy Light",
+      "manaCost": "{2}{W}",
+      "cmc": 3,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Nonwhite creatures get -1/-1 until end of turn.",
+      "flavor": "\"Bathed in hallowed light, the infidels looked upon the impurities of their souls and despaired.\" —The Book of Tal",
+      "artist": "Drew Tucker",
+      "layout": "normal",
+      "multiverseid": 1810,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1810&type=card",
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "All non-white creatures get -1/-1 until end of turn.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "a2e1173a2a34131e41ce8029beb43841724610cc"
+    },
+    {
+      "name": "Knights of Thorn",
+      "manaCost": "{3}{W}",
+      "cmc": 4,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Knight",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Knight"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Protection from red; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
+      "flavor": "\"With a great cry, the Goblin host broke and ran as the first wave of Knights penetrated its ranks.\" —Tivadar of Thorn, History of the Goblin Wars",
+      "artist": "Christopher Rush",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1811,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1811&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a \"band.\" The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "Creatures in the same band must all attack the same player or planeswalker."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it. That player can ignore the damage assignment order when making this assignment."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "Protection from red, banding",
+      "originalType": "Summon — Knights",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "437d948076044881153945e80dad1dc8314b202b"
+    },
+    {
+      "name": "Martyr's Cry",
+      "manaCost": "{W}{W}",
+      "cmc": 2,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Exile all white creatures. For each creature exiled this way, its controller draws a card.",
+      "flavor": "\"It is only fitting that one such as I should die in pursuit of knowledge.\" —Vervamon the Elder",
+      "artist": "Jeff A. Menges",
+      "layout": "normal",
+      "multiverseid": 1812,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1812&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "Only affects creatures on the battlefield, not ones in hands or graveyards."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME4"
+      ],
+      "originalText": "All white creatures are removed from the game. Players must draw one card for each white creature they control that is lost in this manner.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "74078638831d1db013f61ffb72febc1050bae2bd"
+    },
+    {
+      "name": "Miracle Worker",
+      "manaCost": "{W}",
+      "cmc": 1,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Destroy target Aura attached to a creature you control.",
+      "flavor": "\"Those blessed hands could bring surcease to even the most tainted soul.\" —Sister Betje, Miracles of the Saints",
+      "artist": "Ron Spencer",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1813,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1813&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "{T}: Destroy target enchantment card on a creature you control.",
+      "originalType": "Summon — Miracle Worker",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "8c0fe28f15cf6e452ceb8a8b4aa0c01d235cbae0"
+    },
+    {
+      "name": "Morale",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Attacking creatures get +1/+1 until end of turn.",
+      "flavor": "\"After Lacjsi's speech, the Knights grew determined to crush their ancient enemies clan by clan.\" —Tivadar of Thorn, History of the Goblin Wars",
+      "artist": "Mark Poole",
+      "layout": "normal",
+      "multiverseid": 1814,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1814&type=card",
+      "printings": [
+        "DRK",
+        "4ED"
+      ],
+      "originalText": "All attacking creatures gain +1/+1 until end of turn.",
+      "originalType": "Instant",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "0319d17865def6893094955bb41c083a2c8e590c"
+    },
+    {
+      "name": "Pikemen",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "First strike; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
+      "flavor": "\"As the cavalry bore down, we faced them with swords drawn and pikes hidden in the grass at our feet. 'Don't lift your pikes 'til I give the word,' I said.\" —Maeveen O'Donagh, Memoirs of a Soldier",
+      "artist": "Dennis Detwiller",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1815,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1815&type=card",
+      "rulings": [
+        {
+          "date": "2008-10-01",
+          "text": "If a creature with banding attacks, it can team up with any number of other attacking creatures with banding (and up to one nonbanding creature) and attack as a unit called a \"band.\" The band can be blocked by any creature that could block a single creature in the band. Blocking any creature in a band blocks the entire band. If a creature with banding is blocked, the attacking player chooses how the blockers' damage is assigned."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "A maximum of one nonbanding creature can join an attacking band no matter how many creatures with banding are in it."
+        },
+        {
+          "date": "2008-10-01",
+          "text": "Creatures in the same band must all attack the same player or planeswalker."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "If a creature in combat has banding, its controller assigns damage for creatures blocking or blocked by it. That player can ignore the damage assignment order when making this assignment."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "4ED",
+        "5ED"
+      ],
+      "originalText": "Banding, first strike",
+      "originalType": "Summon — Pikemen",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "3aae00072a81589de279963e7c7def30ed1e0085"
+    },
+    {
+      "name": "Preacher",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "You may choose not to untap Preacher during your untap step.\n{T}: For as long as Preacher remains tapped, gain control of target creature of an opponent's choice he or she controls.",
+      "artist": "Quinton Hoover",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1816,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1816&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The target of the ability is a creature the chosen opponent controls. As the ability resolves, if the target isn't a creature controlled by the chosen opponent, the ability will be countered. If the ability's target is changed somehow, the new target must be a creature controlled by the chosen opponent."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "Whether Preacher is tapped is checked continually, starting when the ability is activated. If, before the ability resolves, there's any point at which Preacher is untapped, the ability has no effect — even if Preacher is tapped again by the time the ability resolves."
+        },
+        {
+          "date": "2007-09-16",
+          "text": "When you activate the ability, you choose an opponent, then that opponent chooses the target."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "{T}: Gain control of one of opponent's creatures. Opponent chooses which target creature you control. If Preacher becomes untapped, you lose control of this creature; you may choose not to untap Preacher as normal during your untap phase. You also lose control of the creature if Preacher leaves play or at end of game.",
+      "originalType": "Summon — Preacher",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "3764452e83809ac49340c57fcda8a0a1db8718ff"
+    },
+    {
+      "name": "Squire",
+      "manaCost": "{1}{W}",
+      "cmc": 2,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Soldier",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Soldier"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "flavor": "\"Of twenty yeer of age he was, I gesse. Of his stature he was of even lengthe. And wonderly deliver, and greete of strengthe.\" —Geoffrey Chaucer, The Canterbury Tales",
+      "artist": "Dennis Detwiller",
+      "power": "1",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1817,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1817&type=card",
+      "printings": [
+        "DRK",
+        "TSB"
+      ],
+      "originalType": "Summon — Squire",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "84bb772acb41c274dea3419fbac3e4ff66d67dd0"
+    },
+    {
+      "name": "Tivadar's Crusade",
+      "manaCost": "{1}{W}{W}",
+      "cmc": 3,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Destroy all Goblins.",
+      "artist": "Dennis Detwiller",
+      "layout": "normal",
+      "multiverseid": 1818,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1818&type=card",
+      "printings": [
+        "DRK",
+        "MED"
+      ],
+      "originalText": "All Goblins are destroyed.",
+      "originalType": "Sorcery",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "590343aada75b2a5108bdd166755005034c94a67"
+    },
+    {
+      "name": "Witch Hunter",
+      "manaCost": "{2}{W}{W}",
+      "cmc": 4,
+      "colors": [
+        "White"
+      ],
+      "colorIdentity": [
+        "W"
+      ],
+      "type": "Creature — Human Cleric",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Human",
+        "Cleric"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Witch Hunter deals 1 damage to target player.\n{1}{W}{W}, {T}: Return target creature an opponent controls to its owner's hand.",
+      "artist": "Jesper Myrfors",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1819,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1819&type=card",
+      "printings": [
+        "DRK",
+        "CHR",
+        "TSB"
+      ],
+      "originalText": "{T}: Witch Hunter does 1 damage to target player.\n{1}{W}{W}, {T}: Return target creature opponent controls from play to owner's hand. Enchantments on target creature are destroyed.",
+      "originalType": "Summon — Hunter",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "ab8695981f477dc78e7bb37f8f31e1f5887f190a"
+    },
+    {
+      "name": "Dark Heart of the Wood",
+      "manaCost": "{B}{G}",
+      "cmc": 2,
+      "colors": [
+        "Black",
+        "Green"
+      ],
+      "colorIdentity": [
+        "B",
+        "G"
+      ],
+      "type": "Enchantment",
+      "types": [
+        "Enchantment"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Sacrifice a Forest: You gain 3 life.",
+      "flavor": "Even the Goblins shun this haunted place, where the tree limbs twist in agony and the ground seems to scuttle under your feet.",
+      "artist": "Christopher Rush",
+      "layout": "normal",
+      "multiverseid": 1820,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1820&type=card",
+      "printings": [
+        "DRK",
+        "RAV"
+      ],
+      "originalText": "You may sacrifice a forest to gain 3 life.\nCounts as both a black card and a green card.",
+      "originalType": "Enchantment",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Ravnica Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "88c5783840af456fbfdd51d05074d7fd7f60f673"
+    },
+    {
+      "name": "Marsh Goblins",
+      "manaCost": "{B}{R}",
+      "cmc": 2,
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "colorIdentity": [
+        "B",
+        "R"
+      ],
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
+      "flavor": "Even the other Goblin races shun the Marsh Goblins, thanks to certain unwholesome customs they practice.",
+      "artist": "Quinton Hoover",
+      "power": "1",
+      "toughness": "1",
+      "layout": "normal",
+      "multiverseid": 1821,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1821&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Swampwalk\nCounts as both a black card and a red card.",
+      "originalType": "Summon — Goblins",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "d283f1ca077f7a4eb29df8a9aef99dcee3e21163"
+    },
+    {
+      "name": "Scarwood Goblins",
+      "manaCost": "{R}{G}",
+      "cmc": 2,
+      "colors": [
+        "Red",
+        "Green"
+      ],
+      "colorIdentity": [
+        "R",
+        "G"
+      ],
+      "type": "Creature — Goblin",
+      "types": [
+        "Creature"
+      ],
+      "subtypes": [
+        "Goblin"
+      ],
+      "rarity": "Common",
+      "set": "DRK",
+      "setName": "The Dark",
+      "flavor": "Larger and more cunning than most Goblins, Scarwood Goblins are thankfully found only in isolated pockets.",
+      "artist": "Ron Spencer",
+      "power": "2",
+      "toughness": "2",
+      "layout": "normal",
+      "multiverseid": 1822,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1822&type=card",
+      "printings": [
+        "DRK"
+      ],
+      "originalText": "Counts as both a green card and a red card.",
+      "originalType": "Summon — Goblins",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "3ac2c2521d3e57eae45969d47297046ecbbc37cf"
+    },
+    {
+      "name": "City of Shadows",
+      "cmc": 0,
+      "type": "Land",
+      "types": [
+        "Land"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}, Exile a creature you control: Put a storage counter on City of Shadows.\n{T}: Add {C} to your mana pool for each storage counter on City of Shadows.",
+      "artist": "Tom Wänerstrand",
+      "layout": "normal",
+      "multiverseid": 1823,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1823&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "The storage counters aren't removed when you activate the mana ability."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "You can activate City of Shadows's second ability while it has no storage counters on it, though it won't add any mana to your mana pool in this case. You did not tap it for mana, though, in case any abilities (such as the ability of a Fertile Ground enchanting it) care about that."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "{T}: Sacrifice one of your creatures, but remove it from the game instead of placing it in your graveyard. Put a counter on City of Shadows. \n{T}: Add X colorless mana to your mana pool, where X is the number of counters on City of Shadows.",
+      "originalType": "Land",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "0dea34ee48ef8fcd9ab62fde8c282b12ecae90a4"
+    },
+    {
+      "name": "Maze of Ith",
+      "cmc": 0,
+      "type": "Land",
+      "types": [
+        "Land"
+      ],
+      "rarity": "Uncommon",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Untap target attacking creature. Prevent all combat damage that would be dealt to and dealt by that creature this turn.",
+      "artist": "Anson Maddocks",
+      "layout": "normal",
+      "multiverseid": 1824,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1824&type=card",
+      "rulings": [
+        {
+          "date": "2016-06-08",
+          "text": "Maze of Ith can target an untapped attacking creature. It will still prevent damage in that case."
+        },
+        {
+          "date": "2016-06-08",
+          "text": "The creature isn't removed from combat; it just has its damage prevented. It's still an attacking creature until the combat phase is complete."
+        },
+        {
+          "date": "2016-06-08",
+          "text": "You can activate Maze of Ith's ability targeting an attacking creature you control during the combat damage step or the end of combat step. It'll be untapped and the damage it had already dealt won't be undone."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "pJGP",
+        "ME4",
+        "V12",
+        "EMA"
+      ],
+      "originalText": "{T}: Target attacking creature becomes untapped. This creature neither deals nor receives damage as a result of combat.",
+      "originalType": "Land",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "fc8a1bd1b65a96adf59a8bc8c5472c7b077cab70"
+    },
+    {
+      "name": "Safe Haven",
+      "cmc": 0,
+      "type": "Land",
+      "types": [
+        "Land"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{2}, {T}: Exile target creature you control.\nAt the beginning of your upkeep, you may sacrifice Safe Haven. If you do, return each card exiled with Safe Haven to the battlefield under its owner's control.",
+      "artist": "Christopher Rush",
+      "layout": "normal",
+      "multiverseid": 1825,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1825&type=card",
+      "rulings": [
+        {
+          "date": "2004-10-04",
+          "text": "When creatures return to the battlefield, they are put onto the battlefield as if just cast. Creatures with X in the mana cost are treated as X is zero. Creatures which can pay costs when put onto the battlefield to determine abilities must have those costs paid at this time."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Token creatures cease to exist when they leave the battlefield, so this effect just exiles them with no chance to bring them back like you can with cards."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "If changed to another land type, the creature cards are not lost but can't be released until the land reverts to normal."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "When the creature leaves the battlefield any damage or \"will be destroyed at some future time\" effects are removed from the creature."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Auras on creatures are put into the graveyard and counters on creatures are removed when the creatures are sent to the Haven."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Creatures return to the control of their owners, regardless of who controls the Haven when it is sacrificed."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "All cards in the Haven stay there even if they cease to be creatures. When the Haven is sacrificed, the cards come back onto the battlefield whether or not they are creatures."
+        },
+        {
+          "date": "2004-10-04",
+          "text": "Creatures return to the battlefield simultaneously."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "CHR",
+        "TSB"
+      ],
+      "originalText": "{2}, {T}: Remove target creature you control from game. This ability is played as an interrupt.\nDuring your upkeep, sacrifice Safe Haven to return all creatures it has removed from game directly into play. Treat this as if they were just summoned.",
+      "originalType": "Land",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Time Spiral Block",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "6110906e97b8ecefc85fe3c42fba48a55212ef33"
+    },
+    {
+      "name": "Sorrow's Path",
+      "cmc": 0,
+      "type": "Land",
+      "types": [
+        "Land"
+      ],
+      "rarity": "Rare",
+      "set": "DRK",
+      "setName": "The Dark",
+      "text": "{T}: Choose two target blocking creatures an opponent controls. If each of those creatures could block all creatures that the other is blocking, remove both of them from combat. Each one then blocks all creatures the other was blocking.\nWhenever Sorrow's Path becomes tapped, it deals 2 damage to you and each creature you control.",
+      "artist": "Randy Asplund-Faith",
+      "layout": "normal",
+      "multiverseid": 1826,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=1826&type=card",
+      "reserved": true,
+      "rulings": [
+        {
+          "date": "2009-02-01",
+          "text": "This has two abilities. The second ability triggers any time it becomes tapped, whether to pay for its ability or not."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "The first ability can target any two blocking creatures a single opponent controls. Whether those creatures could block all creatures the other is blocking isn't determined until the ability resolves."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "A \"blocking creature\" is one that has been declared as a blocker this combat, or one that was put onto the battlefield blocking this combat. Unless that creature leaves combat, it continues to be a blocking creature through the end of combat step, even if the creature or creatures that it was blocking are no longer on the battlefield or have otherwise left combat by then."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "When Sorrow's Path's first ability is activated, its second ability triggers and goes on the stack on top of the first ability. The second ability resolves first, and may cause some of the attacking creatures to be dealt lethal damage."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "When determining whether a creature could block all creatures the other is blocking, take into account evasion abilities (like flying), protection abilities, and other blocking restrictions, as well as abilities that allow a creature to block multiple creatures or block as though a certain condition were true. Take into account whether those creatures are tapped, but not whether they have costs to block (since those apply only as blockers are declared)."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "When the first ability resolves, if all the creatures that one of the targeted creatures was blocking have left combat, then the other targeted creature is considered to be able to block all creatures the first creature is blocking. If the ability has its full effect, the second creature will be removed from combat but not returned to combat; it doesn't block anything."
+        },
+        {
+          "date": "2009-10-01",
+          "text": "Abilities that trigger whenever one of the targeted creatures blocks will trigger when the first ability resolves, because those creatures will change from not blocking (since they're removed from combat) to blocking. It doesn't matter if those abilities triggered when those creatures blocked the first time. Abilities that trigger whenever one of the attacking creatures becomes blocked will not trigger again, because they never stopped being blocked creatures. Abilities that trigger whenever a creature blocks one of the attacking creatures will trigger again, though; those kinds of abilities trigger once for each creature that blocks."
+        }
+      ],
+      "printings": [
+        "DRK",
+        "ME3"
+      ],
+      "originalText": "{T}: Exchange two of opponent's blocking creatures. This exchange may not cause an illegal block. Sorrow's Path does 2 damage to you and 2 damage to each creature you control whenever it is tapped.",
+      "originalType": "Land",
+      "legalities": [
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "0206139ea48314cc60c714ffe9aef2d531f187cd"
+    }
+  ]
+}
