@@ -25,17 +25,17 @@ Integration
 <dependency>
     <groupId>io.magicthegathering</groupId>
     <artifactId>javasdk</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.10</version>
 </dependency>
 ```
 #### Gradle
 ```gradle
-compile 'io.magicthegathering:javasdk:0.0.6'
+compile 'io.magicthegathering:javasdk:0.0.10'
 ```
 
 #### Ivy
 ```xml
-<dependency org="io.magicthegathering" name="javasdk" rev="0.0.6"/>
+<dependency org="io.magicthegathering" name="javasdk" rev="0.0.10"/>
 ```
 
 Usage examples
