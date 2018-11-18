@@ -10,6 +10,7 @@ import io.magicthegathering.javasdk.resource.MtgSet;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
@@ -20,7 +21,7 @@ public class SetAPITest extends MTGAPITest {
 		MtgSet testSet = new MtgSet();
 		testSet.setGatherercode("1E");
 		assertEquals(testSet, SetAPI.getSet("LEA"));
-		assertFalse(testSet.equals(SetAPI.getSet("LEB")));
+		assertNotEquals(testSet, SetAPI.getSet("LEB"));
 	}
 
 	@Test
@@ -56,7 +57,7 @@ public class SetAPITest extends MTGAPITest {
 	@Test
 	public void testSetGetCards() {
 		MtgSet testSet;
-		testSet = SetAPI.getSet("DRK");
+		testSet = SetAPI.getSet("LEA");
 
 		assertNotNull(testSet.getCards());
 
@@ -66,5 +67,12 @@ public class SetAPITest extends MTGAPITest {
 		testCard.setManaCost("{3}{U}{U}");
 
 		assertTrue(testSet.getCards().contains(testCard));
+	}
+
+	@Test
+	public void testGetAllSetsWithCards() {
+		List<MtgSet> sets = SetAPI.getAllSetsWithCards();
+
+		assertNotNull(sets.get(0).getCards());
 	}
 }

@@ -11,7 +11,7 @@ Java SDK for using the [magicthegathering.io](http://magicthegathering.io) APIs.
 
 Note that API use is free and does not require authentication or registration, but some rate limits apply. Read the official API website for more information.
 
-Add the dependency to your project and you're good to go! 
+Add the dependency to your project and you're good to go! If you are on Android make sure you call on a seperate thread than the main.
 
 Prerequisites
 -------
@@ -25,17 +25,17 @@ Integration
 <dependency>
     <groupId>io.magicthegathering</groupId>
     <artifactId>javasdk</artifactId>
-    <version>0.0.10</version>
+    <version>0.0.11</version>
 </dependency>
 ```
 #### Gradle
 ```gradle
-compile 'io.magicthegathering:javasdk:0.0.10'
+compile 'io.magicthegathering:javasdk:0.0.11'
 ```
 
 #### Ivy
 ```xml
-<dependency org="io.magicthegathering" name="javasdk" rev="0.0.10"/>
+<dependency org="io.magicthegathering" name="javasdk" rev="0.0.11"/>
 ```
 
 Usage examples
@@ -59,8 +59,15 @@ MtgSet set = SetAPI.getSet(setCode);
 ```
 
 #### Get all Sets
+This does **not** populate the card lists by default. This is to improve perfomance if all you need is a set list.
+Filter also does not currently load set lists. Will be adding in a future release.
 ```java
 List<MtgSet> sets = SetAPI.getAllSets();
+```
+
+#### Get all Sets with card lists loaded.
+```java
+List<MtgSet> sets = SetAPI.getAllSetsWithCards();
 ```
 
 #### Generate a Booster
