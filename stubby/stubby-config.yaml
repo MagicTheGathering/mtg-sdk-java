@@ -1,4 +1,74 @@
 - request:
+    url: ^/cards
+    method: GET
+    query:
+      name: "Gifts%20Given"
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/GiftsGiven.json
+
+- request:
+    url: ^/cards
+    method: GET
+    query:
+      name: "Gifts%20Given"
+      page: 1
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/GiftsGiven.json
+
+- request:
+    url: ^/cards
+    method: GET
+    query:
+      name: "Gifts%20Given"
+      page: 2
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/GiftsGiven.json
+
+- request:
+    url: ^/cards
+    method: GET
+    query:
+      name: "Nicol%20Bolas,%20the%20Arisen"
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/NicolBolasTheArisen.json
+
+- request:
+    url: ^/cards
+    method: GET
+    query:
+      name: "Nicol%20Bolas,%20the%20Arisen"
+      page: 1
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/NicolBolasTheArisen.json
+
+- request:
+    url: ^/cards
+    method: GET
+    query:
+      name: "Nicol%20Bolas,%20the%20Arisen"
+      page: 2
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/NicolBolasTheArisen.json
+
+- request:
     url: ^/cards/?$
     method: GET
   response:

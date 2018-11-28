@@ -324,7 +324,7 @@ public class Card implements Serializable {
 			Card cardCompare = (Card) toCompare;
 			return getMultiverseid() == cardCompare.getMultiverseid()
 					&& getName().equals(cardCompare.getName())
-					&& getManaCost().equals(cardCompare.getManaCost());
+					&& getCmc() == cardCompare.getCmc();
 		} else {
 			return false;
 		}

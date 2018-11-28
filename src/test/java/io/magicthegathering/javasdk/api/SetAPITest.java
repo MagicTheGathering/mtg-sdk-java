@@ -64,7 +64,7 @@ public class SetAPITest extends MTGAPITest {
 		Card testCard = new Card();
 		testCard.setMultiverseid(94);
 		testCard.setName("Air Elemental");
-		testCard.setManaCost("{3}{U}{U}");
+		testCard.setCmc(5);
 
 		assertTrue(testSet.getCards().contains(testCard));
 	}

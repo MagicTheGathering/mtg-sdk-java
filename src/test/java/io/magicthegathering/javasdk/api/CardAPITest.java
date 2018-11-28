@@ -2,12 +2,15 @@ package io.magicthegathering.javasdk.api;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.Legality;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import org.junit.Test;
@@ -19,7 +22,7 @@ public class CardAPITest extends MTGAPITest {
 		Card testCard = new Card();
 		testCard.setMultiverseid(1);
 		testCard.setName("Ankh of Mishra");
-		testCard.setManaCost("{2}");
+		testCard.setCmc(2);
 		assertEquals(testCard, CardAPI.getCard(1));
 		assertFalse(testCard.equals(CardAPI.getCard(10)));
 	}
@@ -29,9 +32,9 @@ public class CardAPITest extends MTGAPITest {
     Card testCard = new Card();
     testCard.setMultiverseid(1);
     testCard.setName("Ankh of Mishra");
-    testCard.setManaCost("{2}");
+    testCard.setCmc(2);
     assertEquals(testCard, CardAPI.getCard("8a5d85644f546525433c4472b76c3b0ebb495b33"));
-    assertFalse(testCard.equals(CardAPI.getCard("926234c2fe8863f49220a878346c4c5ca79b6046")));
+	  assertNotEquals(testCard, CardAPI.getCard("926234c2fe8863f49220a878346c4c5ca79b6046"));
   }
 
 	@Test
@@ -45,7 +48,7 @@ public class CardAPITest extends MTGAPITest {
 		Card testCard = new Card();
 		testCard.setMultiverseid(94);
 		testCard.setName("Air Elemental");
-		testCard.setManaCost("{3}{U}{U}");
+		testCard.setCmc(5);
 		assertEquals(testCardList.get(0), testCard);
 	}
 
@@ -87,7 +90,7 @@ public class CardAPITest extends MTGAPITest {
 		Card testCard = new Card();
 		testCard.setMultiverseid(94);
 		testCard.setName("Air Elemental");
-		testCard.setManaCost("{3}{U}{U}");
+		testCard.setCmc(5);
 		assertTrue(CardAPI.getAllCards(filter).contains(testCard));
 	}
 
@@ -97,5 +100,18 @@ public class CardAPITest extends MTGAPITest {
 		testLegality.setFormat("Commander");
 		testLegality.setLegality("Legal");
 		assertEquals(testLegality, CardAPI.getCard(1).getLegalities()[0]);
+	}
+
+	@Test
+	public void testEquality() {
+		Card testCard = new Card();
+		testCard.setName("Gifts Given");
+		testCard.setCmc(4);
+		assertEquals(testCard, CardAPI.getAllCards(Collections.singletonList("name=Gifts Given")).get(0));
+
+		testCard.setName("Nicol Bolas, the Arisen");
+		testCard.setManaCost(null);
+		testCard.setMultiverseid(447355);
+		assertEquals(testCard, CardAPI.getAllCards(Collections.singletonList("name=Nicol Bolas, the Arisen")).get(0));
 	}
 }

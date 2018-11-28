@@ -150,9 +150,9 @@ public abstract class MTGAPI {
 
 		for (String filter :
 				filters) {
-			tempPath.append("&").append(filter);
+			tempPath.append(filter).append('&');
 		}
 
-		return getList(tempPath.toString(), key, expectedClass);
+		return getList(tempPath.substring(0, tempPath.length() - 1), key, expectedClass);
 	}
 }

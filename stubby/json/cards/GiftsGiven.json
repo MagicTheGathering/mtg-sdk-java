@@ -1,0 +1,33 @@
+{
+  "cards": [
+    {
+      "name": "Gifts Given",
+      "manaCost": "{3}{U}",
+      "cmc": 4,
+      "colors": [
+        "Blue"
+      ],
+      "colorIdentity": [
+        "U"
+      ],
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "rarity": "Special",
+      "set": "pHHO",
+      "setName": "Happy Holidays",
+      "text": "Search target opponent's library for four cards with different names and reveal them. That player chooses two of those cards. Put the chosen cards into the player's graveyard and the rest into your hand. Then that player shuffles his or her library.",
+      "flavor": "\"Thanks! You shouldn't have.\"",
+      "artist": "Jason Chan",
+      "number": "2",
+      "layout": "normal",
+      "releaseDate": "2007",
+      "printings": [
+        "pHHO"
+      ],
+      "source": "Holiday gift to Wizards internal teams and business partners.",
+      "id": "689dd21260c8e01942e248e560ee3928ee56aa77"
+    }
+  ]
+}

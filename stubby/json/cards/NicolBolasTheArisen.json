@@ -1,0 +1,154 @@
+{
+  "cards": [
+    {
+      "name": "Nicol Bolas, the Arisen",
+      "names": [
+        "Nicol Bolas, the Ravager",
+        "Nicol Bolas, the Arisen"
+      ],
+      "cmc": 4,
+      "colors": [
+        "Blue",
+        "Black",
+        "Red"
+      ],
+      "colorIdentity": [
+        "U",
+        "B",
+        "R"
+      ],
+      "type": "Legendary Planeswalker — Bolas",
+      "supertypes": [
+        "Legendary"
+      ],
+      "types": [
+        "Planeswalker"
+      ],
+      "subtypes": [
+        "Bolas"
+      ],
+      "rarity": "Mythic Rare",
+      "set": "M19",
+      "setName": "Core Set 2019",
+      "text": "+2: Draw two cards.\n−3: Nicol Bolas, the Arisen deals 10 damage to target creature or planeswalker.\n−4: Put target creature or planeswalker card from a graveyard onto the battlefield under your control.\n−12: Exile all but the bottom card of target player's library.",
+      "artist": "Svetlin Velinov",
+      "number": "218b",
+      "layout": "double-faced",
+      "multiverseid": 447355,
+      "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=447355&type=card",
+      "loyalty": 7,
+      "rulings": [
+        {
+          "date": "2018-07-13",
+          "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, any permanents you control from Nicol Bolas's third loyalty ability that came from other players' graveyards are exiled."
+        },
+        {
+          "date": "2018-07-13",
+          "text": "The converted mana cost of a double-faced card is the converted mana cost of its front face, even while it's on the battlefield with its back face up. For example, the converted mana cost of Nicol Bolas, the Arisen is 4."
+        },
+        {
+          "date": "2018-07-13",
+          "text": "Nicol Bolas, the Arisen has a color indicator on its typeline. This color indicator means that it's a blue, black, and red permanent."
+        },
+        {
+          "date": "2018-07-13",
+          "text": "You can activate one of the planeswalker's loyalty abilities the turn it enters the battlefield."
+        },
+        {
+          "date": "2018-07-13",
+          "text": "In some rare cases, a spell or ability may cause Nicol Bolas to transform while it's a creature on the battlefield. If this happens, the resulting planeswalker won't have any loyalty counters on it and will subsequently be put into its owner's graveyard."
+        }
+      ],
+      "foreignNames": [
+        {
+          "name": "Nicol Bolas, der Emporgestiegene",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=447636&type=card",
+          "language": "German",
+          "multiverseid": 447636
+        },
+        {
+          "name": "Nicol Bolas, el Resurgido",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=447917&type=card",
+          "language": "Spanish",
+          "multiverseid": 447917
+        },
+        {
+          "name": "Nicol Bolas, le transcendé",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=448198&type=card",
+          "language": "French",
+          "multiverseid": 448198
+        },
+        {
+          "name": "Nicol Bolas, l'Asceso",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=448479&type=card",
+          "language": "Italian",
+          "multiverseid": 448479
+        },
+        {
+          "name": "覚醒の龍、ニコル・ボーラス",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=448760&type=card",
+          "language": "Japanese",
+          "multiverseid": 448760
+        },
+        {
+          "name": "부활자, 니콜 볼라스",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=449041&type=card",
+          "language": "Korean",
+          "multiverseid": 449041
+        },
+        {
+          "name": "Nicol Bolas, o Erguido",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=449322&type=card",
+          "language": "Portuguese (Brazil)",
+          "multiverseid": 449322
+        },
+        {
+          "name": "Никол Болас, Возвысившийся",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=449603&type=card",
+          "language": "Russian",
+          "multiverseid": 449603
+        },
+        {
+          "name": "飞升尼可波拉斯",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=449884&type=card",
+          "language": "Chinese Simplified",
+          "multiverseid": 449884
+        },
+        {
+          "name": "飛昇尼可波拉斯",
+          "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=450165&type=card",
+          "language": "Chinese Traditional",
+          "multiverseid": 450165
+        }
+      ],
+      "printings": [
+        "M19"
+      ],
+      "originalText": "+2: Draw two cards.\n−3: Nicol Bolas, the Arisen deals 10 damage to target creature or planeswalker.\n−4: Put target creature or planeswalker card from a graveyard onto the battlefield under your control.\n−12: Exile all but the bottom card of target player's library.",
+      "originalType": "Legendary Planeswalker — Bolas",
+      "legalities": [
+        {
+          "format": "Brawl",
+          "legality": "Legal"
+        },
+        {
+          "format": "Commander",
+          "legality": "Legal"
+        },
+        {
+          "format": "Legacy",
+          "legality": "Legal"
+        },
+        {
+          "format": "Modern",
+          "legality": "Legal"
+        },
+        {
+          "format": "Vintage",
+          "legality": "Legal"
+        }
+      ],
+      "id": "e84c9aff1e488946b2a59e4e6b4d6dea4c49e63c"
+    }
+  ]
+}
