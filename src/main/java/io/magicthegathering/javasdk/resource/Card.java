@@ -40,7 +40,7 @@ public class Card implements Serializable {
 	private String toughness;
 	private String loyalty;
 	private int multiverseid = -1;
-	private int[] variations;
+	private String[] variations;
 	private String imageName;
 	private String watermark;
 	private String border;
@@ -231,11 +231,11 @@ public class Card implements Serializable {
 		this.multiverseid = multiverseid;
 	}
 
-	public int[] getVariations() {
+	public String[] getVariations() {
 		return variations;
 	}
 
-	public void setVariations(int[] variations) {
+	public void setVariations(String[] variations) {
 		this.variations = variations;
 	}
 

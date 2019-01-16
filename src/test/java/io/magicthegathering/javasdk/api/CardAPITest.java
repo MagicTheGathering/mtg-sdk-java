@@ -1,10 +1,5 @@
 package io.magicthegathering.javasdk.api;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNotEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
 import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.Legality;
 
@@ -14,6 +9,8 @@ import java.util.Collections;
 import java.util.List;
 
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class CardAPITest extends MTGAPITest {
 
@@ -113,5 +110,10 @@ public class CardAPITest extends MTGAPITest {
 		testCard.setManaCost(null);
 		testCard.setMultiverseid(447355);
 		assertEquals(testCard, CardAPI.getAllCards(Collections.singletonList("name=Nicol Bolas, the Arisen")).get(0));
+	}
+
+	@Test
+	public void testVariations() {
+	    assertNotNull(CardAPI.getCard("ffa00e95-754e-5484-8e4c-e3b707d4c1d2").getVariations());
 	}
 }

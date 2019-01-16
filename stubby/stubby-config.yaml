@@ -124,6 +124,15 @@
     file: json/cards/926234c2fe8863f49220a878346c4c5ca79b6046.json
 
 - request:
+    url: ^/cards/ffa00e95-754e-5484-8e4c-e3b707d4c1d2/?$
+    method: GET
+  response:
+    status: 200
+    headers:
+      Content-Type: application/json
+    file: json/cards/ffa00e95-754e-5484-8e4c-e3b707d4c1d2.json
+
+- request:
     url: ^/cards?set=DRK$
     method: GET
   response:

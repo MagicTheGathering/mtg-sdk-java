@@ -1,0 +1,149 @@
+{
+  "card": {
+    "name": "Angel of Mercy",
+    "manaCost": "{4}{W}",
+    "cmc": 5.0,
+    "colors": [
+      "White"
+    ],
+    "colorIdentity": [
+      "W"
+    ],
+    "type": "Creature — Angel",
+    "supertypes": [],
+    "types": [
+      "Creature"
+    ],
+    "subtypes": [
+      "Angel"
+    ],
+    "rarity": "Uncommon",
+    "set": "10E",
+    "setName": "Tenth Edition",
+    "text": "Flying\nWhen Angel of Mercy enters the battlefield, you gain 3 life.",
+    "flavor": "Every tear shed is a drop of immortality.",
+    "artist": "Volkan Baga",
+    "number": "2★",
+    "power": "3",
+    "toughness": "3",
+    "layout": "normal",
+    "variations": [
+      "2d040ab5-3430-5505-8fd0-a99666a3913e"
+    ],
+    "rulings": [],
+    "foreignNames": [
+      {
+        "name": "Engel der Gnade",
+        "text": "Fliegend (Diese Kreatur kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.)\nWenn der Engel der Gnade ins Spiel kommt, erhältst du 3 Lebenspunkte dazu.",
+        "flavor": "Jede ihrer Tränen ist ein Tropfen Unsterblichkeit.",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148412&type=card",
+        "language": "German",
+        "multiverseid": 148412
+      },
+      {
+        "name": "Ángel de piedad",
+        "text": "Vuela. (Esta criatura no puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.)\nCuando el Ángel de piedad entre en juego, gana 3 vidas.",
+        "flavor": "Cada lágrima derramada es una gota de inmortalidad.",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=150318&type=card",
+        "language": "Spanish",
+        "multiverseid": 150318
+      },
+      {
+        "name": "Ange de miséricorde",
+        "text": "Vol (Cette créature ne peut être bloquée que par des créatures avec le vol ou la portée.)\nQuand l'Ange de miséricorde arrive en jeu, vous gagnez 3 points de vie.",
+        "flavor": "Chaque larme versée est une goutte d'immortalité.",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149935&type=card",
+        "language": "French",
+        "multiverseid": 149935
+      },
+      {
+        "name": "Angelo della Misericordia",
+        "text": "Volare (Questa creatura non può essere bloccata tranne che da creature con volare o raggiungere.)\nQuando l'Angelo della Misericordia entra in gioco, guadagni 3 punti vita.",
+        "flavor": "Ogni lacrima versata è una goccia d'immortalità.",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148795&type=card",
+        "language": "Italian",
+        "multiverseid": 148795
+      },
+      {
+        "name": "慈悲の天使",
+        "text": "飛行 （このクリーチャーは飛行や到達を持たないクリーチャーによってブロックされない。）\n慈悲の天使が場に出たとき、あなたは３点のライフを得る。",
+        "flavor": "流す涙は不死の滴。",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=148029&type=card",
+        "language": "Japanese",
+        "multiverseid": 148029
+      },
+      {
+        "name": "Anjo de Misericórdia",
+        "text": "Voar (Esta criatura só pode ser bloqueada por criaturas com a habilidade de voar ou alcance.)\nQuando Anjo de Misericórdia entra em jogo, você ganha 3 pontos de vida.",
+        "flavor": "Cada lágrima derramada é uma gota de imortalidade.",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149552&type=card",
+        "language": "Portuguese (Brazil)",
+        "multiverseid": 149552
+      },
+      {
+        "name": "Ангел Милосердия",
+        "text": "Полет (Это существо может быть заблокировано только существом с Полетом или Захватом.)\nКогда Ангел Милосердия входит в игру, вы получаете 3 жизни.",
+        "flavor": "Каждая пролитая слеза это капля бессмертия.",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=149169&type=card",
+        "language": "Russian",
+        "multiverseid": 149169
+      },
+      {
+        "name": "慈悲天使",
+        "text": "飞行（只有具飞行或延势异能的生物才能阻挡它。）\n当慈悲天使进场时，你获得3点生命。",
+        "flavor": "每颗泪珠都是一滴不朽。",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=147646&type=card",
+        "language": "Chinese Simplified",
+        "multiverseid": 147646
+      }
+    ],
+    "printings": [
+      "10E",
+      "8ED",
+      "9ED",
+      "DDC",
+      "DVD",
+      "IMA",
+      "INV",
+      "P02",
+      "PS11",
+      "PSAL",
+      "S99"
+    ],
+    "legalities": [
+      {
+        "format": "1v1",
+        "legality": "Legal"
+      },
+      {
+        "format": "Commander",
+        "legality": "Legal"
+      },
+      {
+        "format": "Duel",
+        "legality": "Legal"
+      },
+      {
+        "format": "Legacy",
+        "legality": "Legal"
+      },
+      {
+        "format": "Modern",
+        "legality": "Legal"
+      },
+      {
+        "format": "Pauper",
+        "legality": "Legal"
+      },
+      {
+        "format": "Penny",
+        "legality": "Legal"
+      },
+      {
+        "format": "Vintage",
+        "legality": "Legal"
+      }
+    ],
+    "id": "ffa00e95-754e-5484-8e4c-e3b707d4c1d2"
+  }
+}
