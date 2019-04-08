@@ -4,7 +4,6 @@ import io.magicthegathering.javasdk.resource.Card;
 import io.magicthegathering.javasdk.resource.Legality;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -115,5 +114,12 @@ public class CardAPITest extends MTGAPITest {
 	@Test
 	public void testVariations() {
 	    assertNotNull(CardAPI.getCard("ffa00e95-754e-5484-8e4c-e3b707d4c1d2").getVariations());
+	}
+
+	@Test
+	public void testForeignData() {
+		Card testCard = CardAPI.getAllCards(Collections.singletonList("name=Nicol Bolas, the Arisen")).get(0);
+		assertNotNull(testCard.getForeignNames());
+		assertEquals(testCard.getForeignNames()[0].getName(), "Nicol Bolas, der Emporgestiegene");
 	}
 }

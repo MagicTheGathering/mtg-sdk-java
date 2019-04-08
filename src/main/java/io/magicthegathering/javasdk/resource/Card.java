@@ -62,6 +62,7 @@ public class Card implements Serializable {
 	private BigDecimal onlinePriceMid;
 	private BigDecimal onlinePriceLow;
 	private Ruling[] rulings;
+	private ForeignData[] foreignNames;
 
 	public String getId() {
 		return id;
@@ -446,4 +447,12 @@ public class Card implements Serializable {
   public void setRulings(Ruling[] rulings) {
     this.rulings = rulings;
   }
+
+	public ForeignData[] getForeignNames() {
+		return foreignNames;
+	}
+
+	public void setForeignNames(ForeignData[] foreignNames) {
+		this.foreignNames = foreignNames;
+	}
 }
