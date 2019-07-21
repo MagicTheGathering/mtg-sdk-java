@@ -118,7 +118,7 @@ public abstract class MTGAPI {
 					url += "?";
 				}
 
-				for(int i = 1; i <= numberOfPages; i++){
+				for(int i = 2; i <= numberOfPages; i++){
 					request = new Request.Builder().url(url + "&page=" + i).build();
 					response = CLIENT.newCall(request).execute();
 					objectList.add(deserializer.fromJson(response.body().string(), JsonObject.class));
