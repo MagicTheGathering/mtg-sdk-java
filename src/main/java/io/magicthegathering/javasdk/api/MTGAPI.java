@@ -5,6 +5,7 @@ import io.magicthegathering.javasdk.exception.HttpRequestFailedException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,7 +26,7 @@ import com.google.gson.JsonObject;
  */
 public abstract class MTGAPI {
 	protected static String ENDPOINT = "https://api.magicthegathering.io/v1";
-	protected static OkHttpClient CLIENT = new OkHttpClient();
+	protected static OkHttpClient CLIENT = new OkHttpClient.Builder().connectTimeout(60, TimeUnit.SECONDS).build();
 	private static String DELIM_LINK = ",";
 	private static String DELIM_LINK_PARAM = ";";
 
