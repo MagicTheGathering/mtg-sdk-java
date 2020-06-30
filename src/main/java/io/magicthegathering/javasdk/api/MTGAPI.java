@@ -26,10 +26,26 @@ import com.google.gson.JsonObject;
  */
 public abstract class MTGAPI {
 	protected static String ENDPOINT = "https://api.magicthegathering.io/v1";
-	protected static OkHttpClient CLIENT = new OkHttpClient.Builder().connectTimeout(60, TimeUnit.SECONDS).build();
+	private static long connectionTimeout = 60;
+	private static final OkHttpClient.Builder CLIENT_BUILDER = new OkHttpClient.Builder();
+	private static OkHttpClient client; // Lazy initialization of client, so is not created twice, if a timeout is set.
 	private static String DELIM_LINK = ",";
 	private static String DELIM_LINK_PARAM = ";";
 
+	private static OkHttpClient getClient() {
+		if (client == null) {
+			client = CLIENT_BUILDER.connectTimeout(connectionTimeout, TimeUnit.SECONDS).build();
+		}
+		return client;
+	}
+	public static long getConnectionTimeout() {
+		return connectionTimeout;
+	}
+
+	public static void setConnectionTimeout(long connectionTimeout) {
+		MTGAPI.connectionTimeout = connectionTimeout;
+		client = CLIENT_BUILDER.connectTimeout(connectionTimeout, TimeUnit.SECONDS).build();
+	}
 	/**
 	 * Make an HTTP GET request to the given path and map the object under the
 	 * given key in the JSON of the response to the Java {@link Class} of type
@@ -91,7 +107,7 @@ public abstract class MTGAPI {
 		Request request = new Request.Builder().url(url).build();
 		Response response;
 		try {
-			response = CLIENT.newCall(request).execute();
+			response = getClient().newCall(request).execute();
 
 			ArrayList<JsonObject> objectList = new ArrayList<>();
 			String linkHeader = response.headers().get("Link");
@@ -121,7 +137,7 @@ public abstract class MTGAPI {
 
 				for(int i = 2; i <= numberOfPages; i++){
 					request = new Request.Builder().url(url + "&page=" + i).build();
-					response = CLIENT.newCall(request).execute();
+					response = getClient().newCall(request).execute();
 					objectList.add(deserializer.fromJson(response.body().string(), JsonObject.class));
 				}
 

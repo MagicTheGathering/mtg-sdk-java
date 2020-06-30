@@ -75,7 +75,10 @@ List<MtgSet> sets = SetAPI.getAllSetsWithCards();
 String setCode = "KLD";
 List<Card> booster = SetAPI.getBooster(setCode);
 ```
-
+#### Change the connection timeout
+```java
+MTGAPI.setConnectionTimeout(60);
+```
 License
 -------
 This project is licensed under [MIT license](http://opensource.org/licenses/MIT).
