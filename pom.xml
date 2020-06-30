@@ -4,7 +4,7 @@
 
 	<groupId>io.magicthegathering</groupId>
 	<artifactId>javasdk</artifactId>
-	<version>0.0.16</version>
+	<version>0.0.17</version>
 	<packaging>jar</packaging>
 
 	<name>${project.groupId}:${project.artifactId}</name>
