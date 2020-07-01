@@ -25,17 +25,17 @@ Integration
 <dependency>
     <groupId>io.magicthegathering</groupId>
     <artifactId>javasdk</artifactId>
-    <version>0.0.17</version>
+    <version>0.0.18</version>
 </dependency>
 ```
 #### Gradle
 ```gradle
-implementation 'io.magicthegathering:javasdk:0.0.17'
+implementation 'io.magicthegathering:javasdk:0.0.18'
 ```
 
 #### Ivy
 ```xml
-<dependency org="io.magicthegathering" name="javasdk" rev="0.0.17"/>
+<dependency org="io.magicthegathering" name="javasdk" rev="0.0.18"/>
 ```
 
 Usage examples
@@ -75,9 +75,11 @@ List<MtgSet> sets = SetAPI.getAllSetsWithCards();
 String setCode = "KLD";
 List<Card> booster = SetAPI.getBooster(setCode);
 ```
-#### Change the connection timeout
+#### Change the connection timeout values that are used by the OkHttpClient
 ```java
 MTGAPI.setConnectionTimeout(60);
+MTGAPI.setReadTimeout(60);
+MTGAPI.setWriteTimeout(60);
 ```
 License
 -------
