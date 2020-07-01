@@ -26,26 +26,97 @@ import com.google.gson.JsonObject;
  */
 public abstract class MTGAPI {
 	protected static String ENDPOINT = "https://api.magicthegathering.io/v1";
-	private static long connectionTimeout = 60;
-	private static final OkHttpClient.Builder CLIENT_BUILDER = new OkHttpClient.Builder();
+	private static long connectTimeout = 10;
+	private static long writeTimeout = 10;
+	private static long readTimeout = 60;
+
 	private static OkHttpClient client; // Lazy initialization of client, so is not created twice, if a timeout is set.
 	private static String DELIM_LINK = ",";
 	private static String DELIM_LINK_PARAM = ";";
 
+	/**
+	 * @return The HTTP-Client to use for new connections
+	 */
 	private static OkHttpClient getClient() {
 		if (client == null) {
-			client = CLIENT_BUILDER.connectTimeout(connectionTimeout, TimeUnit.SECONDS).build();
+			recreateClient();
 		}
 		return client;
 	}
-	public static long getConnectionTimeout() {
-		return connectionTimeout;
+
+	/**
+	 * @return The connectTimeout for the HTTP-Client
+	 * @see OkHttpClient.Builder#connectTimeout(long, TimeUnit)
+	 */
+	public static long getConnectTimeout() {
+		return connectTimeout;
 	}
 
-	public static void setConnectionTimeout(long connectionTimeout) {
-		MTGAPI.connectionTimeout = connectionTimeout;
-		client = CLIENT_BUILDER.connectTimeout(connectionTimeout, TimeUnit.SECONDS).build();
+	/**
+	 * Sets the {@link OkHttpClient.Builder#connectTimeout(long, TimeUnit)} to the specified value and creates a new client using it
+	 * @param connectTimeout The timeout to set
+	 */
+	public static void setConnectTimeout(long connectTimeout) {
+		MTGAPI.connectTimeout = connectTimeout;
+		if (client != null) { // Only change the timeout on the client, if the client was already created.
+			recreateClient();
+		}
 	}
+
+	/**
+	 * @return The writeTimeout for the HTTP-Client
+	 * @see OkHttpClient.Builder#writeTimeout(long, TimeUnit)
+	 */
+	public static long getWriteTimeout() {
+		return writeTimeout;
+	}
+
+	/**
+	 * Sets the {@link OkHttpClient.Builder#writeTimeout(long, TimeUnit)} to the specified value and creates a new client using it
+	 * @param writeTimeout The timeout to set
+	 */
+	public static void setWriteTimeout(long writeTimeout) {
+		MTGAPI.writeTimeout = writeTimeout;
+		if (client != null) { // Only change the timeout on the client, if the client was already created.
+			recreateClient();
+		}
+	}
+
+	/**
+	 * @return The readTimeout for the HTTP-Client
+	 * @see OkHttpClient.Builder#writeTimeout(long, TimeUnit)
+	 */
+	public static long getReadTimeout() {
+		return readTimeout;
+	}
+
+	/**
+	 * Sets the {@link OkHttpClient.Builder#readTimeout(long, TimeUnit)} to the specified value and creates a new client using it
+	 * @param readTimeout The timeout to set
+	 */
+	public static void setReadTimeout(long readTimeout) {
+		MTGAPI.readTimeout = readTimeout;
+		if (client != null) { // Only change the timeout on the client, if the client was already created.
+			recreateClient();
+		}
+	}
+
+	/**
+	 * Creates a new {@link OkHttpClient.Builder}, sets the timeouts and builds a new {@link OkHttpClient} with it.
+	 */
+	private static void recreateClient() {
+		OkHttpClient.Builder builder;
+		if (client == null) {
+			builder = new OkHttpClient.Builder();
+		} else {
+			builder = client.newBuilder();
+		}
+		client = builder.connectTimeout(connectTimeout, TimeUnit.SECONDS)
+				.writeTimeout(writeTimeout, TimeUnit.SECONDS)
+				.readTimeout(readTimeout, TimeUnit.SECONDS)
+				.build();
+	}
+
 	/**
 	 * Make an HTTP GET request to the given path and map the object under the
 	 * given key in the JSON of the response to the Java {@link Class} of type
