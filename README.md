@@ -77,7 +77,7 @@ List<Card> booster = SetAPI.getBooster(setCode);
 ```
 #### Change the connection timeout values that are used by the OkHttpClient
 ```java
-MTGAPI.setConnectionTimeout(60);
+MTGAPI.setConnectTimeout(60);
 MTGAPI.setReadTimeout(60);
 MTGAPI.setWriteTimeout(60);
 ```
